@@ -1,4 +1,4 @@
-<!-- @mahmudrazliqli  0.0 beta version -->
+<!-- @mahmudrazliqli  1.0 beta version -->
 <html>
 <head>
     <meta charset="UTF-8">
@@ -6,7 +6,7 @@
 <script>
     function convertToarabic() {
         const oldturkishText = document.getElementById('oldturkishInput').value;
-        const arabicText = oldturkishText
+        const arabicText = " "+oldturkishText
         //sesliler
             .replace(/𐰀/g, 'ا')
             .replace(/𐰃/g, 'ی')
@@ -54,9 +54,17 @@
             .replace(/𐰨/g, 'نچ')
             .replace(/𐰦/g, 'ند')
             .replace(/𐰪/g, 'نی')
-            .replace(/:/g, ' ')
-        document.getElementById('arabicOutput').innerText = arabicText;
+            .replace(/:/g, ' ');
+		
+		const arabicText2 = arabicText
+			.replace(/ و/g, ' او')
+			.replace(/ ی/g, ' ای')
+			.replace(/ ۆ/g, ' اۆ');
+			
+			
+        document.getElementById('arabicOutput').innerText = arabicText2;
     }
+
 </script>
 </head>
 
