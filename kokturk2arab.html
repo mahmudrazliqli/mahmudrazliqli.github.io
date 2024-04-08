@@ -1,4 +1,4 @@
-<!-- @mahmudrazliqli  1.0 beta version -->
+<!-- @mahmudrazliqli  0.0 beta version -->
 <html>
 <head>
     <meta charset="UTF-8">
@@ -29,13 +29,9 @@
             .replace(/𐰞/g, 'ل')
             .replace(/𐰣/g, 'ن')
             .replace(/𐰖/g, 'ی')
-
             .replace(/𐰍/g, 'غ')
-
             .replace(/𐰴/g, 'ق')
         //incə
-            .replace(/𐰚/g, 'ک')
-            .replace(/𐰏/g, 'گ')
             .replace(/𐰋/g, 'ب')
             .replace(/𐰓/g, 'د')
             .replace(/𐰼/g, 'ر')
@@ -44,6 +40,8 @@
             .replace(/𐰠/g, 'ل')
             .replace(/𐰤/g, 'ن')
             .replace(/𐰘/g, 'ی')
+			.replace(/𐰚/g, 'ک')
+            .replace(/𐰏/g, 'گ')
 
         //iki səsli
             .replace(/𐰱/g, 'یچ')
@@ -59,7 +57,8 @@
 		const arabicText2 = arabicText
 			.replace(/ و/g, ' او')
 			.replace(/ ی/g, ' ای')
-			.replace(/ ۆ/g, ' اۆ');
+			.replace(/ ۆ/g, ' اۆ')
+			.replace(/ ئ/g, ' ائ');
 			
 			
         document.getElementById('arabicOutput').innerText = arabicText2;
