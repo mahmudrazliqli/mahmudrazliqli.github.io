@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-<!-- @mahmudrazliqli  1.1 beta version -->
+<!-- @mahmudrazliqli  1.2 beta version -->
 <head>
     <meta charset="UTF-8">
     <title>اسکی تورک الفباسینین اوخونوشو</title>
@@ -10,7 +10,7 @@
         const arabicText = " "+oldturkishText
         //sesliler
             .replace(/𐰀/g, 'ا')
-            .replace(/𐰃/g, 'ی')
+            .replace(/𐰃/g, 'ې')//.replace(/𐰃/g, 'ی')
             .replace(/𐰆/g, 'و')
             .replace(/𐰇/g, 'ۆ')
             .replace(/𐰅/g, 'ئ')
@@ -21,26 +21,26 @@
             .replace(/𐰯/g, 'پ')
             .replace(/𐱁/g, 'ش')
             .replace(/𐰔/g, 'ز')
-        //qalın 
+        //qalın  ٛ
             .replace(/𐰉/g, 'ب')
-            .replace(/𐰑/g, 'د')
-            .replace(/𐰺/g, 'ر')
-            .replace(/𐰽/g, 'س')
-            .replace(/𐱃/g, 'ت')
+            .replace(/𐰑/g, 'ۮ')
+            .replace(/𐰺/g, 'ۯ')
             .replace(/𐰞/g, 'ل')
             .replace(/𐰣/g, 'ن')
             .replace(/𐰖/g, 'ی')
+			.replace(/𐰽/g, 'ص')
+            .replace(/𐱃/g, 'ط')
             .replace(/𐰍/g, 'غ')
             .replace(/𐰴/g, 'ق')
-        //incə
+        //incə  
             .replace(/𐰋/g, 'ب')
             .replace(/𐰓/g, 'د')
             .replace(/𐰼/g, 'ر')
-            .replace(/𐰾/g, 'س')
-            .replace(/𐱅/g, 'ت')
             .replace(/𐰠/g, 'ل')
             .replace(/𐰤/g, 'ن')
             .replace(/𐰘/g, 'ی')
+			.replace(/𐰾/g, 'س')
+            .replace(/𐱅/g, 'ت')
 			.replace(/𐰚/g, 'ک')
             .replace(/𐰏/g, 'گ')
 
@@ -49,6 +49,7 @@
             .replace(/𐰶/g, 'یک')
             .replace(/𐰶/g, 'یق')
             .replace(/𐰰/g, 'ۆک')
+			.replace(/𐰜/g, 'ۆک')//yenisey
             .replace(/𐰸/g, 'وق')
             .replace(/𐰨/g, 'نچ')
             .replace(/𐰦/g, 'ند')
@@ -57,11 +58,9 @@
 		
 		const arabicText2 = arabicText
 			.replace(/ و/g, ' او')
-			.replace(/ ی/g, ' ای')
+			.replace(/ ې/g, ' اې')//.replace(/ ی/g, ' ای')
 			.replace(/ ۆ/g, ' اۆ')
-			.replace(/ ئ/g, ' ائ');
-			
-			
+			.replace(/ ئ/g, ' ائ');			
         document.getElementById('arabicOutput').innerText = arabicText2;
     }
 
