@@ -2,11 +2,13 @@
 <html>
 <!-- @mahmudrazliqli  1.3 beta version -->
 <head>
+    <link rel="stylesheet" href="fonts.css">
     <meta charset="UTF-8">
-    <title>اسکی تورک الفباسینین اوخونوشو</title>
+    <title>اسکی تورکجه</title>
 <script>
     function convertToarabic() {
-        const oldturkishText = document.getElementById('oldturkishInput').value;
+        const oldturkishText = document.getElementById('oldturkishInput').value.replace(/ /g, '');
+
         const arabicText = " "+oldturkishText
         //sesliler
             .replace(/𐰀/g, 'ه‌')
@@ -34,16 +36,16 @@
             .replace(/𐰍/g, 'غ')
             .replace(/𐰴/g, 'ق')
         //incə  
-            .replace(/𐰋/g, 'ب')
-            .replace(/𐰓/g, 'د')
-            .replace(/𐰼/g, 'ر')
-            .replace(/𐰠/g, 'ل')
-            .replace(/𐰤/g, 'ن')
-            .replace(/𐰘/g, 'ی')
-	    .replace(/𐰾/g, 'س')
-            .replace(/𐱅/g, 'ت')
-	    .replace(/𐰚/g, 'ک')
-            .replace(/𐰏/g, 'گ')
+			.replace(/𐰋/g, 'ب')
+			.replace(/𐰓/g, 'د')
+			.replace(/𐰼/g, 'ر')
+			.replace(/𐰠/g, 'ل')
+			.replace(/𐰤/g, 'ن')
+			.replace(/𐰘/g, 'ی')
+			.replace(/𐰾/g, 'س')
+			.replace(/𐱅/g, 'ت')
+			.replace(/𐰚/g, 'ک')
+			.replace(/𐰏/g, 'گ')
 
         //iki səsli
             .replace(/𐰱/g, 'یچ')
@@ -58,28 +60,46 @@
             .replace(/:/g, ' ');
 		
 		const arabicText2 = arabicText
-			.replace(/ ه‌/g,'آ')
-			.replace(/ و/g, ' او')
-			.replace(/ ې/g, ' اې')//.replace(/ ی/g, ' ای')
-			.replace(/ ۆ/g, ' اۆ')
-			.replace(/ ئ/g, ' ائ')	
-			.replace(/ٛه‌/g, 'ٛا')
-			.replace(/صه‌/g, 'صا')
-			.replace(/طه‌/g, 'طا')
-	                .replace(/قه‌/g, 'قا')
-			.replace(/غه/g, 'غا');
-        document.getElementById('arabicOutput').innerText = oldturkishText+'\n\n'+arabicText2;
+            .replace(/ ه‌/g,'آ')
+            .replace(/ و/g, ' او')
+            .replace(/ ې/g, ' اې')//.replace(/ ی/g, ' ای')
+            .replace(/ ۆ/g, ' اۆ')
+            .replace(/ ئ/g, ' ائ')	
+            .replace(/ٛه‌/g, 'ٛا')
+            .replace(/صه‌/g, 'صا')
+            .replace(/طه‌/g, 'طا')
+            .replace(/قه‌/g, 'قا')
+            .replace(/غه/g, 'غا');
+        document.getElementById('orxunOutput').textContent = oldturkishText;
+        document.getElementById('arabicOutput').textContent = arabicText2;
     }
 
+    function changefont2irkbitig(){
+        document.getElementById('orxunOutput').style="font-family: irkbitig";
+    }
+
+    function changefont2damgaregular(){
+        document.getElementById('orxunOutput').style="font-family: kultigin";
+    }
+    function changefont2segoeuisymbol(){
+        document.getElementById('orxunOutput').style="font-family: segoe-ui-symbol";
+    } 
 </script>
 </head>
 
-<body  style="font-size:55px;font-family: 'segoe-ui-symbol';">
+<body  style="font-size:35px;font-family: 'segoe-ui-symbol';">
 
 
-    <input  style="font-size:55px;font-family: 'segoe-ui-symbol';" type="text" id="oldturkishInput" placeholder="𐰖𐰔">
-    <button style="font-size:55px;font-family: 'segoe-ui-symbol';" onclick="convertToarabic()">چئویر</button>
-    <p id="arabicOutput"></p>
+    <input  style="font-size:35px;font-family: 'segoe-ui-symbol';" type="text" id="oldturkishInput" >
+    <button style="font-size:35px;font-family: 'segoe-ui-symbol';" onclick="convertToarabic()">چئویر</button>
+    <br/>
+    <button style="font-size:25px;font-family: 'irkbitig';"         onclick="changefont2irkbitig()"         >𐰖𐰔</button>   
+    <button style="font-size:25px;font-family: 'segoe-ui-symbol';"  onclick="changefont2segoeuisymbol()"    >𐰖𐰔</button>
+    <button style="font-size:25px;font-family: 'kultigin';"              onclick="changefont2damgaregular()"     >𐰖𐰔</button>
+
+    <p><textarea id="orxunOutput" rows="10" cols="35"  style=" font-size:25px;"></textarea></p>
+    <p><textarea id="arabicOutput" rows="10" cols="35"  style=" font-size:25px;"></textarea></p>
+
 
 
 </body>
