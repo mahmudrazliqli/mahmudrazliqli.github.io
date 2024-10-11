@@ -9,7 +9,7 @@
         const oldturkishText = document.getElementById('oldturkishInput').value;
         const arabicText = " "+oldturkishText
         //sesliler
-            .replace(/𐰀/g, 'ا')
+            .replace(/𐰀/g, 'ـه‌')
             .replace(/𐰃/g, 'ې')//.replace(/𐰃/g, 'ی')
             .replace(/𐰆/g, 'و')
             .replace(/𐰇/g, 'ۆ')
@@ -23,12 +23,12 @@
             .replace(/𐰔/g, 'ز')
             .replace(/𐰕/g, 'ز')//yenisey
         //qalın  ٛ
-            .replace(/𐰉/g, 'ب')
-            .replace(/𐰑/g, 'ۮ')
-            .replace(/𐰺/g, 'ۯ')
-            .replace(/𐰞/g, 'ݪ')
-            .replace(/𐰣/g, 'ن')
-            .replace(/𐰖/g, 'ی')
+            .replace(/𐰉/g, 'بٛ')
+            .replace(/𐰑/g, 'دٛ')
+            .replace(/𐰺/g, 'رٛ')
+            .replace(/𐰞/g, 'لٛ')
+            .replace(/𐰣/g, 'نٛ')
+            .replace(/𐰖/g, 'یٛ')
 	    .replace(/𐰽/g, 'ص')
             .replace(/𐱃/g, 'ط')
             .replace(/𐰍/g, 'غ')
@@ -58,6 +58,7 @@
             .replace(/:/g, ' ');
 		
 		const arabicText2 = arabicText
+			.replace(/ ـه‌/g,'آ')
 			.replace(/ و/g, ' او')
 			.replace(/ ې/g, ' اې')//.replace(/ ی/g, ' ای')
 			.replace(/ ۆ/g, ' اۆ')
