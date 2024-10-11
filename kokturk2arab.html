@@ -37,10 +37,11 @@
     </style>
 <script>
     function convertToarabic() {
-       const oldturkishText = document.getElementById('oldturkishInput').value.replace(/⸱/g, ': ');
+       const oldturkishText = document.getElementById('oldturkishInput').value;
         //const oldturkishText = document.getElementById('oldturkishInput').value;
         const arabicText = " "+oldturkishText
-        //sesliler
+      .replace(/./g, ':');
+	//sesliler
             .replace(/𐰀/g, 'ه‌')
             .replace(/𐰃/g, 'ې')//.replace(/𐰃/g, 'ی')
             .replace(/𐰆/g, 'و')
