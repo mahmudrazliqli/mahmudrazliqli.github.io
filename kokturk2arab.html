@@ -9,7 +9,7 @@
         const oldturkishText = document.getElementById('oldturkishInput').value;
         const arabicText = " "+oldturkishText
         //sesliler
-            .replace(/𐰀/g, 'ـه‌')
+            .replace(/𐰀/g, 'ه‌')
             .replace(/𐰃/g, 'ې')//.replace(/𐰃/g, 'ی')
             .replace(/𐰆/g, 'و')
             .replace(/𐰇/g, 'ۆ')
@@ -58,13 +58,15 @@
             .replace(/:/g, ' ');
 		
 		const arabicText2 = arabicText
-			.replace(/ ـه‌/g,'آ')
+			.replace(/ ه‌/g,'آ')
 			.replace(/ و/g, ' او')
 			.replace(/ ې/g, ' اې')//.replace(/ ی/g, ' ای')
 			.replace(/ ۆ/g, ' اۆ')
 			.replace(/ ئ/g, ' ائ')	
-	                .replace(/کا /g, 'که ')
-			.replace(/گا /g, 'گه ');
+			.replace(/صه‌/g, 'صا')
+			.replace(/طه‌/g, 'طا')
+	                .replace(/قه‌/g, 'قا')
+			.replace(/غا/g, 'غه');
         document.getElementById('arabicOutput').innerText = arabicText2;
     }
 
