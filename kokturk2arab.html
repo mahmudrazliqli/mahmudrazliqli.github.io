@@ -41,6 +41,8 @@
        //  const oldturkishText = document.getElementById('oldturkishInput').value;
         const arabicText = " "+oldturkishText
         .replace(/⸱/g, ':')//
+	.replace(/𐰓𐰏𐰇/g, 'ادگۆ')	
+	.replace(/𐰨𐰀/g, 'آنچا')	
         //sesliler
             .replace(/𐰀/g, 'ه‌')
             .replace(/𐰃/g, 'ې')//.replace(/𐰃/g, 'ی')
