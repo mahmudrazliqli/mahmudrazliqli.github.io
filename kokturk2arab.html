@@ -40,18 +40,17 @@
     function convertToarabic() {
 const oldturkishText = document.getElementById('oldturkishInput').value
 .replace(/⸱/g, ':')
-.replace(/ /g, '')
-.replace(/:/g, ': ');
+.replace(/ /g, ':')
+.replace(/::/g, ':');
 //  const oldturkishText = document.getElementById('oldturkishInput').value;
-oldturkishText=":"+oldturkishText;
-const arabicText = oldturkishText
-	.replace(/ /g, '')
-	.replace(/:𐰓𐰏𐰇:/g, ' ادگۆ')	
-	.replace(/:𐰨𐰀:/g, ' آنچا')	
+const oldturkishText2=":"+oldturkishText;
+const arabicText = oldturkishText2
 	.replace(/:𐰼:/g,' ار')
-	.replace(/:𐰋:/g,' اب')
+	.replace(/:𐰋:/g,' اب')	
+	.replace(/:𐰨𐰀:/g, ' آنچا')
 	.replace(/:𐰦𐰍:/g,' آنداغ')
 	.replace(/:𐰞𐰯:/g,' آلپ')
+	.replace(/:𐰓𐰏𐰇:/g, ' ادگۆ')
 	.replace(/:𐰖𐰉𐰞𐰴:/g,' یابلاق')
         //sesliler
             .replace(/𐰀/g, 'ه‌')
@@ -116,9 +115,7 @@ const arabicText = oldturkishText
 											.replace(/صه‌/g, 'صا')
             .replace(/طه‌/g, 'طا')
             .replace(/قه‌/g, 'قا')
-            .replace(/غه/g, 'غا')
-
-	    .replace(/:/g, ' ');
+            .replace(/غه/g, 'غا');
         document.getElementById('orxunOutput').textContent = oldturkishText;
         document.getElementById('arabicOutput').textContent = arabicText2;
     }
