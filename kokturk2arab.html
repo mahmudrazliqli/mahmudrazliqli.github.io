@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <html>
 <!-- @mahmudrazliqli  2.0 beta version 1403/07/18 -->
@@ -43,10 +44,11 @@
 .replace(/:/g, ': ')
 .replace(/:  /g, ': ');
        //  const oldturkishText = document.getElementById('oldturkishInput').value;
-        const arabicText = " "+oldturkishText
+        const arabicText = ":"+oldturkishText
 .replace(/⸱/g, ':')//
-	.replace(/𐰓𐰏𐰇/g, 'ادگۆ')	
-	.replace(/𐰨𐰀/g, 'آنچا')	
+	.replace(/: 𐰓𐰏𐰇:/g, 'ادگۆ')	
+	.replace(/: 𐰨𐰀:/g, 'آنچا')	
+	.replace(/: 𐰼:/g,' ار')
 	.replace(/: 𐰋:/g,' اب')
 	.replace(/: 𐰦𐰍:/g,' آنداغ')
 	.replace(/: 𐰞𐰯:/g,' آلپ')
