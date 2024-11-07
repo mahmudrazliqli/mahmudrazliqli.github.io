@@ -38,21 +38,20 @@
     </style>
 <script>
     function convertToarabic() {
-       const oldturkishText = document.getElementById('oldturkishInput').value
+const oldturkishText = document.getElementById('oldturkishInput').value
 .replace(/⸱/g, ':')
-.replace(/ :/g, ':')
-.replace(/:/g, ': ')
-.replace(/:  /g, ': ');
-       //  const oldturkishText = document.getElementById('oldturkishInput').value;
-        const arabicText = ": "+oldturkishText
-.replace(/⸱/g, ':')//
-	.replace(/: 𐰓𐰏𐰇:/g, 'ادگۆ')	
-	.replace(/: 𐰨𐰀:/g, 'آنچا')	
-	.replace(/: 𐰼:/g,' ار')
-	.replace(/: 𐰋:/g,' اب')
-	.replace(/: 𐰦𐰍:/g,' آنداغ')
-	.replace(/: 𐰞𐰯:/g,' آلپ')
-	.replace(/: 𐰖𐰉𐰞𐰴:/g,' یابلاق')
+.replace(/ /g, '')
+.replace(/:/g, ': ');
+//  const oldturkishText = document.getElementById('oldturkishInput').value;
+const arabicText = ":"+oldturkishText
+	.replace(/ /g, '')
+	.replace(/:𐰓𐰏𐰇:/g, ' ادگۆ')	
+	.replace(/:𐰨𐰀:/g, ' آنچا')	
+	.replace(/:𐰼:/g,' ار')
+	.replace(/:𐰋:/g,' اب')
+	.replace(/:𐰦𐰍:/g,' آنداغ')
+	.replace(/:𐰞𐰯:/g,' آلپ')
+	.replace(/:𐰖𐰉𐰞𐰴:/g,' یابلاق')
         //sesliler
             .replace(/𐰀/g, 'ه‌')
             .replace(/𐰃/g, 'ې')//.replace(/𐰃/g, 'ی')
@@ -106,7 +105,7 @@
             .replace(/𐰪/g, 'نی')
             .replace(/:/g, ' ');
 		
-		const arabicText2 = arabicText
+	const arabicText2 = arabicText
             .replace(/ ه‌/g,'آ')
             .replace(/ و/g, ' او')
             .replace(/ ې/g, ' اې')//.replace(/ ی/g, ' ای')
@@ -116,7 +115,9 @@
 											.replace(/صه‌/g, 'صا')
             .replace(/طه‌/g, 'طا')
             .replace(/قه‌/g, 'قا')
-            .replace(/غه/g, 'غا');
+            .replace(/غه/g, 'غا')
+
+	    .replace(/:/g, ' ');
         document.getElementById('orxunOutput').textContent = oldturkishText;
         document.getElementById('arabicOutput').textContent = arabicText2;
     }
