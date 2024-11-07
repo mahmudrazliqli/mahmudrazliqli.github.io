@@ -40,10 +40,11 @@
        const oldturkishText = document.getElementById('oldturkishInput').value.replace(/⸱/g, ': ');
        //  const oldturkishText = document.getElementById('oldturkishInput').value;
         const arabicText = " "+oldturkishText
-        .replace(/⸱/g, ':')//
+        .replace(/ :𐰋/g,' اب')
+.replace(/⸱/g, ':')//
 	.replace(/𐰓𐰏𐰇/g, 'ادگۆ')	
 	.replace(/𐰨𐰀/g, 'آنچا')	
-	.replace(/ :𐰋/g,' اب')
+	
         //sesliler
             .replace(/𐰀/g, 'ه‌')
             .replace(/𐰃/g, 'ې')//.replace(/𐰃/g, 'ی')
