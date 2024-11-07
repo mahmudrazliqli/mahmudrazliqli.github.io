@@ -112,11 +112,11 @@ const arabicText = oldturkishText2
             .replace(/ ۆ/g, ' اۆ')
             .replace(/ ئ/g, ' ائ')	
             .replace(/ٛه‌/g, 'ٛا')
-											.replace(/صه‌/g, 'صا')
+	    .replace(/صه‌/g, 'صا')
             .replace(/طه‌/g, 'طا')
             .replace(/قه‌/g, 'قا')
             .replace(/غه/g, 'غا');
-        document.getElementById('orxunOutput').textContent = oldturkishText;
+        document.getElementById('orxunOutput').textContent = oldturkishText.replace(/:/g, ': ');
         document.getElementById('arabicOutput').textContent = arabicText2;
     }
 
