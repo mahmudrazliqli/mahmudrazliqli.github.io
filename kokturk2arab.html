@@ -106,7 +106,9 @@ const arabicText = oldturkishText2
             .replace(/:/g, ' ');
 		
 	const arabicText2 = arabicText
-            .replace(/ۆۆ/g, 'ۆ')
+            .replace(/وو/g, 'و')
+	    .replace(/ېې/g, 'ې')
+	    .replace(/ۆۆ/g, 'ۆ')
 	    .replace(/ ه‌/g,'آ')
             .replace(/ و/g, ' او')
             .replace(/ ې/g, ' اې')//.replace(/ ی/g, ' ای')
