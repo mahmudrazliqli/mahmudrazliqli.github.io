@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'vazirmatn', sans-serif;
+    line-height: 1.6;
+    background-color: #001f3f; /* Dark blue background */
+    color: #ffffff; /* White text color */
+}
+
+header {
+    background-color: #003366; /* Dark blue header background */
+    padding: 10px 20px; /* Thin header with some padding */
+    text-align: center; /* Center the text */
+}
+
+header h1 {
+    font-size: 1.5em; /* Adjust font size as needed */
+    color: #ffffff; /* White color for the site name */
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #003366; /* Slightly lighter dark blue for main content */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 2em;
+    color: #ffffff; /* White color for headings */
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #ffffff; /* White color for project titles */
+}
+
+ul {
+    list-style-type: none;
+    color: #ffffff; /* White color for list items */
+}
+
+.project {
+    background: #004080; /* Darker blue for project cards */
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+    color: #ffffff; /* White color for project text */
+}
+
+.profile-pic {
+    width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Makes the image circular */
+    margin: 20px 0; /* Add some spacing */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #003366; /* Dark blue footer background */
+    color: #ffffff; /* White color for footer text */
+}
+
+#code-snippet {
+    margin-top: 40px;
+}
+
+#code-box {
+    background-color: #002147; /* Darker blue for the code box */
+    color: #ffffff; /* White text for code */
+    padding: 15px;
+    border-radius: 5px;
+    overflow: auto; /* Allows scrolling if the code is too long */
+    font-family: monospace; /* Monospace font for code */
+}
+
+button {
+    background-color: #007BFF; /* Blue button */
+    color: #ffffff; /* White text for button */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.code-container {
+    position: relative; /* Positioning context for the icon */
+}
+
+#code-box {
+    background-color: #002147; /* Darker blue for the code box */
+    color: #ffffff; /* White text for code */
+    padding: 15px;
+    border-radius: 5px;
+    overflow: auto; /* Allows scrolling if the code is too long */
+    font-family: monospace; /* Monospace font for code */
+}
+
+.copy-icon {
+    position: absolute; /* Absolute positioning */
+    top: 10px; /* Distance from the top */
+    right: 10px; /* Distance from the right */
+    color: #ffffff; /* White color for the icon */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1.2em; /* Size of the icon */
+}
+
+.copy-icon:hover {
+    color: #00BFFF; /* Change color on hover */
+}
+.about-container {
+    display: flex; /* Use Flexbox for layout */
+    align-items: center; /* Center items vertically */
+    margin-top: 20px; /* Add some space above the container */
+}
+
+.profile-pic {
+    width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10%; /* Makes the image circular */
+    margin-right: 20px; /* Add some spacing between the image and text */
+}
+
+.container {
+    display: flex; /* Use Flexbox for layout */
+}
+
+main {
+    flex: 1; /* Allow main content to take the remaining space */
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px; /* Add some margin around the main content */
+    background: #003366; /* Slightly lighter dark blue for main content */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+.sidebar {
+    width: 250px; /* Fixed width for the sidebar */
+    background: linear-gradient(to bottom, #002147, #003366); /* Gradient background */
+    color: #ffffff; /* White text color */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    margin: 20px; /* Space between main content and sidebar */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    transition: background 0.3s ease; /* Smooth background transition */
+}
+
+.sidebar:hover {
+    background: linear-gradient(to bottom, #003366, #004080); /* Darker gradient on hover */
+}
+
+.sidebar h2 {
+    font-size: 1.5em; /* Adjust heading size */
+    margin-bottom: 15px; /* Space below the heading */
+}
+
+.sidebar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.sidebar ul li {
+    margin: 10px 0; /* Space between links */
+}
+
+.sidebar ul li a {
+    color: #00BFFF; /* Bright blue for links */
+    text-decoration: none; /* Remove underline */
+    padding: 8px 12px; /* Padding around links */
+    border-radius: 4px; /* Rounded corners for links */
+    display: block; /* Make the link a block element */
+    transition: background 0.3s ease; /* Smooth background transition */
+}
+
+.sidebar ul li a:hover {
+    background-color: rgba(0, 191, 255, 0.2); /* Light blue background on hover */
+    text-decoration: none; /* Keep underline off */
+}
