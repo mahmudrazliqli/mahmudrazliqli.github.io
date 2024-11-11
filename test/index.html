@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icon.ico">
+    <title>Mahmud Razlıqlı 🇵🇸 🇦🇿 🇮🇷 </title>
+
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="styles.css">   
+    
+</head>
+<body>
+    <header>
+        <h1>Mahmud Razlıqlı 🇵🇸 🇦🇿 🇮🇷 :𐰢𐰴𐰢𐰆𐰑:𐰺𐰔𐰞𐰶𐰞𐰃</h1> <!-- Site name -->
+    </header>
+    
+    <div class="container">
+        <main>
+            <section id="about">
+                <!-- <h2>About Me</h2> -->
+                <div class="about-container">
+                    <img src="your-animation.gif" alt="A GIF of me" class="profile-pic"> 
+                    <p style="font-family: vazirmatn;">                        
+                        محمود رازلیقلی                       
+                    </p>  <br/>                 
+                    <p style="font-family: Irqbitig;">                        
+                        :𐰢𐰴𐰢𐰆𐰑:𐰺𐰔𐰞𐰶𐰞𐰃                        
+                    </p>
+                </div>
+            </section>
+
+            <section id="skills">
+                <h2>My Skills</h2>
+                <ul>    
+                    <li>PC programming C/C++/C# </li>            
+                    <li>Embedded systems</li>
+                    <li>C programming gtk</li>
+                    <li>Javascript</li>
+                    <li>Old Turkish text reading</li>
+                </ul>
+            </section>
+
+            <section id="code-snippet">
+                <h2>Code Snippet</h2>
+                <div class="code-container">
+                    <pre id="code-box">
+                        <code>
+function helloWorld() {
+    console.log("Hello, World!");
+}
+                        </code>
+                    </pre>
+                    <i class="fas fa-copy copy-icon" id="copy-button" title="Copy Code">🗐</i>
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2>My Projects</h2>
+                <div class="project">
+                    <h3>Project Title 1</h3>
+                    <p>Description of the project goes here. What technologies did you use? What was the outcome?</p>
+                </div>
+                <div class="project">
+                    <h3>Project Title 2</h3>
+                    <p>Description of the project goes here. What technologies did you use? What was the outcome?</p>
+                </div>
+            </section>
+        </main>
+
+        <aside class="sidebar">
+            <h2>Navigation</h2>
+            <ul>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="skills.html">My Skills</a></li>
+                <li><a href="projects.html">My Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mahmud Razliqli. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        document.getElementById('copy-button').addEventListener('click', function() {
+            const code = document.getElementById('code-box').innerText;
+            navigator.clipboard.writeText(code).then(() => {
+                alert('Code copied to clipboard!');
+            }).catch(err => {
+                console.error('Failed to copy: ', err);
+            });
+        });
+    </script>
+</body>
+</html>
