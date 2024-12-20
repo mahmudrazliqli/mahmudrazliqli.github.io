@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #113355;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+/* Navigation Bar */
+.navbar {
+     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #3060AF; /* blue background */
+    padding: 10px 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #3060EF; /* Lighter blue */
+    color: #fff;
+}
+
+
+
+
+.socialimg {
+    width: 10px;
+    height: 10px;
+    object-fit: cover;
+}
+
+.menu {           
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+/* Mobile Menu Button */
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+}
+
+/* Bottom Social Network Menu Styles */
+.social-nav {
+    width: 100%;
+    background-color: #3060AF;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.social-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.social-nav ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #3060AF;
+    text-align: center;
+    line-height: 40px;
+    transition: background-color 0.3s ease;
+}
+
+.social-nav ul li a:hover {
+    background-color: #007bff;
+}
+
+.social-nav ul li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Main content */
+header {
+    width: 85%;
+    max-width: 800px;
+    text-align: center;
+    margin-top: 10px; /* Adjusted for the nav bar */
+    padding-bottom: 5px; /* Space for fixed social nav */
+}
+
+
+
+img.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-bottom: 20px;
+}
+img.profile-pic-tiny {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* Projects Section */
+.projects-section {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.project-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #1f7da5;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.project-item img {
+    width: 150px;
+    height: 150px;
+    object-fit:fill;
+    border-radius: 3%;
+    border: 5px solid #1f7da5;
+}
+
+.project-content {
+    padding: 15px;
+    flex-grow: 1;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.project-description {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+/* Code Box Styling */
+.code-box {
+    min-height: 200px;
+    background-color: #335;
+    color: #f0f0f0;
+    width: 95%;
+    max-width: 600px;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    position: relative;
+     /*white-space: pre-wrap;*/
+   word-wrap: break-word;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 10px #0000004d; /* Added shadow */
+}
+.code-boxbig {
+    min-height: 200px;
+    background-color: #335;
+    color: #f0f0f0;
+    width: 95%;
+    max-width: 600px;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    position: relative;
+     /*white-space: pre-wrap;*/
+   word-wrap: break-word;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 10px #0000004d; /* Added shadow */
+}
+
+.baglanti {
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 8px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.baglanti:hover {
+    background-color: #6280dc60; /* Lighter blue */
+    color: #fff;
+}
+
+/* Copy Button */
+.copy-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    z-index: 1;
+}
+
+.copy-btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* Keyboard-btn */
+.keyboard-btn {    
+    min-width: 40px;
+    background-color: #3897a1;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    z-index: 1;
+}
+
+.keyboard-btn:hover {
+    background-color: #49cbd9;
+}
+
+
+
+
+/* Footer Styling */
+.footer {
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    background-color: #3060AF;  /* Dark background for visibility */
+    position: relative;
+    z-index: 1;
+    margin-top: 20px; /* To push footer below the content */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+
+    .project-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project-item img {
+        width: 95%;
+        height: auto;
+        margin-top: 10px;
+
+    }
+
+.menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #3060AF;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        z-index: 1;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+
+    .menu li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
