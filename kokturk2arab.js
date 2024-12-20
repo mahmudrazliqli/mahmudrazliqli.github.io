@@ -1,5 +1,5 @@
 function kokturk2arab(oldturkishStr) {
-   const oldturkishText =":"+oldturkishStr.replace(/⸱/g, ':').oldturkishStr.replace(/⁚/g, ':').replace(/ /g, ':').replace(/::/g, ':');
+   const oldturkishText =":"+oldturkishStr.replace(/⸱/g, ':').replace(/⁚/g, ':').replace(/ /g, ':').replace(/::/g, ':');
     const arabicText = oldturkishText
     .replace(/:𐰼:/g,' ار ')
     .replace(/:𐰋:/g,' اب ')	
