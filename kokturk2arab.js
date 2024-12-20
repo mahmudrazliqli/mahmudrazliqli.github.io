@@ -1,20 +1,22 @@
 function kokturk2arab(oldturkishStr) {
    const oldturkishText =":"+oldturkishStr.replace(/⸱/g, ':').replace(/⁚/g, ':').replace(/ /g, ':').replace(/::/g, ':');
     const arabicText = oldturkishText
-    .replace(/:𐰼:/g,' ار ')
-    .replace(/:𐰋:/g,' اب ')	
-    .replace(/:𐱃:/g,' آت ')	
-    .replace(/:𐰖:/g,' آی ')	
-    .replace(/:𐰨𐰀:/g, ' آنچا ')
-    .replace(/:𐰦𐰍:/g,' آنداغ ')
-    .replace(/:𐰪𐰃𐰍:/g,' آنیېغ:')
-    .replace(/:𐰞𐰯:/g,' آلپ ')
-    .replace(/:𐰚𐰃:/g,' اکی ')
-    .replace(/:𐰓𐰏𐰇:/g, ' ادگۆ ')
-    .replace(/:𐰖𐰉𐰞𐰴:/g,' یابلاق ')
-    .replace(/:𐰞𐱃𐰆𐰣:/g,' آلتون ') 
-    .replace(/:𐱃𐰞𐰍:/g,' آتلېغ:')
-    .replace(/𐰰𐰣:/g,'پان ')
+    .replace(/:𐰼:/g,':ار:')
+    .replace(/:𐰋:/g,':اب:')	
+    .replace(/:𐱃:/g,':آت:')	
+    .replace(/:𐰖:/g,':آی:')	
+    .replace(/:𐰉𐰺:/g,':بار:')
+    .replace(/:𐰨𐰀:/g, ':آنچا:')
+    .replace(/:𐰦𐰍:/g,':آنداغ:')
+    .replace(/:𐰪𐰃𐰍:/g,':آنیېغ:')
+    .replace(/:𐰞𐰯:/g,':آلپ:')
+    .replace(/:𐰚𐰃:/g,':اکی:')
+    .replace(/:𐰓𐰏𐰇:/g, ':ادگۆ:')
+    .replace(/:𐰖𐰉𐰞𐰴:/g,':یابلاق:')
+    .replace(/:𐰞𐱃𐰆𐰣:/g,':آلتون:') 
+    .replace(/:𐱃𐰞𐰍:/g,':آتلېغ:')
+    .replace(/𐰰𐰣:/g,'پان:')
+
 
     //sesliler
     .replace(/𐰀/g, 'ه‌')
