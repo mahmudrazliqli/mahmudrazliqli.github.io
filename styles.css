@@ -267,6 +267,23 @@ h1 {
     background-color: #49cbd9;
 }
 
+/* Keyboard-btn */
+.mybtn {    
+    min-width: 40px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    z-index: 1;
+}
+
+.mybtn:hover {
+    background-color: #0056b3;
+}
 
 
 
