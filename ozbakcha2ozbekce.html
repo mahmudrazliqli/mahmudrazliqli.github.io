@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="uz" dir=rtl>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="icon.ico">
+    <title>Oʻzbekcha ➜ Özbəkçə </title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="arabfonts.css" />
+    <script src="ozbakcha2ozbekce.js"></script> 
+</head>
+
+<body  >
+    <nav class="navbar">       
+        Oʻzbek ➜ Özbək
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul class="menu">   
+            <li><a href="."><img style="height: 15px;width:15px;border-width: 0;" src="house.svg"></a></li>            
+            <li><a href="kokturk2arab.html">ت➜𐱅</a></li>
+            <li><a href="ozbakcha2ozbekce.html">🇺🇿➜🇦🇿 </a></li>
+            <li><a href="kokturk-keyboard.html">⌨</a></li>
+        </ul>
+    </nav>
+
+    <section class="projects-section" dir="ltr">
+        <div class="code-box" >              
+            <div class="code-box" >
+
+                <button class="mybtn" 
+                style=" font-size: 0.8rem;"
+                 onclick="document.getElementById('ozbekchaInput').value='Ўзбекистон Республикаси';"
+                 > Мисол </button> 
+
+                 <button class="mybtn" 
+                 style=" font-size: 0.8rem;"
+                  onclick="document.getElementById('ozbekchaInput').value='Ko‘rgali husnungni zor-u mubtalo bo‘ldum sanga, Ne baloliq kun edikim, oshno bo‘ldum sanga';"
+                  > Misol </button> 
+
+                  <button class="mybtn" 
+                  style=" font-size: 0.8rem;"
+                   onclick="document.getElementById('ozbekchaInput').value=' ';"
+                   >⠀🧹⠀ </button> 
+                <br>
+                <textarea  class="code-box" id="ozbekchaInput"  rows="5"  style="font-family: 'segoe-ui-symbol'; " 
+                placeholder="yozing..." 
+                ></textarea> 
+            </div>   
+
+
+            <button class="keyboard-btn" style="font-family: 'vazirmatn'; font-size: 1.5rem;
+            display: block;margin-left: auto;margin-right: auto;
+            "
+             onclick="document.getElementById('codeBlock2').textContent =ozbekcha2ozbekce(document.getElementById('ozbekchaInput').value) ;"
+             >Oʻzbekcha ➜ Özbəkçə  </button> 
+
+
+            <div class="code-box" >
+                <button class="copy-btn"  id="copyBtn2" onclick="copyToClipboard(2)">Copy</button>
+                <br>
+                <textarea  class="code-box"  id="codeBlock2" rows="5"  style="font-size:15px;font-family: 'vazirmatn';"></textarea>
+            </div>
+        </div>
+            <div class="code-box"   style="font-size:15px;font-family: 'vazirmatn';align-items: right;white-space: pre-wrap;"  
+            >    Qaynaqlar  :
+                <a href="https://uz.wikipedia.org/wiki/O%CA%BBzbek_alifbosi" style="text-decoration: none;color: #fff;">Oʻzbek alifbosi 🔗</a> 
+                <a href="https://uz.wikipedia.org/wiki/O%CA%BBzbek_kirill_alifbosi" style="text-decoration: none;color: #fff;">Oʻzbek kirill alifbosi 🔗</a>                             
+            </div>
+        
+        <br><br>
+
+
+        <!--
+        <div>
+            <button class="copy-btn" id="copyBtn1" onclick="copyToClipboard(1)">Copy</button>
+            <p id="codeBlock1" > </p>
+        </div>
+        -->  
+    </section>
+
+    <div class="footer">
+        <p>© 2024 Mahmud Razlıqlı. All Rights Reserved.</p>
+    </div>
+
+
+
+        
+
+
+<script>
+    function copyToClipboard(id) {
+        const codeBlock = document.getElementById(`codeBlock${id}`);
+        const range = document.createRange();
+        range.selectNodeContents(codeBlock);
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(range);
+
+        try {
+            const successful = document.execCommand('copy');
+            if (successful) {
+                const copyBtn = document.getElementById(`copyBtn${id}`);
+                copyBtn.textContent = 'Copied!';
+                copyBtn.style.backgroundColor = '#28a745'; // Visual feedback color
+                setTimeout(() => {
+                    copyBtn.textContent = 'Copy';
+                    copyBtn.style.backgroundColor = '#007bff';
+                }, 2000);
+            }
+        } catch (err) {
+            console.error('Failed to copy: ', err);
+        }
+
+        window.getSelection().removeAllRanges();
+    }
+
+
+    function toggleMenu() {
+        const menu = document.querySelector('.menu');
+        menu.classList.toggle('show');
+    }
+</script>
+</body>
+</html>
