@@ -1,5 +1,7 @@
 function ozbekcha2ozbekce(ozbekchaStr) {
    const ozbekchaText0 =ozbekchaStr
+   .replace(/o’/g, 'o‘')
+   .replace(/O’/g, 'O‘')
    .replace(/oʻ/g, 'o‘')
    .replace(/Oʻ/g, 'O‘')
    .replace(/gʻ/g, 'g‘')
