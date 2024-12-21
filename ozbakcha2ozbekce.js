@@ -109,6 +109,7 @@ function ozbekcha2ozbekce(ozbekchaStr) {
     .replace(/o‘/g, 'ō')
     .replace(/o/g, 'a')
     .replace(/O/g, 'A')
+				.replace(/I/g, 'İ')
     ;
 
 
