@@ -35,7 +35,7 @@ function ozbekcha2ozbekce(ozbekchaStr) {
    .replace(/ж/g, 'j')
    .replace(/З/g, 'Z')
    .replace(/з/g, 'z')
-   .replace(/И/g, 'I')
+   .replace(/И/g, 'İ')
    .replace(/и/g, 'i')
    .replace(/Й/g, 'Y')
    .replace(/й/g, 'y')
