@@ -4,8 +4,11 @@ function ozbekcha2ozbekce(ozbekchaStr) {
    .replace(/O’/g, 'O‘')
    .replace(/oʻ/g, 'o‘')
    .replace(/Oʻ/g, 'O‘')
+
    .replace(/gʻ/g, 'g‘')
    .replace(/Gʻ/g, 'G‘')
+   .replace(/g’/g, 'g‘')
+   .replace(/G’/g, 'G‘')
    .replace(/kino/g, 'kino‘')
    .replace(/doktor/g, 'do‘kto‘r')
    .replace(/morfolo/g, 'mo‘rfo‘lo‘')
