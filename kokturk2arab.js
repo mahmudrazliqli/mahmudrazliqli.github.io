@@ -6,6 +6,7 @@ function kokturk2arab(oldturkishStr) {
     .replace(/:𐱃:/g,':آت:')	
     .replace(/:𐰖:/g,':آی:')	
     .replace(/:𐰉𐰺:/g,':بار:')
+     .replace(/:𐰨𐰯:/g, ':آنچاپ:')
     .replace(/:𐰨𐰀:/g, ':آنچا:')
     .replace(/:𐰦𐰍:/g,':آنداغ:')
     .replace(/:𐰪𐰃𐰍:/g,':آنیېغ:')
@@ -16,7 +17,8 @@ function kokturk2arab(oldturkishStr) {
     .replace(/:𐰞𐱃𐰆𐰣:/g,':آلتون:') 
     .replace(/:𐱃𐰞𐰍:/g,':آتلېغ:')
     .replace(/𐰰𐰣:/g,'پان:')
-
+    
+    .replace(/𐰆𐰀/g,'وآ')
 
     //sesliler
     .replace(/𐰀/g, 'ه‌')
@@ -39,8 +41,8 @@ function kokturk2arab(oldturkishStr) {
     .replace(/𐰞/g, 'لٛ')
     .replace(/𐰣/g, 'نٛ')
     .replace(/𐰖/g, 'یٛ')
-    .replace(/𐰽/g, 'ص')
-    .replace(/𐱃/g, 'ط')
+    .replace(/𐰽/g, 'سٛ')
+    .replace(/𐱃/g, 'تٛ')
     .replace(/𐰍/g, 'غ')
     .replace(/𐰴/g, 'ق')
     //incə  
@@ -84,10 +86,11 @@ function kokturk2arab(oldturkishStr) {
     .replace(/صه‌/g, 'صا')
     .replace(/طه‌/g, 'طا')
     .replace(/قه‌/g, 'قا')
-    .replace(/غه/g, 'غا');
+    .replace(/غه/g, 'غا')
+    
+    ;
 
     const arabicText3 = arabicText2
-    .replace(/ من/g, 'من')
     .replace(/پنٛ /g, 'پان ')
     .replace(/ لٛپ/g, ' آلپ')
     ;
