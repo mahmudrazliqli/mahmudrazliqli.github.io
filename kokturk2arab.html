@@ -123,13 +123,16 @@
         menu.classList.toggle('show');
     }
 </script>
-<script>
+
+    <script>
         document.getElementById('pasteButton').addEventListener('click', async () => {
             try {
+                // Read the clipboard content
                 const text = await navigator.clipboard.readText();
+                // Paste it directly into the textarea
                 document.getElementById('oldturkishInput').value = text;
             } catch (err) {
-                alert('Failed to paste content: ' + err);
+                alert('Failed to paste content. Make sure clipboard access is allowed: ' + err);
             }
         });
     </script>
