@@ -41,7 +41,11 @@
                  style=" font-family: 'vazirmatn'; font-size: 0.8rem;"
                   onclick="document.getElementById('oldturkishInput').value=' ';"
                   >⠀🧹⠀ </button> 
-                <br>
+                
+  <button button class="mybtn" 
+                 style=" font-family: 'vazirmatn'; font-size: 0.8rem;" id="pasteButton">Paste</button>
+
+<br>
                 <textarea  class="code-box" id="oldturkishInput"  rows="5"  style="font-family: 'segoe-ui-symbol'; " 
                 placeholder="اسکی تۆرکجه یازینی بورا یازؽن" 
                 ></textarea> 
@@ -119,5 +123,15 @@
         menu.classList.toggle('show');
     }
 </script>
+<script>
+        document.getElementById('pasteButton').addEventListener('click', async () => {
+            try {
+                const text = await navigator.clipboard.readText();
+                document.getElementById('oldturkishInput').value = text;
+            } catch (err) {
+                alert('Failed to paste content: ' + err);
+            }
+        });
+    </script>
 </body>
 </html>
