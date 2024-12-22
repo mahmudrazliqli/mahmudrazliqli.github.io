@@ -58,9 +58,12 @@
              onclick="document.getElementById('codeBlock2').textContent =kokturk2arab(document.getElementById('oldturkishInput').value) ;"
              > تۆرکجه ➜ 𐱅𐰇𐰼𐰚𐰲𐰀  </button> 
 
-
             <div class="code-box" >
-                <button class="copy-btn"  id="copyBtn2" onclick="copyToClipboard(2)">Copy</button>
+                <button class="mybtn"  id="copyBtn2" class="mybtn" style="font-size: 0.8rem;"
+                onclick="copyToClipboard(2)">Copy</button>
+                <button class="mybtn" style="font-size: 0.8rem;"
+                onclick="document.getElementById('codeBlock2').textContent =document.getElementById('codeBlock2').textContent.replace(/ٛ/g, '');"
+                >💡</button>
                 <br>
                 <textarea  class="code-box"  id="codeBlock2" rows="5"  style="font-size:15px;font-family: 'vazirmatn';"></textarea>
             </div>
@@ -85,8 +88,9 @@
         -->  
     </section>
 
-    <div class="footer">
-        <p>© 2024 Mahmud Razlıqlı. All Rights Reserved.</p>
+    <div class="footer" dir=ltr>
+        <p><a href="."><img style="height: 15px;width:15px;border-width: 0;" src="house.svg"></a>
+            © 2024 Mahmud Razlıqlı. All Rights Reserved</p>
     </div>
 
 
@@ -103,7 +107,7 @@
             const successful = document.execCommand('copy');
             if (successful) {
                 const copyBtn = document.getElementById(`copyBtn${id}`);
-                copyBtn.textContent = 'Copied!';
+                copyBtn.textContent = '!Copied';
                 copyBtn.style.backgroundColor = '#28a745'; // Visual feedback color
                 setTimeout(() => {
                     copyBtn.textContent = 'Copy';
