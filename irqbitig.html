@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="icon.ico">
-    <title>  𐱅𐰇𐰼𐰚𐰲𐰀  köktürkçə keyboard</title>
+    <title>    Irq Bitig اؽرق بیتیگ 𐰃𐰺𐰴:𐰋𐰃𐱅𐰃𐰏:</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="arabfonts.css" />
     <link rel="stylesheet" href="kokturkfonts.css" />
@@ -35,18 +35,16 @@
     </style>
 </head>
 
-<body  >
-
-    <nav class="navbar">           
-        <a href="."><img style="height: 15px;width:15px;border-width: 0;" src="house.svg"></a>           
-        Irq Bitig اؽرق بیتیگ 
-        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-        <ul class="menu">              
-            <li><a href="kokturk2arab.html">تـ🠞𐱅</a></li>
-            <li><a href="kokturk-keyboard.html">⌨</a></li>
-        </ul>
-    </nav>
-
+<body  >   
+        <nav class="navbar" dir="rtl">       
+            <a href="."><img style="height: 15px;width:15px;border-width: 0;" src="house.svg"></a>
+            Irq Bitig اؽرق بیتیگ 
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+            <ul class="menu">       
+                <li><a href="kokturk2arab.html">تـ➜𐱅</a></li>
+                <li><a href="kokturk-keyboard.html">⌨</a></li>
+            </ul>
+        </nav>
 
     <header >        
         <div class="irqsayi" style="background-color: #3060AF;max-width: 600px;">                        
@@ -475,6 +473,37 @@
     <p><a href="."><img style="height: 15px;width:15px;border-width: 0;" src="house.svg"></a>
         © 2024 Mahmud Razlıqlı. All Rights Reserved</p>
 </div>
+<script>
+    function copyToClipboard(id) {
+        const codeBlock = document.getElementById(`codeBlock${id}`);
+        const range = document.createRange();
+        range.selectNodeContents(codeBlock);
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(range);
 
+        try {
+            const successful = document.execCommand('copy');
+            if (successful) {
+                const copyBtn = document.getElementById(`copyBtn${id}`);
+                copyBtn.textContent = '! Copied';
+                copyBtn.style.backgroundColor = '#28a745'; // Visual feedback color
+                setTimeout(() => {
+                    copyBtn.textContent = 'Copy';
+                    copyBtn.style.backgroundColor = '#007bff';
+                }, 2000);
+            }
+        } catch (err) {
+            console.error('Failed to copy: ', err);
+        }
+
+        window.getSelection().removeAllRanges();
+    }
+
+
+    function toggleMenu() {
+        const menu = document.querySelector('.menu');
+        menu.classList.toggle('show');
+    }
+</script>
  </body>
 </html>
