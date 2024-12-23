@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="arabfonts.css" />
     <link rel="stylesheet" href="kokturkfonts.css" />
-
+    <script src="kokturk2arab.js"></script> 
     <style>
        .irqsayi {
         background-color: rgb(85, 51, 84);
@@ -32,6 +32,19 @@
         box-shadow: 0 4px 10px #0000004d; /* Added shadow */
         text-align: center;
         }
+
+        #float-box {
+            position: absolute;
+            background-color: rgb(85, 51, 84);
+            color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            display: none; /* Initially hidden */
+        }
+
     </style>
 </head>
 
@@ -54,11 +67,10 @@
                         <img style="height: 15px;width:15px;border-width: 0;" src="download.svg">
                     </a>   
                 </h1>      
-    
         </div>
     </header>
 
-    <section class="projects-section">
+<section class="projects-section" id="text-container">
 <div class="irqsayi"> 
 .. .. ..
 </div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
@@ -504,6 +516,35 @@
         const menu = document.querySelector('.menu');
         menu.classList.toggle('show');
     }
+</script>
+<div id="float-box"></div>
+    
+<script>
+    document.addEventListener('mouseup', function() {
+        const selectedText = window.getSelection().toString();
+        const floatBox = document.getElementById('float-box');
+
+        if (selectedText) {
+            const range = window.getSelection().getRangeAt(0);
+            const rect = range.getBoundingClientRect();
+
+            // Set the position of the floating box
+            floatBox.style.left = `${rect.left + window.scrollX}px`;
+            floatBox.style.top = `${rect.bottom + window.scrollY}px`;
+            floatBox.innerText = kokturk2arab(selectedText);
+            floatBox.style.display = 'block'; // Show the floating box
+        } else {
+            floatBox.style.display = 'none'; // Hide the floating box
+        }
+    });
+
+    // Hide the floating box when clicking outside
+    document.addEventListener('click', function(event) {
+        const floatBox = document.getElementById('float-box');
+        if (!floatBox.contains(event.target) && !window.getSelection().toString()) {
+            floatBox.style.display = 'none'; // Hide the floating box
+        }
+    });
 </script>
  </body>
 </html>
