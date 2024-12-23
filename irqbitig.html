@@ -34,8 +34,9 @@
         }
 
         #float-box {
+            max-width: 45%;
             position: absolute;
-            background-color: rgb(85, 51, 84);
+            background-color: rgb(17, 77, 142);
             color: #f0f0f0;
             border: 1px solid #ccc;
             border-radius: 8px;
@@ -531,7 +532,7 @@
             // Set the position of the floating box
             floatBox.style.left = `${rect.left + window.scrollX}px`;
             floatBox.style.top = `${rect.bottom + window.scrollY}px`;
-            floatBox.innerText = kokturk2arab(selectedText);
+            floatBox.innerText = selectedText+'\n'+kokturk2arab(selectedText);
             floatBox.style.display = 'block'; // Show the floating box
         } else {
             floatBox.style.display = 'none'; // Hide the floating box
