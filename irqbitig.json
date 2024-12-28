@@ -123,7 +123,7 @@
   {
     "gokturkce": "𐰽𐰆𐰸𐰆𐰽𐰢𐰃𐰾",
     "latin": "SOQUSMIS",
-    "azturkce": "SOQUŞMUŞ (yanaşmış)"
+    "azturkce": "SOXUŞMUŞ (yanaşmış)"
   },
   {
     "gokturkce": "𐰴𐰆𐰺𐰴𐰢𐰃𐰾",
@@ -312,8 +312,8 @@
   },
   {
     "gokturkce": "𐰑𐰍𐰺𐰞𐰴",
-    "latin": "ADGIRLIQ",
-    "azturkce": "AYGIRLIQ"
+    "latin": "ADĞIRLIQ",
+    "azturkce": "AYĞIRLIQ"
   },
   {
     "gokturkce": "𐰖𐰺𐰀𐰍𐰖",
@@ -378,7 +378,7 @@
   {
     "gokturkce": "𐱅𐰃𐰼",
     "latin": "TİR",
-    "azturkce": "DƏR"
+    "azturkce": "DEYİR"
   },
   {
     "gokturkce": "𐰢𐰭𐰃𐰠𐰃𐰏",
@@ -393,7 +393,7 @@
   {
     "gokturkce": "𐰪𐰃𐰍",
     "latin": "AÑIĞ",
-    "azturkce": "ÇOQ"
+    "azturkce": "ÇOX"
   },
   {
     "gokturkce": "𐰑𐰍𐰞𐰃",
@@ -408,12 +408,12 @@
   {
     "gokturkce": "𐰀𐰺𐱃",
     "latin": "ART",
-    "azturkce": "GƏÇİT"
+    "azturkce": "KEÇİT"
   },
   {
     "gokturkce": "𐰽𐰆𐰸𐰽𐰢𐰃𐰾",
     "latin": "SOQUSMIS",
-    "azturkce": "SOQUŞMUŞ"
+    "azturkce": "SOXUŞMUŞ"
   },
   {
     "gokturkce": "𐰑𐰍𐰭",
@@ -443,7 +443,7 @@
   {
     "gokturkce": "𐰽𐰃𐰣𐰢𐰃𐰾",
     "latin": "SINMIS",
-    "azturkce": "SINMIŞ (qırılmış)"
+    "azturkce": "SINMIŞ"
   },
   {
     "gokturkce": "𐰖𐰉𐰞𐰴",
@@ -453,7 +453,7 @@
   {
     "gokturkce": "𐱅𐰼𐰚𐰠𐰘𐰇",
     "latin": "TƏRKLƏYÜ",
-    "azturkce": "QOŞA-"
+    "azturkce": "QAÇA QAÇA "
   },
   {
     "gokturkce": "𐰚𐰠𐰃𐰼",
@@ -483,7 +483,7 @@
   {
     "gokturkce": "𐰖𐰃𐰞𐰣",
     "latin": "YILAN",
-    "azturkce": "YILAN"
+    "azturkce": "İLAN"
   },
   {
     "gokturkce": "𐰴𐰆𐰺𐰆𐰍𐰽𐰴𐰢𐰃𐰤",
@@ -493,12 +493,12 @@
   {
     "gokturkce": "𐰴𐰃𐰞𐰲𐰃𐰣",
     "latin": "QILIÇIN",
-    "azturkce": "QILIÇLA"
+    "azturkce": "QILICLA"
   },
   {
     "gokturkce": "𐰚𐰾𐰃𐰯𐰤",
     "latin": "KƏSİPƏN",
-    "azturkce": "KƏSİP"
+    "azturkce": "KƏSİB"
   },
   {
     "gokturkce": "𐰇𐰔𐰇𐰢",
@@ -678,12 +678,12 @@
   {
     "gokturkce": "𐰉𐰆𐰞𐰆𐰯𐰣",
     "latin": "BULUPAN",
-    "azturkce": "BULUB"
+    "azturkce": "TAPIB"
   },
   {
     "gokturkce": "𐰖𐰞𐰍𐰖𐰆",
     "latin": "YALĞAYU",
-    "azturkce": "YALAYIP"
+    "azturkce": "YALAYIB"
   },
   {
     "gokturkce": "𐱅𐰃𐰼𐰃𐰠𐰢𐰃𐰾",
@@ -783,7 +783,7 @@
   {
     "gokturkce": "𐰖𐰆𐰺𐰃𐰖𐰆",
     "latin": "YORIYU",
-    "azturkce": "YÜRÜYÜP"
+    "azturkce": "YERİYİB"
   },
   {
     "gokturkce": "𐰖𐰣𐰀",
@@ -853,7 +853,7 @@
   {
     "gokturkce": "𐰇𐰯𐰤",
     "latin": "ÖPƏN",
-    "azturkce": "DÜŞLƏYİP"
+    "azturkce": "DÜŞLƏYİB"
   },
   {
     "gokturkce": "𐰘𐰃𐰼𐰓𐰀",
@@ -868,7 +868,7 @@
   {
     "gokturkce": "𐰽𐰆𐰸𐰆𐰽𐰆𐰯",
     "latin": "SOQUSUP",
-    "azturkce": "SOQUNUB"
+    "azturkce": "SOXULUB"
   },
   {
     "gokturkce": "𐱃𐰆𐱃𐰆𐰆𐰯𐰣",
@@ -893,7 +893,7 @@
   {
     "gokturkce": "𐰖𐰍𐰺𐰃𐰯𐰣",
     "latin": "YAĞRIPAN",
-    "azturkce": "YARALANIP"
+    "azturkce": "YARALANIB"
   },
   {
     "gokturkce": "𐰴𐰢𐰽𐰖𐰆",
@@ -923,7 +923,7 @@
   {
     "gokturkce": "𐰺𐰯",
     "latin": "ARIP",
-    "azturkce": "ARIP (arğın-yorğun)"
+    "azturkce": "ARIB (arğın-yorğun)"
   },
   {
     "gokturkce": "𐰆𐰭𐰆𐰆𐰯",
@@ -951,11 +951,6 @@
     "azturkce": "SU"
   },
   {
-    "gokturkce": "𐰆𐰇𐰼𐰇𐰯𐰤",
-    "latin": "KÖRÜPƏN",
-    "azturkce": "GÖRÜP"
-  },
-  {
     "gokturkce": "𐰘𐰃𐰾",
     "latin": "YIS",
     "azturkce": "BAYIR"
@@ -973,17 +968,17 @@
   {
     "gokturkce": "𐰚𐰇𐰼𐰇𐰯𐰤",
     "latin": "KÖRÜPƏN",
-    "azturkce": "GÖRÜP"
+    "azturkce": "GÖRÜB"
   },
   {
     "gokturkce": "𐰉𐰺𐰃𐰯𐰣",
     "latin": "BARIPAN",
-    "azturkce": "VARIP"
+    "azturkce": "VARIB"
   },
   {
     "gokturkce": "𐰃𐰲𐰃𐰯𐰤",
     "latin": "İÇİPƏN",
-    "azturkce": "İÇİP"
+    "azturkce": "İÇİB"
   },
   {
     "gokturkce": "𐰖𐰀𐰽",
@@ -992,8 +987,8 @@
   },
   {
     "gokturkce": "𐰘𐰃𐰯𐰤",
-    "latin": "YƏPƏN",
-    "azturkce": "YYAXŞIP"
+    "latin": "YİPƏN",
+    "azturkce": "YEYİB"
   },
   {
     "gokturkce": "𐰚𐰼𐰀𐰚𐰇",
@@ -1237,7 +1232,7 @@
   },
   {
     "gokturkce": "𐰃𐰲𐰍𐰣𐰢𐰃𐰾",
-    "latin": "IÇGINMIS",
+    "latin": "IÇĞINMIS",
     "azturkce": "DÜŞÜRMÜŞ"
   },
   {
@@ -1273,7 +1268,7 @@
   {
     "gokturkce": "𐰉𐰆𐰞𐱃𐰃",
     "latin": "BULTI",
-    "azturkce": "BULDU"
+    "azturkce": "TAPDI"
   },
   {
     "gokturkce": "𐰲𐰆𐰚",
@@ -1338,7 +1333,7 @@
   {
     "gokturkce": "𐰘𐰇𐱅𐰇𐰼𐰆𐰯",
     "latin": "YÜTÜRÜP",
-    "azturkce": "YİTİRİP"
+    "azturkce": "İTİRİB"
   },
   {
     "gokturkce": "𐱅𐰇𐰤",
@@ -1358,7 +1353,7 @@
   {
     "gokturkce": "𐰉𐰆𐰞𐰍𐰖",
     "latin": "BULĞAY",
-    "azturkce": "BULACAQ"
+    "azturkce": "TAPACAQ"
   },
   {
     "gokturkce": "𐱃𐰃𐰼",
@@ -1448,7 +1443,7 @@
   {
     "gokturkce": "𐰇𐰼𐰚𐰇𐰯𐰤",
     "latin": "ÜRKÜPƏN",
-    "azturkce": "ÜRKÜP"
+    "azturkce": "ÜRKÜB"
   },
   {
     "gokturkce": "𐰋𐰇𐰼𐰃𐰚𐰀",
@@ -1563,7 +1558,7 @@
   {
     "gokturkce": "𐰆𐰽𐰃𐰲",
     "latin": "OSİÇ",
-    "azturkce": "[QOYUNUN] İÇİNİ"
+    "azturkce": "[QOYUNUN] ÜÇÜNİ"
   },
   {
     "gokturkce": "𐰆𐰖𐰍𐰀𐰞𐰃",
@@ -1582,8 +1577,8 @@
   },
   {
     "gokturkce": "𐱃𐰆𐰸𐰆𐰔𐰆𐰣",
-    "latin": "TOQUZ",
-    "azturkce": "DOQUZ"
+    "latin": "TOQUZUN",
+    "azturkce": "DOQQUZUN"
   },
   {
     "gokturkce": "𐰉𐰆𐰽",
@@ -1598,7 +1593,7 @@
   {
     "gokturkce": "𐰆𐱃𐰢𐰃𐰾",
     "latin": "UTMIS",
-    "azturkce": "BULMUŞ"
+    "azturkce": "TAPMIŞ"
   },
   {
     "gokturkce": "𐰖𐰆𐱃𐰆𐰔𐰃",
@@ -1613,7 +1608,7 @@
   {
     "gokturkce": "𐰴𐰔𐰍𐰨𐰴𐰀",
     "latin": "QAZĞANÇQA",
-    "azturkce": "[PARA] QAZANMAYA"
+    "azturkce": "[PARA] QAZANMAĞA"
   },
   {
     "gokturkce": "𐰖𐰆𐰞𐰃",
@@ -1658,7 +1653,7 @@
   {
     "gokturkce": "𐰉𐰆𐰞𐰢𐰃𐰾",
     "latin": "BULMIS",
-    "azturkce": "BULMUŞ"
+    "azturkce": "TAPMIŞ"
   },
   {
     "gokturkce": "𐰆𐰖𐰀𐰽𐰃𐰭𐰺𐰆",
@@ -1788,7 +1783,7 @@
   {
     "gokturkce": "𐰽𐰆𐰴𐰆𐰽𐰢𐰾",
     "latin": "SOQUSMIS",
-    "azturkce": "SOQUŞMUŞ"
+    "azturkce": "SOXUŞMUŞ"
   },
   {
     "gokturkce": "𐰴𐰣𐰀𐱃𐰃𐰭𐰀",
@@ -1803,7 +1798,7 @@
   {
     "gokturkce": "𐰴𐰞𐰃𐰖𐰆",
     "latin": "QALIYU",
-    "azturkce": "QALIP"
+    "azturkce": "QALIB"
   },
   {
     "gokturkce": "𐰇𐰏𐰃𐰭𐰀",
@@ -1933,7 +1928,7 @@
   {
     "gokturkce": "𐰖𐰺𐰣𐰲𐰀",
     "latin": "YARINÇA",
-    "azturkce": "OQUNUN"
+    "azturkce": "OXUNUN"
   },
   {
     "gokturkce": "𐰖𐰽𐰃𐰲𐰃𐰤",
@@ -2123,7 +2118,7 @@
   {
     "gokturkce": "𐰇𐰭𐰇𐰾𐰯𐰤",
     "latin": "ÜÑÜSÜPƏN",
-    "azturkce": "YIRTILIP"
+    "azturkce": "İTİRİB"
   },
   {
     "gokturkce": "𐰆t𐰽𐰆𐰔",
@@ -2228,7 +2223,7 @@
   {
     "gokturkce": "𐰽𐰃𐰣𐰸𐰃𐰭𐰃𐰣",
     "latin": "SINUQIÑIN",
-    "azturkce": "SINIQI (qırıqları)"
+    "azturkce": "SINIĞI"
   },
   {
     "gokturkce": "𐰾𐰯𐰼",
@@ -2238,12 +2233,12 @@
   {
     "gokturkce": "𐰇𐰔𐰇𐰜𐰃𐰭𐰃𐰤",
     "latin": "ÜZÜKİÑİN",
-    "azturkce": "ÇIQIQLARI"
+    "azturkce": "ÇIXIQLARI"
   },
   {
     "gokturkce": "𐰆𐰞𐰀𐰖𐰆𐰺",
     "latin": "ULAYUR",
-    "azturkce": "ULAR (əklər)"
+    "azturkce": "ÇATDIRIRAM"
   },
   {
     "gokturkce": "𐰃𐰠𐰃𐰏",
@@ -2252,8 +2247,8 @@
   },
   {
     "gokturkce": "𐰃𐱅𐰢𐰃𐰾",
-    "latin": "ƏTMİS",
-    "azturkce": "[YAXŞI] ƏTMİŞ"
+    "latin": "ETMİS",
+    "azturkce": "[YAXŞI] ETMİŞ"
   },
   {
     "gokturkce": "𐰋𐰃𐰠𐰭𐰠𐰠𐰼",
@@ -2261,9 +2256,14 @@
     "azturkce": "BİLİN"
   },
   {
-    "gokturkce": "𐰭𐰠𐰘𐰇𐰢𐰢𐰭𐰠𐰘𐰇",
-    "latin": "ƏÑLƏYÜ MƏÑLƏYÜ",
-    "azturkce": "AVLAMAYA"
+    "gokturkce": "𐰭𐰠𐰘𐰇",
+    "latin": "ƏÑLƏYÜ",
+    "azturkce": "??????"
+  },
+  {
+    "gokturkce": "𐰢𐰭𐰠𐰘𐰇",
+    "latin": "MƏÑLƏYÜ",
+    "azturkce": "??????"
   },
   {
     "gokturkce": "𐰉𐰺𐰢𐰾",
@@ -2288,7 +2288,7 @@
   {
     "gokturkce": "𐰇𐰤𐰇𐰯",
     "latin": "ÜNÜP",
-    "azturkce": "ÇIQIP"
+    "azturkce": "ÇIXIB"
   },
   {
     "gokturkce": "𐰇𐰠𐰇𐰢𐱅𐰀",
@@ -2298,7 +2298,7 @@
   {
     "gokturkce": "𐰆𐰔𐰆𐰯𐰣",
     "latin": "OZUPAN",
-    "azturkce": "OZUB"
+    "azturkce": "QURTULUB"
   },
   {
     "gokturkce": "𐱃𐰃𐰍",
@@ -2313,7 +2313,7 @@
   {
     "gokturkce": "𐱅𐰇𐰏𐰇𐰯",
     "latin": "TÜGÜP",
-    "azturkce": "DÜĞÜ[MLƏYİ]P"
+    "azturkce": "DÜYÜ[MLƏYİ]B"
   },
   {
     "gokturkce": "𐱅𐰃𐰏𐰼𐱅",
@@ -2328,7 +2328,7 @@
   {
     "gokturkce": "𐱃𐰆𐰸𐰆𐰔",
     "latin": "TOQUZ",
-    "azturkce": "DOQUZ"
+    "azturkce": "DOQQUZ"
   },
   {
     "gokturkce": "𐰴𐱃",
@@ -2342,7 +2342,7 @@
   },
   {
     "gokturkce": "𐱃𐰆𐰯𐰆𐰆𐰞𐰍𐰨𐰀",
-    "latin": "TOPULGINÇA",
+    "latin": "TOPULĞINÇA",
     "azturkce": "YIRTILINCAYA"
   },
   {
@@ -2562,8 +2562,8 @@
   },
   {
     "gokturkce": "𐰑𐰍𐰺",
-    "latin": "ADGIR",
-    "azturkce": "AYGIR"
+    "latin": "ADĞIR",
+    "azturkce": "AYĞIR"
   },
   {
     "gokturkce": "𐰖𐰍𐰴",
@@ -2693,7 +2693,7 @@
   {
     "gokturkce": "𐰇𐰋𐰚𐰠𐰀𐰯𐰤",
     "latin": "ÖBKƏLƏPƏN",
-    "azturkce": "ÖFKƏLƏNİP"
+    "azturkce": "ÖFKƏLƏNİB"
   },
   {
     "gokturkce": "𐱅𐰔𐰯𐰤",
@@ -2738,7 +2738,7 @@
   {
     "gokturkce": "𐱅𐰃𐰯",
     "latin": "TƏP",
-    "azturkce": "DƏYİP"
+    "azturkce": "DEYİB"
   },
   {
     "gokturkce": "𐰖𐰃𐰞𐰴𐰀",
@@ -2753,7 +2753,7 @@
   {
     "gokturkce": "𐰖𐰃𐰑𐰃𐱃𐰢𐰖𐰃𐰣",
     "latin": "YIDITMAYIN",
-    "azturkce": "QOQUTMAYIN"
+    "azturkce": "QOXUTMAYIN"
   },
   {
     "gokturkce": "𐰖𐰴𐰀",
@@ -2788,7 +2788,7 @@
   {
     "gokturkce": "𐰇𐰤𐰇𐰯𐰤",
     "latin": "ÜNÜPƏN",
-    "azturkce": "YÜKSƏLİP"
+    "azturkce": "YÜKSƏLİB"
   },
   {
     "gokturkce": "𐰢𐰇𐰭𐰼𐰀𐰘𐰇𐰼",
@@ -2967,7 +2967,7 @@
   },
   {
     "gokturkce": "𐰨𐰯",
-    "latin": "ANÇIP",
+    "latin": "ANÇIP (ANCA?)",
     "azturkce": "ANCAQ"
   },
   {
@@ -3018,11 +3018,11 @@
   {
     "gokturkce": "𐰚𐰃𐰲𐰏",
     "latin": "KİÇİG",
-    "azturkce": "KÜÇÜK"
+    "azturkce": "KİÇİK"
   },
   {
     "gokturkce": "𐰓𐰃𐱃𐰺",
-    "latin": "DəNTAR",
+    "latin": "DE(N)TaR ",
     "azturkce": "KeŞİŞ"
   },
   {
@@ -3033,16 +3033,16 @@
   {
     "gokturkce": "𐰍𐰆𐰺𐰆",
     "latin": "ĞURU",
-    "azturkce": "ĞURUYU (ustadı)"
+    "azturkce": "USTADI)"
   },
   {
     "gokturkce": "𐰾𐰓𐰯",
-    "latin": "əSİDİP",
-    "azturkce": "İŞİTİP"
+    "latin": "ESİDİP",
+    "azturkce": "EŞİDİB"
   },
   {
     "gokturkce": "𐰲𐰢𐰔",
-    "latin": "əÇİMİZ",
+    "latin": "ƏÇİMİZ",
     "azturkce": "AĞABəYİMİZ"
   },
   {
@@ -3063,7 +3063,7 @@
   {
     "gokturkce": "𐰇𐰲𐰇𐰤",
     "latin": "ÜÇÜN",
-    "azturkce": "İÇİN"
+    "azturkce": "ÜÇÜN"
   },
   {
     "gokturkce": "𐰋𐰃𐱅𐰃𐰓𐰢",
