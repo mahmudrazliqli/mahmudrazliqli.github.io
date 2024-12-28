@@ -521,18 +521,47 @@
 <div id="float-box"></div>
     
 <script>
+    // Load JSON data
+    let jsonData;
+    fetch('irqbitig.json')
+        .then(response => response.json())
+        .then(data => jsonData = data)
+        .catch(error => console.error('Error fetching JSON:', error));
+
     document.addEventListener('mouseup', function() {
         const selectedText = window.getSelection().toString();
         const floatBox = document.getElementById('float-box');
 
         if (selectedText) {
+
+
+
+            const words = selectedText.replace(/:/g, ' ').split(/\s+/);
+            let latinRow = ' ';
+            let azturkceRow = ' ';
+
+            words.forEach(word => {
+                const result = jsonData.find(item => item.gokturkce === word);
+                if (result) {
+                    latinRow += `${result.latin} `;
+                    azturkceRow += `${result.azturkce} `;
+                }
+            });
+
+
+
+
             const range = window.getSelection().getRangeAt(0);
             const rect = range.getBoundingClientRect();
+
+
+
 
             // Set the position of the floating box
             floatBox.style.left = `${rect.left + window.scrollX}px`;
             floatBox.style.top = `${rect.bottom + window.scrollY}px`;
-            floatBox.innerText = selectedText+'\n'+kokturk2arab(':'+selectedText+':');
+            //floatBox.innerText = selectedText+'\n'+kokturk2arab(':'+selectedText+':');
+            floatBox.innerText =selectedText+'\n'+kokturk2arab(':'+selectedText+':')+'\n'+latinRow+'\n'+azturkceRow;
             floatBox.style.display = 'block'; // Show the floating box
         } else {
             floatBox.style.display = 'none'; // Hide the floating box
@@ -547,5 +576,12 @@
         }
     });
 </script>
+
+
+
+
+<div id="result-box"></div>
+
+
  </body>
 </html>
