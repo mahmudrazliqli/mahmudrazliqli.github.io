@@ -88,7 +88,7 @@
 ... ... ...
 </div>
 <div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
-𐰞𐱃𐰆𐰣: 𐰴𐰣𐱃𐰞𐰍: 𐱃𐰞𐰢: 𐰴𐰺𐰀: 𐰴𐰆𐰽: 𐰢𐰤: 𐱃𐰣𐰢: 𐱅𐰇𐰾𐰃: 𐱃𐰴𐰃: 𐱅𐰇𐰚𐰀: 𐰢𐰔𐰚𐰤: 𐱃𐰞𐰆𐰖𐰑𐰀: 𐰖𐱃𐰯𐰣: 𐱃𐰯𐰞𐰀𐰑𐰆𐰴𐰢𐰃𐰤: 𐱃𐰆𐱃𐰺: 𐰢𐰤: 𐰾𐰋𐰓𐰜𐰢𐰃𐰤: 𐰘𐰃𐰘𐰇𐰼: 𐰢𐰤: 𐰦𐰍: 𐰚𐰇𐰲𐰠𐰇𐰏: 𐰢𐰤: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+𐰞𐱃𐰆𐰣: 𐰴𐰣𐱃𐰞𐰍: 𐱃𐰞𐰢: 𐰴𐰺𐰀: 𐰴𐰆𐰽: 𐰢𐰤: 𐱃𐰣𐰢: 𐱅𐰇𐰾𐰃: 𐱃𐰴𐰃: 𐱅𐰇𐰚𐰀𐰢𐰔𐰚𐰤: 𐱃𐰞𐰆𐰖𐰑𐰀: 𐰖𐱃𐰯𐰣: 𐱃𐰯𐰞𐰀𐰑𐰆𐰴𐰢𐰃𐰤: 𐱃𐰆𐱃𐰺: 𐰢𐰤: 𐰾𐰋𐰓𐰜𐰢𐰃𐰤: 𐰘𐰃𐰘𐰇𐰼: 𐰢𐰤: 𐰦𐰍: 𐰚𐰇𐰲𐰠𐰇𐰏: 𐰢𐰤: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
 </div>
 <br/>
 <div class="irqsayi"> 
@@ -536,7 +536,7 @@
 
 
 
-            const words = selectedText.replace(/:/g, ' ').split(/\s+/);
+           const words = selectedText.replace(/:/g, ' ').replace(/  /g, ' ').split(/ /);
             let latinRow = ' ';
             let azturkceRow = ' ';
 
@@ -545,6 +545,9 @@
                 if (result) {
                     latinRow += `${result.latin} `;
                     azturkceRow += `${result.azturkce} `;
+                }else{
+                    latinRow +=  ' '+word+' ';
+                    azturkceRow += ' '+word+' ';
                 }
             });
 
