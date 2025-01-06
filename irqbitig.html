@@ -45,31 +45,76 @@
             z-index: 1000;
             display: none; /* Initially hidden */
         }
+        .context-menu {
+            border-radius: 8px;
+            display: none;
+            position: absolute;
+            color: #061b5f;
+            background-color:  rgb(229, 232, 235);
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
 
+        .context-menu ul {
+            border-radius: 8px;
+            list-style-type: none;
+            padding: 10px;
+            margin: 0;
+        }
+
+        .context-menu li {
+            border-radius: 8px;
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+
+        .context-menu li:hover {
+            background-color: #abd7ce;
+        }
+
+        #target {
+            height: 100vh;
+        }
     </style>
 </head>
+<body id="target" style=" user-select: none;-webkit-user-select: none; -moz-user-select: none;-ms-user-select: none; " >  
 
-<body  >   
-        <nav class="navbar" dir="rtl">       
-            <a href="."><img style="height: 15px;width:15px;border-width: 0;" src="house.svg"></a>
-            Irq Bitig اؽرق بیتیگ 
-            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-            <ul class="menu">       
-                <li><a href="kokturk2arab.html">تـ➜𐱅</a></li>
-                <li><a href="kokturk-keyboard.html">⌨</a></li>
-            </ul>
-        </nav>
 
-    <header >        
-        <div class="irqsayi" style="background-color: #3060AF;max-width: 600px;">                        
-                <h1 style="font-family: 'irqbitig';text-align: center;">
-                    𐰃𐰺𐰴:𐰋𐰃𐱅𐰃𐰏:
-                    <a href="IrqBitig.pdf" target="_blank" style="text-decoration: none;color: #fff;" >
-                        <img style="height: 15px;width:15px;border-width: 0;" src="download.svg">
-                    </a>   
-                </h1>      
-        </div>
-    </header>
+    <div id="context-menu" class="context-menu">
+        <ul>
+            <li id="option1">تۆرکجه</li>
+            <li id="option2">Türkcə </li>
+            <li id="option3">تۆرکجه + Türkcə</li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+    <nav class="navbar" dir="rtl">       
+        <a href="."><img style="height: 15px;width:15px;border-width: 0;" src="house.svg"></a>
+        Irq Bitig اؽرق بیتیگ 
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul class="menu">       
+            <li><a href="kokturk2arab.html">تـ➜𐱅</a></li>
+            <li><a href="kokturk-keyboard.html">⌨</a></li>
+        </ul>
+    </nav>
+
+<header >        
+    <div class="irqsayi" style="background-color: #3060AF;max-width: 600px;">                        
+            <h1 style="font-family: 'irqbitig';text-align: center;">
+                𐰃𐰺𐰴:𐰋𐰃𐱅𐰃𐰏:
+                <a href="IrqBitig.pdf" target="_blank" style="text-decoration: none;color: #fff;" >
+                    <img style="height: 15px;width:15px;border-width: 0;" src="download.svg">
+                </a>   
+            </h1>      
+    </div>
+</header>
 
 <section class="projects-section" id="text-container">
 <div class="irqsayi"> 
@@ -483,57 +528,206 @@
 </section>
 
 <div class="footer" dir=ltr>
-    <p><a href="."><img style="height: 15px;width:15px;border-width: 0;" src="house.svg"></a>
-        © 2024 Mahmud Razlıqlı. All Rights Reserved</p>
+<p><a href="."><img style="height: 15px;width:15px;border-width: 0;" src="house.svg"></a>
+    © 2024 Mahmud Razlıqlı. All Rights Reserved</p>
 </div>
 <script>
-    function copyToClipboard(id) {
-        const codeBlock = document.getElementById(`codeBlock${id}`);
-        const range = document.createRange();
-        range.selectNodeContents(codeBlock);
-        window.getSelection().removeAllRanges();
-        window.getSelection().addRange(range);
+function copyToClipboard(id) {
+    const codeBlock = document.getElementById(`codeBlock${id}`);
+    const range = document.createRange();
+    range.selectNodeContents(codeBlock);
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
 
-        try {
-            const successful = document.execCommand('copy');
-            if (successful) {
-                const copyBtn = document.getElementById(`copyBtn${id}`);
-                copyBtn.textContent = '! Copied';
-                copyBtn.style.backgroundColor = '#28a745'; // Visual feedback color
-                setTimeout(() => {
-                    copyBtn.textContent = 'Copy';
-                    copyBtn.style.backgroundColor = '#007bff';
-                }, 2000);
-            }
-        } catch (err) {
-            console.error('Failed to copy: ', err);
+    try {
+        const successful = document.execCommand('copy');
+        if (successful) {
+            const copyBtn = document.getElementById(`copyBtn${id}`);
+            copyBtn.textContent = '! Copied';
+            copyBtn.style.backgroundColor = '#28a745'; // Visual feedback color
+            setTimeout(() => {
+                copyBtn.textContent = 'Copy';
+                copyBtn.style.backgroundColor = '#007bff';
+            }, 2000);
         }
-
-        window.getSelection().removeAllRanges();
+    } catch (err) {
+        console.error('Failed to copy: ', err);
     }
 
+    window.getSelection().removeAllRanges();
+}
 
-    function toggleMenu() {
-        const menu = document.querySelector('.menu');
-        menu.classList.toggle('show');
-    }
+
+function toggleMenu() {
+    const menu = document.querySelector('.menu');
+    menu.classList.toggle('show');
+}
 </script>
-<div id="float-box"></div>
-    
+
+
 <script>
-    // Load JSON data
-    let jsonData;
+   
+        // Load JSON data
+        let jsonData;
     fetch('irqbitig.json')
         .then(response => response.json())
         .then(data => jsonData = data)
         .catch(error => console.error('Error fetching JSON:', error));
-/*
+
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const target = document.getElementById('target');
+        const contextMenu = document.getElementById('context-menu');
+        const floatBox = document.getElementById('float-box');
+       
+        // Show the custom context menu
+        target.addEventListener('contextmenu', (event) => {
+            floatBox.style.display = 'none'; // Hide the floating box
+            event.preventDefault(); // Prevent the default context menu
+            contextMenu.style.display = 'block';
+            contextMenu.style.left = `${event.pageX}px`;
+            contextMenu.style.top = `${event.pageY}px`;
+        });
+
+        // Hide the context menu when clicking elsewhere
+        document.addEventListener('click', () => {
+            contextMenu.style.display = 'none';
+        });
+
+        // Add functionality to menu options
+        document.getElementById('option1').addEventListener('click', () => {
+          //  alert('Option 1 selected');
+            contextMenu.style.display = 'none';
+
+            const selectedText = window.getSelection().toString();
+            const floatBox = document.getElementById('float-box');
+            if (selectedText) {
+                const words = selectedText.replace(/:/g, ' ').replace(/  /g, ' ').split(/ /);
+                let latinRow = ' ';
+                let azturkceRow = ' ';
+                let arabiRow = ' ';
+                words.forEach(word => {
+                const result = jsonData.find(item => item.gokturkce === word);
+                if (result) {
+                    latinRow += `${result.latin} `;
+                    azturkceRow += `${result.azturkce} `;
+                    arabiRow += `${result.arabi} `;
+                }else{
+                    latinRow +=  ' (---) ';
+                    azturkceRow += ' (---) ';
+                    arabiRow +=' ('+ kokturk2arab(':'+word+':')+') ';
+                }
+                });
+                const range = window.getSelection().getRangeAt(0);
+                const rect = range.getBoundingClientRect();
+                // Set the position of the floating box
+                floatBox.style.left = `${rect.left + window.scrollX}px`;
+                floatBox.style.top = `${rect.bottom + window.scrollY}px`;
+                //floatBox.innerText = selectedText+'\n'+kokturk2arab(':'+selectedText+':');
+                floatBox.innerText =selectedText+'\n'+
+                kokturk2arab(':'+selectedText+':')+'\n'+
+                arabiRow+'\n';
+                floatBox.style.display = 'block'; // Show the floating box
+            } else {
+                floatBox.style.display = 'none'; // Hide the floating box
+            }
+
+        });
+
+        document.getElementById('option2').addEventListener('click', () => {
+           // alert('Option 2 selected');
+            contextMenu.style.display = 'none';
+
+
+
+            const selectedText = window.getSelection().toString();
+            const floatBox = document.getElementById('float-box');
+            if (selectedText) {
+                const words = selectedText.replace(/:/g, ' ').replace(/  /g, ' ').split(/ /);
+                let latinRow = ' ';
+                let azturkceRow = ' ';
+                let arabiRow = ' ';
+                words.forEach(word => {
+                const result = jsonData.find(item => item.gokturkce === word);
+                if (result) {
+                    latinRow += `${result.latin} `;
+                    azturkceRow += `${result.azturkce} `;
+
+                }else{
+                    latinRow +=  ' (---) ';
+                    azturkceRow += ' (---) ';
+
+                }
+                });
+                const range = window.getSelection().getRangeAt(0);
+                const rect = range.getBoundingClientRect();
+                // Set the position of the floating box
+                floatBox.style.left = `${rect.left + window.scrollX}px`;
+                floatBox.style.top = `${rect.bottom + window.scrollY}px`;
+                //floatBox.innerText = selectedText+'\n'+kokturk2arab(':'+selectedText+':');
+                floatBox.innerText =selectedText+'\n'+
+                latinRow+'\n\n'+
+                azturkceRow;
+                floatBox.style.display = 'block'; // Show the floating box
+            } else {
+                floatBox.style.display = 'none'; // Hide the floating box
+            }
+
+
+
+
+        });
+
+        document.getElementById('option3').addEventListener('click', () => {
+            //alert('Option 3 selected');
+            contextMenu.style.display = 'none';
+
+            const selectedText = window.getSelection().toString();
+            const floatBox = document.getElementById('float-box');
+            if (selectedText) {
+                const words = selectedText.replace(/:/g, ' ').replace(/  /g, ' ').split(/ /);
+                let latinRow = ' ';
+                let azturkceRow = ' ';
+                let arabiRow = ' ';
+                words.forEach(word => {
+                const result = jsonData.find(item => item.gokturkce === word);
+                if (result) {
+                    latinRow += `${result.latin} `;
+                    azturkceRow += `${result.azturkce} `;
+                    arabiRow += `${result.arabi} `;
+                }else{
+                    latinRow +=  ' (---) ';
+                    azturkceRow += ' (---) ';
+                    arabiRow +=' ('+ kokturk2arab(':'+word+':')+') ';
+                }
+                });
+                const range = window.getSelection().getRangeAt(0);
+                const rect = range.getBoundingClientRect();
+                // Set the position of the floating box
+                floatBox.style.left = `${rect.left + window.scrollX}px`;
+                floatBox.style.top = `${rect.bottom + window.scrollY}px`;
+                //floatBox.innerText = selectedText+'\n'+kokturk2arab(':'+selectedText+':');
+                floatBox.innerText =selectedText+'\n'+
+                kokturk2arab(':'+selectedText+':')+'\n'+
+                arabiRow+'\n'+
+                latinRow+'\n\n'+
+                azturkceRow;
+                floatBox.style.display = 'block'; // Show the floating box
+            } else {
+                floatBox.style.display = 'none'; // Hide the floating box
+            }
+
+        });
+    });
+
+
+    /*
     document.addEventListener('mouseup', function() {
         const selectedText = window.getSelection().toString();
         const floatBox = document.getElementById('float-box');
 
         if (selectedText) {
-           const words = selectedText.replace(/:/g, ' ').replace(/  /g, ' ').split(/ /);
+        const words = selectedText.replace(/:/g, ' ').replace(/  /g, ' ').split(/ /);
             let latinRow = ' ';
             let azturkceRow = ' ';
             let arabiRow = ' ';
@@ -558,7 +752,7 @@
             floatBox.style.top = `${rect.bottom + window.scrollY}px`;
             //floatBox.innerText = selectedText+'\n'+kokturk2arab(':'+selectedText+':');
             floatBox.innerText =selectedText+'\n'+
-           // kokturk2arab(':'+selectedText+':')+'\n\n'+
+        // kokturk2arab(':'+selectedText+':')+'\n\n'+
             arabiRow+'\n'+
             latinRow+'\n\n'+
             azturkceRow;
@@ -568,25 +762,31 @@
         }
     });
 
-*/
-    document.addEventListener('selectionchange', function() {
+   
+    document.addEventListener('selectionchange',  function() {
+    
         const selectedText = window.getSelection().toString();
         const floatBox = document.getElementById('float-box');
         if (selectedText) {
-           const words = selectedText.replace(/:/g, ' ').replace(/  /g, ' ').split(/ /);
+
+
+        const words = selectedText.replace(/:/g, ' ').replace(/  /g, ' ').split(/ /);
             let latinRow = ' ';
             let azturkceRow = ' ';
             let arabiRow = ' ';
             words.forEach(word => {
+                
+
                 const result = jsonData.find(item => item.gokturkce === word);
                 if (result) {
                     latinRow += `${result.latin} `;
                     azturkceRow += `${result.azturkce} `;
                     arabiRow += `${result.arabi} `;
                 }else{
-                    latinRow +=  ' '+word+' ';
-                    azturkceRow += ' '+word+' ';
-                    arabiRow +=' '+word+'='+kokturk2arab(':'+selectedText+':')+' ';
+
+                        latinRow +=  ' (---) ';
+                        azturkceRow += ' (---) ';
+                        arabiRow +=' ('+ kokturk2arab(':'+word+':')+') ';
                 }
             });
 
@@ -598,7 +798,7 @@
             floatBox.style.top = `${rect.bottom + window.scrollY}px`;
             //floatBox.innerText = selectedText+'\n'+kokturk2arab(':'+selectedText+':');
             floatBox.innerText =selectedText+'\n'+
-           // kokturk2arab(':'+selectedText+':')+'\n\n'+
+            kokturk2arab(':'+selectedText+':')+'\n'+
             arabiRow+'\n'+
             latinRow+'\n\n'+
             azturkceRow;
@@ -607,7 +807,7 @@
             floatBox.style.display = 'none'; // Hide the floating box
         }
     });
-
+ */
     // Hide the floating box when clicking outside
     document.addEventListener('click', function(event) {
         const floatBox = document.getElementById('float-box');
@@ -618,10 +818,9 @@
 </script>
 
 
-
+<div id="float-box"></div>
 
 <div id="result-box"></div>
 
-
- </body>
+</body>
 </html>
