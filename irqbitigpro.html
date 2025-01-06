@@ -46,28 +46,31 @@
             display: none; /* Initially hidden */
         }
         .context-menu {
+            border-radius: 8px;
             display: none;
             position: absolute;
-            color: #f0f0f0;
-            background-color:  rgb(17, 77, 142);
+            color: #061b5f;
+            background-color:  rgb(229, 232, 235);
             border: 1px solid #ccc;
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
             z-index: 1000;
         }
 
         .context-menu ul {
+            border-radius: 8px;
             list-style-type: none;
             padding: 10px;
             margin: 0;
         }
 
         .context-menu li {
+            border-radius: 8px;
             padding: 8px 12px;
             cursor: pointer;
         }
 
         .context-menu li:hover {
-            background-color: #1562af;
+            background-color: #abd7ce;
         }
 
         #target {
@@ -81,8 +84,8 @@
     <div id="context-menu" class="context-menu">
         <ul>
             <li id="option1">تۆرکجه</li>
-            <li id="option2">Option 2</li>
-            <li id="option3">Option 3</li>
+            <li id="option2">Türkcə </li>
+            <li id="option3">تۆرکجه + Türkcə</li>
         </ul>
     </div>
 
@@ -634,6 +637,45 @@ function toggleMenu() {
         document.getElementById('option2').addEventListener('click', () => {
             alert('Option 2 selected');
             contextMenu.style.display = 'none';
+
+
+
+            const selectedText = window.getSelection().toString();
+            const floatBox = document.getElementById('float-box');
+            if (selectedText) {
+                const words = selectedText.replace(/:/g, ' ').replace(/  /g, ' ').split(/ /);
+                let latinRow = ' ';
+                let azturkceRow = ' ';
+                let arabiRow = ' ';
+                words.forEach(word => {
+                const result = jsonData.find(item => item.gokturkce === word);
+                if (result) {
+                    latinRow += `${result.latin} `;
+                    azturkceRow += `${result.azturkce} `;
+
+                }else{
+                    latinRow +=  ' (---) ';
+                    azturkceRow += ' (---) ';
+
+                }
+                });
+                const range = window.getSelection().getRangeAt(0);
+                const rect = range.getBoundingClientRect();
+                // Set the position of the floating box
+                floatBox.style.left = `${rect.left + window.scrollX}px`;
+                floatBox.style.top = `${rect.bottom + window.scrollY}px`;
+                //floatBox.innerText = selectedText+'\n'+kokturk2arab(':'+selectedText+':');
+                floatBox.innerText =selectedText+'\n'+
+                latinRow+'\n\n'+
+                azturkceRow;
+                floatBox.style.display = 'block'; // Show the floating box
+            } else {
+                floatBox.style.display = 'none'; // Hide the floating box
+            }
+
+
+
+
         });
 
         document.getElementById('option3').addEventListener('click', () => {
