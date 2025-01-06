@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="tr" dir= rtl>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="icon.ico">
+    <title>تۆرکجه ➜ 𐱅𐰇𐰼𐰚𐰲𐰀 </title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="arabfonts.css" />
+    <script src="latin2arab.js"></script> 
+</head>
+
+<body  >
+    <nav class="navbar">          
+        <a href="."><img style="height: 15px;width:15px;border-width: 0;" src="house.svg"></a>            
+        لاتین یازیلاری عرب الفباسینا چئورین
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul class="menu">           
+            <li><a href="kokturk-keyboard.html">⌨</a></li>
+            <li><a href="irqbitig.html">📖</a></li>
+        </ul>
+    </nav>
+
+    <section class="projects-section">
+        <div class="code-box" >              
+            <div class="code-box" >
+
+               
+               <button class="mybtn" style="font-family: 'vazirmatn'; font-size: 0.8rem;"
+                onclick="document.getElementById('latinInput');document.getElementById('latinInput').value ='TƏNSİ MƏN YARIN KEÇƏ ALTUN ÖRGİN ÜZƏ OLURUPAN MƏÑİLƏYÜR MƏN ANÇA BİLİÑLƏR ƏDGÜ OL'"
+                > مثال</button> 
+
+
+
+
+                 <button class="mybtn" 
+                 style=" font-family: 'vazirmatn'; font-size: 0.8rem;"
+                  onclick="document.getElementById('latinInput').value=' ';"
+                  >⠀🧹⠀ </button> 
+                
+                <button button class="mybtn" 
+                 style=" font-family: 'vazirmatn'; font-size: 0.8rem;" id="pasteButton">Paste</button>
+                <br>
+                <textarea  class="code-box" id="latinInput"  rows="5"  style="font-family: 'segoe-ui-symbol',vazirmatn; " 
+                placeholder="لاتین تۆرکجه یازینی بورا یازؽن" 
+                ></textarea> 
+    <br/> 
+
+            <button class="mybtn" style="font-family: 'vazirmatn'; font-size: 1.0rem;
+            display: block;margin-left: auto;margin-right: auto;"
+             onclick="document.getElementById('codeBlock2').textContent =latin2arab(document.getElementById('latinInput').value) ;"
+             > تۆرکجه ➜ Türkcə  </button> 
+
+
+                <button class="mybtn"  id="copyBtn2" class="mybtn" style="font-size: 0.8rem;"
+                onclick="copyToClipboard(2)">Copy</button>
+                <br>
+                <textarea  class="code-box"  id="codeBlock2" rows="5"  style="font-size:15px;font-family: 'vazirmatn';"></textarea>
+            </div>
+        </div>
+
+            <div class="code-box"   style="font-size:15px;font-family: 'vazirmatn';align-items: right;white-space: pre-wrap;"> 
+            
+            </div>
+        
+        <br><br>
+
+
+        <!--
+        <div>
+            <button class="copy-btn" id="copyBtn1" onclick="copyToClipboard(1)">Copy</button>
+            <p id="codeBlock1" > </p>
+        </div>
+        -->  
+    </section>
+
+    <div class="footer" dir=ltr>
+        <p><a href="."><img style="height: 15px;width:15px;border-width: 0;" src="house.svg"></a>
+            © 2024 Mahmud Razlıqlı. All Rights Reserved</p>
+    </div>
+
+
+
+<script>
+    function copyToClipboard(id) {
+        const codeBlock = document.getElementById(`codeBlock${id}`);
+        const range = document.createRange();
+        range.selectNodeContents(codeBlock);
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(range);
+
+        try {
+            const successful = document.execCommand('copy');
+            if (successful) {
+                const copyBtn = document.getElementById(`copyBtn${id}`);
+                copyBtn.textContent = '! Copied';
+                copyBtn.style.backgroundColor = '#28a745'; // Visual feedback color
+                setTimeout(() => {
+                    copyBtn.textContent = 'Copy';
+                    copyBtn.style.backgroundColor = '#007bff';
+                }, 2000);
+            }
+        } catch (err) {
+            console.error('Failed to copy: ', err);
+        }
+
+        window.getSelection().removeAllRanges();
+    }
+
+
+    function toggleMenu() {
+        const menu = document.querySelector('.menu');
+        menu.classList.toggle('show');
+    }
+</script>
+
+    <script>
+        document.getElementById('pasteButton').addEventListener('click', async () => {
+            try {
+                // Read the clipboard content
+                const text = await navigator.clipboard.readText();
+                // Paste it directly into the textarea
+                document.getElementById('latinInput').value = text;
+            } catch (err) {
+                alert('Failed to paste content. Make sure clipboard access is allowed: ' + err);
+            }
+        });
+    </script>
+</body>
+</html>

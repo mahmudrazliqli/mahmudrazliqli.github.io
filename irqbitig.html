@@ -34,7 +34,7 @@
         }
 
         #float-box {
-            max-width: 45%;
+            max-width: 25%;
             position: absolute;
             background-color: rgb(17, 77, 142);
             color: #f0f0f0;
@@ -195,7 +195,7 @@
 <br/><div class="irqsayi"> 
 
 .. .. ...</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
-𐱅𐰃𐱅𐰃𐰼: 𐰉𐰆𐰍𐰺𐰀: 𐰢𐰤: 𐰇𐰼𐰇𐰭: 𐰚𐰇𐰯𐰇𐰚𐰇𐰢𐰃𐰤: 𐰽𐰲𐰺: 𐰢𐰤: 𐰇𐰔𐰀: 𐱅𐰭𐰼𐰃𐰚𐰀: 𐱅𐰏𐰃𐰼: 𐰽𐰺𐰀: 𐰘𐰃𐰼𐰚𐰀: 𐰚𐰃𐰼𐰇𐰼: 𐱅𐰃𐰼: 𐰆𐰑𐰃𐰍𐰢𐰍: 𐰆𐰑𐰍𐰆𐰺𐰆: 𐰖𐱃𐰍𐰞𐰃𐰍: 𐱃𐰆𐰺𐰍𐰺𐰆: 𐰖𐰆𐰺𐰃𐰖𐰆𐰺: 𐰢𐰤: 𐰦𐰍: 𐰚𐰇𐰲𐰠𐰇𐰏: 𐰢𐰤: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+𐱅𐰃𐱅𐰃𐰼: 𐰉𐰆𐰍𐰺𐰀: 𐰢𐰤: 𐰇𐰼𐰇𐰭: 𐰚𐰇𐰯𐰇𐰚𐰇𐰢𐰃𐰤: 𐰽𐰲𐰺: 𐰢𐰤: 𐰇𐰔𐰀: 𐱅𐰭𐰼𐰃𐰚𐰀: 𐱅𐰏𐰃𐰼: 𐰽𐰺𐰀: 𐰘𐰃𐰼𐰚𐰀: 𐰚𐰃𐰼𐰇𐰼: 𐱅𐰃𐰼: 𐰆𐰑𐰃𐰍𐰢𐰍: 𐰆𐰑𐰍𐰆𐰺: 𐰖𐱃𐰍𐰞𐰃𐰍: 𐱃𐰆𐰺𐰍𐰺𐰆: 𐰖𐰆𐰺𐰃𐰖𐰆𐰺: 𐰢𐰤: 𐰦𐰍: 𐰚𐰇𐰲𐰠𐰇𐰏: 𐰢𐰤: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
 
 </div>
 <br/><div class="irqsayi"> 
@@ -539,15 +539,17 @@
            const words = selectedText.replace(/:/g, ' ').replace(/  /g, ' ').split(/ /);
             let latinRow = ' ';
             let azturkceRow = ' ';
-
+            let arabiRow = ' ';
             words.forEach(word => {
                 const result = jsonData.find(item => item.gokturkce === word);
                 if (result) {
                     latinRow += `${result.latin} `;
                     azturkceRow += `${result.azturkce} `;
+                    arabiRow += `${result.arabi} `;
                 }else{
                     latinRow +=  ' '+word+' ';
                     azturkceRow += ' '+word+' ';
+                    arabiRow +=' '+word+' ';
                 }
             });
 
@@ -564,7 +566,11 @@
             floatBox.style.left = `${rect.left + window.scrollX}px`;
             floatBox.style.top = `${rect.bottom + window.scrollY}px`;
             //floatBox.innerText = selectedText+'\n'+kokturk2arab(':'+selectedText+':');
-            floatBox.innerText =selectedText+'\n'+kokturk2arab(':'+selectedText+':')+'\n\n'+latinRow+'\n\n'+azturkceRow;
+            floatBox.innerText =selectedText+'\n'+
+           // kokturk2arab(':'+selectedText+':')+'\n\n'+
+            arabiRow+'\n'+
+            latinRow+'\n\n'+
+            azturkceRow;
             floatBox.style.display = 'block'; // Show the floating box
         } else {
             floatBox.style.display = 'none'; // Hide the floating box

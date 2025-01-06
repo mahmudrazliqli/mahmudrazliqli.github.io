@@ -2,3082 +2,3698 @@
   {
     "gokturkce": " ",
     "latin": " ",
-    "azturkce": " "
+    "azturkce": " ",
+    "arabi": "   "
   },
   {
     "gokturkce": "𐰀𐰔𐱃𐰃",
     "latin": "AZTI",
-    "azturkce": "AZMIŞ"
+    "azturkce": "AZMIŞ",
+    "arabi": " آزتؽ "
   },
   {
     "gokturkce": "𐰀𐰞𐰀",
     "latin": "ALA",
-    "azturkce": "ALA"
+    "azturkce": "ALA",
+    "arabi": " آلا "
   },
   {
     "gokturkce": "𐰀𐰴",
     "latin": "AQ",
-    "azturkce": "AQ"
+    "azturkce": "AQ",
+    "arabi": " آق "
   },
   {
     "gokturkce": "𐰀𐰺𐰀",
     "latin": "ARA",
-    "azturkce": "ARASINDA"
+    "azturkce": "ARASINDA",
+    "arabi": " آرا "
   },
   {
     "gokturkce": "𐰀𐰺𐱃",
     "latin": "ART",
-    "azturkce": "KEÇİT"
+    "azturkce": "KEÇİT",
+    "arabi": " آرت "
   },
   {
     "gokturkce": "𐰀𐱃𐰣𐰢𐰃𐰾",
     "latin": "ATANMIS",
-    "azturkce": "ÜNLƏNMİŞ"
+    "azturkce": "ÜNLƏNMİŞ",
+    "arabi": " آتانمؽس "
   },
   {
     "gokturkce": "𐰃𐰍𐰲",
     "latin": "IĞAÇ",
-    "azturkce": "AĞACI"
+    "azturkce": "AĞACI",
+    "arabi": " اؽغاچ "
   },
   {
     "gokturkce": "𐰃𐰍𐰲𐰴𐰀",
     "latin": "IĞAÇQA",
-    "azturkce": "AĞACA"
+    "azturkce": "AĞACA",
+    "arabi": " اؽغاچقا "
   },
   {
     "gokturkce": "𐰃𐰑𐰢𐰃𐰾",
     "latin": "IDMIS",
-    "azturkce": "BAŞLAMIŞ"
+    "azturkce": "BAŞLAMIŞ",
+    "arabi": " اؽدمؽس "
   },
   {
     "gokturkce": "𐰃𐰑𐰸𐰞𐰆𐰴",
     "latin": "IDUQLUQ",
-    "azturkce": "YARAR"
+    "azturkce": "YARAR",
+    "arabi": " اؽدوقلوق "
   },
   {
     "gokturkce": "𐰃𐰓𐰃𐰾𐰃",
     "latin": "İDİSİ",
-    "azturkce": "YİYƏSİ"
+    "azturkce": "YİYƏSİ",
+    "arabi": " ایدیسی "
   },
   {
     "gokturkce": "𐰃𐰓𐰃𐰾𐰃𐰤",
     "latin": "İDİSİN",
-    "azturkce": "QABINI-"
+    "azturkce": "QABINI-",
+    "arabi": " ایدیسین "
   },
   {
     "gokturkce": "𐰃𐰓𐰃𐰾𐰢𐱅𐰀",
     "latin": "İDİSİMTƏ",
-    "azturkce": "QABIMDAN-"
+    "azturkce": "QABIMDAN-",
+    "arabi": " ایدیسیمته "
   },
   {
     "gokturkce": "𐰃𐰠𐰃𐰤𐰢𐰃𐰾",
     "latin": "İLİNMİS",
-    "azturkce": "İLİŞMİŞ"
+    "azturkce": "İLİŞMİŞ",
+    "arabi": " ایلینمیس "
   },
   {
     "gokturkce": "𐰃𐰠𐰃",
     "latin": "İLİ",
-    "azturkce": "ELİ"
+    "azturkce": "ELİ",
+    "arabi": " ایلی "
   },
   {
     "gokturkce": "𐰃𐰠𐰃𐰏",
     "latin": "ELİG",
-    "azturkce": "ELİ"
+    "azturkce": "ELİ",
+    "arabi": " ائلیگ "
   },
   {
     "gokturkce": "𐰃𐰤𐰏𐰚",
     "latin": "İNGƏK",
-    "azturkce": "İNƏK"
+    "azturkce": "İNƏK",
+    "arabi": " اینگَک "
   },
   {
     "gokturkce": "𐰃𐰤𐰏𐰤𐰃",
     "latin": "İNGƏNİ",
-    "azturkce": "DƏVƏSİ"
+    "azturkce": "DƏVƏSİ",
+    "arabi": " اینگَنی "
   },
   {
     "gokturkce": "𐰃𐰤𐱅𐰃𐰤",
     "latin": "İNTİN",
-    "azturkce": "İNDƏN"
+    "azturkce": "İNDƏN",
+    "arabi": " اینتین "
   },
   {
     "gokturkce": "𐰃𐰲𐰃",
     "latin": "İÇİ",
-    "azturkce": "İÇİ"
+    "azturkce": "İÇİ",
+    "arabi": " ایچی "
   },
   {
     "gokturkce": "𐰃𐰲𐰃𐰯𐰤",
     "latin": "İÇİPƏN",
-    "azturkce": "İÇİB"
+    "azturkce": "İÇİB",
+    "arabi": " ایچیپَن "
   },
   {
     "gokturkce": "𐰃𐰲𐰍𐰣𐰢𐰃𐰾",
     "latin": "IÇĞINMIS",
-    "azturkce": "DÜŞÜRMÜŞ"
+    "azturkce": "DÜŞÜRMÜŞ",
+    "arabi": " اؽچغؽنمؽس "
   },
   {
     "gokturkce": "𐰃𐰲𐰼𐰀",
     "latin": "İÇRƏ",
-    "azturkce": "İÇİNƏ"
+    "azturkce": "İÇİNƏ",
+    "arabi": " ایچره "
   },
   {
     "gokturkce": "𐰃𐰺𐰴",
     "latin": "IRQ",
-    "azturkce": "FALIN"
+    "azturkce": "FALIN",
+    "arabi": " اؽرق "
   },
   {
     "gokturkce": "𐰃𐰼𐰚𐰚",
     "latin": "ƏRKƏK",
-    "azturkce": "ƏRKƏK"
+    "azturkce": "ƏRKƏK",
+    "arabi": " ارکَک "
   },
   {
     "gokturkce": "𐰃𐰾𐰃𐰏",
     "latin": "İSİG",
-    "azturkce": "SEVGİLİ"
+    "azturkce": "SEVGİLİ",
+    "arabi": " ایسیگ "
   },
   {
     "gokturkce": "𐰃𐱅𐰀𐰲𐰸",
     "latin": "İTAÇUQ",
-    "azturkce": "İTAÇUQ"
+    "azturkce": "İTAÇUQ",
+    "arabi": " ایتاچوق "
   },
   {
     "gokturkce": "𐰃𐱅𐰢𐰃𐰾",
     "latin": "ETMİS",
-    "azturkce": "[YAXŞI] ETMİŞ"
-  },
-  {
-    "gokturkce": "𐰆t",
-    "latin": "OT",
-    "azturkce": "OT"
-  },
-  {
-    "gokturkce": "𐰆t𐰽𐰆𐰔",
-    "latin": "OTSUZ",
-    "azturkce": "OTSUZ"
+    "azturkce": "[YAXŞI] ETMİŞ",
+    "arabi": " ائتمیس "
   },
   {
     "gokturkce": "𐰆𐰆",
     "latin": "OL",
-    "azturkce": "O"
+    "azturkce": "O",
+    "arabi": " اول "
   },
   {
     "gokturkce": "𐰆𐰍𐰃",
     "latin": "OĞLI",
-    "azturkce": "OĞLU (yavrusu)"
+    "azturkce": "OĞLU (yavrusu)",
+    "arabi": " اوغلؽ "
   },
   {
     "gokturkce": "𐰆𐰍𐰞𐰃",
     "latin": "OĞLI",
-    "azturkce": "OĞLU"
+    "azturkce": "OĞLU",
+    "arabi": " اوغلؽ "
   },
   {
     "gokturkce": "𐰆𐰍𐰞𐰃𐰣",
     "latin": "OĞLIN",
-    "azturkce": "OĞLUNA"
+    "azturkce": "OĞLUNA",
+    "arabi": " اوغلؽن "
   },
   {
     "gokturkce": "𐰆𐰍𐰞𐰣",
     "latin": "OĞLAN",
-    "azturkce": "OĞLAN"
+    "azturkce": "OĞLAN",
+    "arabi": " اوغلان "
   },
   {
     "gokturkce": "𐰆𐰍𐰞𐰣𐰃𐰣",
     "latin": "OĞLANIN",
-    "azturkce": "OĞLUNU"
+    "azturkce": "OĞLUNU",
+    "arabi": " اوغلانؽن "
   },
   {
     "gokturkce": "𐰆𐰍𐰞𐰣𐰢",
     "latin": "OĞLANIM",
-    "azturkce": "OĞLUM"
+    "azturkce": "OĞLUM",
+    "arabi": " اوغلانؽم "
   },
   {
     "gokturkce": "𐰆𐰍𐰺𐰃",
     "latin": "OĞRI",
-    "azturkce": "OĞURU"
+    "azturkce": "OĞURU",
+    "arabi": " اوغرؽ "
   },
   {
     "gokturkce": "𐰆𐰑𐰃𐰍𐰢𐰍",
     "latin": "UDIĞMAĞ",
-    "azturkce": "UYUYANI"
+    "azturkce": "UYUYANI",
+    "arabi": " اودؽغماغ "
   },
   {
     "gokturkce": "𐰆𐰑𐰆",
     "latin": "UDU",
-    "azturkce": "UYUYAN"
+    "azturkce": "UYUYAN",
+    "arabi": " اودو "
   },
   {
     "gokturkce": "𐰆𐰑𐰍𐰆𐰺",
     "latin": "ODĞURU",
-    "azturkce": "UYANDIRA-UYANDIRA"
+    "azturkce": "UYANDIRA-UYANDIRA",
+    "arabi": " اودغورو "
   },
   {
     "gokturkce": "𐰆𐰔𐰆𐰣",
     "latin": "UZUN",
-    "azturkce": "[ÖMRÜN] UZUN"
+    "azturkce": "[ÖMRÜN] UZUN",
+    "arabi": " اوزون "
   },
   {
     "gokturkce": "𐰆𐰔𐰆𐰣𐱃𐰆𐰣𐰞𐰆𐰍",
     "latin": "UZUNTONLUĞ",
-    "azturkce": "UZUNDONLU (qadın)"
+    "azturkce": "UZUNDONLU (qadın)",
+    "arabi": " اوزونتونلوغ "
   },
   {
     "gokturkce": "𐰆𐰔𐰆𐰯𐰣",
     "latin": "OZUPAN",
-    "azturkce": "QURTULUB"
+    "azturkce": "QURTULUB",
+    "arabi": " اوزوپان "
   },
   {
     "gokturkce": "𐰆𐰔𐰢𐰃𐰾",
     "latin": "OZMIS",
-    "azturkce": "OZMUŞ (qurtulmuş)"
+    "azturkce": "OZMUŞ (qurtulmuş)",
+    "arabi": " اوزمؽس "
   },
   {
     "gokturkce": "𐰆𐰖𐰀𐰽𐰃𐰭𐰺𐰆",
     "latin": "UYASIÑARU",
-    "azturkce": "YUVASINA"
+    "azturkce": "YUVASINA",
+    "arabi": " اویاسؽڭارو "
   },
   {
     "gokturkce": "𐰆𐰖𐰃𐰣",
     "latin": "UYIN",
-    "azturkce": "NƏCƏK"
+    "azturkce": "NƏCƏK",
+    "arabi": " اویؽن "
   },
   {
     "gokturkce": "𐰆𐰖𐰆𐰺𐰃",
     "latin": "UYURI",
-    "azturkce": "BAŞARILISI"
+    "azturkce": "BAŞARILISI",
+    "arabi": " اویورؽ "
   },
   {
     "gokturkce": "𐰆𐰖𐰍𐰀𐰞𐰃",
     "latin": "OYĞALI",
-    "azturkce": "OYMAYA"
+    "azturkce": "OYMAYA",
+    "arabi": " اویغالؽ "
   },
   {
     "gokturkce": "𐰆𐰖𐰢𐰀",
     "latin": "OYMA",
-    "azturkce": "OYMA[CI]"
+    "azturkce": "OYMA[CI]",
+    "arabi": " اویما "
   },
   {
     "gokturkce": "𐰆𐰞",
     "latin": "OL",
-    "azturkce": "O"
+    "azturkce": "O",
+    "arabi": " اول "
   },
   {
     "gokturkce": "𐰆𐰞𐰀𐰖𐰆𐰺",
     "latin": "ULAYUR",
-    "azturkce": "ÇATDIRIRAM"
+    "azturkce": "ÇATDIRIRAM",
+    "arabi": " اولایور "
   },
   {
     "gokturkce": "𐰆𐰞𐰆𐰍",
     "latin": "ULUĞ",
-    "azturkce": "ULU"
+    "azturkce": "ULU",
+    "arabi": " اولوغ "
   },
   {
     "gokturkce": "𐰆𐰞𐰆𐰺𐰆𐰯𐰣",
     "latin": "OLURUPAN",
-    "azturkce": "OTURUB"
+    "azturkce": "OTURUB",
+    "arabi": " اولوروپان "
   },
   {
     "gokturkce": "𐰆𐰞𐰆𐰺𐰆𐰰𐰣",
     "latin": "OLURUPAN",
-    "azturkce": "OTURUB"
+    "azturkce": "OTURUB",
+    "arabi": " اولوروپان "
   },
-
   {
     "gokturkce": "𐰆𐰞𐰆𐰺𐰰𐰣",
     "latin": "OLURUPAN",
-    "azturkce": "OTURUB"
+    "azturkce": "OTURUB",
+    "arabi": " اولوروپان "
   },
   {
     "gokturkce": "𐰆𐰞𐰆𐰺𐰆𐰺",
     "latin": "OLURUR",
-    "azturkce": "DURUR"
+    "azturkce": "DURUR",
+    "arabi": " اولورور "
   },
   {
     "gokturkce": "𐰆𐰢𐰀𐱃𐰃𐰣",
     "latin": "UMATIN",
-    "azturkce": "-MADAN"
+    "azturkce": "-MADAN",
+    "arabi": " اوماتؽن "
   },
   {
     "gokturkce": "𐰆𐰢𐰔",
     "latin": "UMAZ",
-    "azturkce": "YAXŞILƏŞMƏZ"
+    "azturkce": "YAXŞILƏŞMƏZ",
+    "arabi": " اوماز "
   },
   {
     "gokturkce": "𐰆𐰣𐰀𐰢𐰑𐰸",
     "latin": "ONAMADUQ",
-    "azturkce": "ONAMADIĞI"
+    "azturkce": "ONAMADIĞI",
+    "arabi": " اونامادوق "
   },
   {
     "gokturkce": "𐰆𐰭𐰆𐰆𐰯",
     "latin": "OÑUP",
-    "azturkce": "DONUB"
+    "azturkce": "DONUB",
+    "arabi": " اوڭوپ "
   },
   {
     "gokturkce": "𐰆𐰲𐰀",
     "latin": "UÇA",
-    "azturkce": "UÇA [raq]"
+    "azturkce": "UÇA [raq]",
+    "arabi": " اوچا "
   },
   {
     "gokturkce": "𐰆𐰲𐰺𐰆𐰍𐰞𐰆𐰍",
     "latin": "UÇRUĞLUĞ",
-    "azturkce": "UÇURUQLUQ"
+    "azturkce": "UÇURUQLUQ",
+    "arabi": " اوچروغلوغ "
   },
   {
     "gokturkce": "𐰆𐰺",
     "latin": "UR",
-    "azturkce": "VUR"
+    "azturkce": "VUR",
+    "arabi": " اور "
   },
   {
     "gokturkce": "𐰆𐰺𐰃",
     "latin": "ORI",
-    "azturkce": "GƏNÇ"
+    "azturkce": "GƏNÇ",
+    "arabi": " اورؽ "
   },
   {
     "gokturkce": "𐰆𐰺𐰃𐰞𐰣𐰢𐰃𐰾",
     "latin": "URILANMIS",
-    "azturkce": "OĞULLAMIŞ (doğurmuş)"
+    "azturkce": "OĞULLAMIŞ (doğurmuş)",
+    "arabi": " اورؽلانمؽس "
   },
   {
     "gokturkce": "𐰆𐰺𐰆𐰆𐰯𐰣",
     "latin": "URUPAN",
-    "azturkce": "VURUP (çizip)"
+    "azturkce": "VURUP (çizip)",
+    "arabi": " اوروپان "
   },
   {
     "gokturkce": "𐰆𐰺𐰆𐰯𐰣",
     "latin": "URUPAN",
-    "azturkce": "VURUP (qapayıp)"
+    "azturkce": "VURUP (qapayıp)",
+    "arabi": " اوروپان "
   },
   {
     "gokturkce": "𐰆𐰺𐰆𐰯𐰣𐰃𐰣",
     "latin": "URUPANIN",
-    "azturkce": "VURUP (bindirip)"
+    "azturkce": "VURUP (bindirip)",
+    "arabi": " اوروپانؽن "
   },
   {
     "gokturkce": "𐰆𐰺𐰑𐰆",
     "latin": "ORDU",
-    "azturkce": "ORDU"
+    "azturkce": "ORDU",
+    "arabi": " اوردو "
   },
   {
     "gokturkce": "𐰆𐰺𐰑𐰆𐰽𐰃𐰭𐰺𐰆",
     "latin": "ORDUSIÑARU",
-    "azturkce": "ORDUSUNA (sarayına)"
+    "azturkce": "ORDUSUNA (sarayına)",
+    "arabi": " اوردوسؽڭارو "
   },
   {
     "gokturkce": "𐰆𐰺𐱃𐰆",
     "latin": "ORTU",
-    "azturkce": "ORTASI (anasını)"
+    "azturkce": "ORTASI (anasını)",
+    "arabi": " اورتو "
   },
   {
     "gokturkce": "𐰆𐰽𐰃𐰲",
     "latin": "OSİÇ",
-    "azturkce": "[QOYUNUN] ÜÇÜNİ"
+    "azturkce": "[QOYUNUN] ÜÇÜNİ",
+    "arabi": " اوسیچ "
   },
   {
     "gokturkce": "𐰆𐱃",
     "latin": "OT",
-    "azturkce": "OT"
+    "azturkce": "OT",
+    "arabi": " اوت "
   },
   {
     "gokturkce": "𐰆𐱃𐰆𐰔𐰢𐰑𐰸",
     "latin": "UTUZMADOQ",
-    "azturkce": "ZARAR GÖRMƏMİŞ"
+    "azturkce": "ZARAR GÖRMƏMİŞ",
+    "arabi": " اوتوزمادوق "
   },
   {
     "gokturkce": "𐰆𐱃𐰢𐰃𐰾",
     "latin": "UTMIS",
-    "azturkce": "TAPMIŞ"
+    "azturkce": "TAPMIŞ",
+    "arabi": " اوتمؽس "
   },
   {
     "gokturkce": "𐰆𐱃𐰺𐰆",
     "latin": "OTRU",
-    "azturkce": "QARŞIDA"
+    "azturkce": "QARŞIDA",
+    "arabi": " اوترو "
   },
   {
     "gokturkce": "𐰇𐰋𐰚𐰠𐰀𐰯𐰤",
     "latin": "ÖBKƏLƏPƏN",
-    "azturkce": "ÖFKƏLƏNİB"
+    "azturkce": "ÖFKƏLƏNİB",
+    "arabi": " اؤبکَلَپَن "
   },
   {
     "gokturkce": "𐰇𐰏𐰃",
     "latin": "ÖGİ",
-    "azturkce": "ANASI"
+    "azturkce": "ANASI",
+    "arabi": " اؤگی "
   },
   {
     "gokturkce": "𐰇𐰏𐰃𐰤𐱅𐰀",
     "latin": "ÖGİNTƏ",
-    "azturkce": "ANASINA"
+    "azturkce": "ANASINA",
+    "arabi": " اؤگینته "
   },
   {
     "gokturkce": "𐰇𐰏𐰃𐰭𐰀",
     "latin": "ÖGİÑƏ",
-    "azturkce": "ANASINA"
+    "azturkce": "ANASINA",
+    "arabi": " اؤگیڭه "
   },
   {
     "gokturkce": "𐰇𐰏𐰃𐰼𐰀",
     "latin": "ÖGİRƏ",
-    "azturkce": "ÖVÜNƏ"
+    "azturkce": "ÖVÜNƏ",
+    "arabi": " اؤگیره "
   },
   {
     "gokturkce": "𐰇𐰏𐰃𐰼𐰼",
     "latin": "ÖGİRƏR",
-    "azturkce": "ÖVÜNÜR"
+    "azturkce": "ÖVÜNÜR",
+    "arabi": " اؤگیرَر "
   },
   {
     "gokturkce": "𐰇𐰏𐰇𐰔",
     "latin": "ÖGÜZ",
-    "azturkce": "NƏHİR"
+    "azturkce": "NƏHİR",
+    "arabi": " اؤگۆز "
   },
   {
     "gokturkce": "𐰇𐰏𐰇𐰢",
     "latin": "ÖGÜM",
-    "azturkce": "ANAMIN"
+    "azturkce": "ANAMIN",
+    "arabi": " اؤگۆم "
   },
   {
     "gokturkce": "𐰇𐰏𐰇𐰾𐰇𐰯𐰤",
     "latin": "ÜGÜSÜPƏN",
-    "azturkce": "SÖKÜLÜ"
+    "azturkce": "SÖKÜLÜ",
+    "arabi": " اۆگۆسۆپَن "
   },
   {
     "gokturkce": "𐰇𐰏𐰼𐰃𐰭𐰀",
     "latin": "ÜGÜRİÑƏ",
-    "azturkce": "SÜRÜSÜNƏ"
+    "azturkce": "SÜRÜSÜNƏ",
+    "arabi": " اۆگۆریڭه "
   },
   {
     "gokturkce": "𐰇𐰏𐰼𐰨𐰇𐰠𐰇𐰏",
     "latin": "ÖGRÜNÇÜLÜG",
-    "azturkce": "ÖVÜNÇLÜ"
+    "azturkce": "ÖVÜNÇLÜ",
+    "arabi": " اؤگرۆنچۆلۆگ "
   },
   {
     "gokturkce": "𐰇𐰏𐰼𐰨𐰇𐰭",
     "latin": "ÖGRÜNÇÜÑ",
-    "azturkce": "SEVİNCİN"
+    "azturkce": "SEVİNCİN",
+    "arabi": " اؤگرۆنچۆڭ "
   },
   {
     "gokturkce": "𐰇𐰓𐰢𐰭",
     "latin": "ÜDMƏÑ",
-    "azturkce": "İLGİLƏNMƏYİN"
+    "azturkce": "İLGİLƏNMƏYİN",
+    "arabi": " اۆدمَڭ "
   },
   {
     "gokturkce": "𐰇𐰔𐰀",
     "latin": "ÜZƏ",
-    "azturkce": "ÜZƏRİNDƏ"
+    "azturkce": "ÜZƏRİNDƏ",
+    "arabi": " اۆزه "
   },
   {
     "gokturkce": "𐰇𐰔𐰃",
     "latin": "ÖZİ",
-    "azturkce": "ÖZÜ"
+    "azturkce": "ÖZÜ",
+    "arabi": " اؤزی "
   },
   {
     "gokturkce": "𐰇𐰔𐰃𐰤",
     "latin": "ÖZİN",
-    "azturkce": "ÖZÜNÜ (onu da)"
+    "azturkce": "ÖZÜNÜ (onu da)",
+    "arabi": " اؤزین "
   },
   {
     "gokturkce": "𐰇𐰔𐰇𐰜𐰃𐰭𐰃𐰤",
     "latin": "ÜZÜKİÑİN",
-    "azturkce": "ÇIXIQLARI"
+    "azturkce": "ÇIXIQLARI",
+    "arabi": " اۆزۆکیڭین "
   },
   {
     "gokturkce": "𐰇𐰔𐰇𐰢",
     "latin": "ÖZÜMİN",
-    "azturkce": "ÖZÜMÜ"
+    "azturkce": "ÖZÜMÜ",
+    "arabi": " اؤزۆمین "
   },
   {
     "gokturkce": "𐰇𐰔𐰇𐰭",
     "latin": "ÖZÜÑ",
-    "azturkce": "ÖZÜN"
+    "azturkce": "ÖZÜN",
+    "arabi": " اؤزۆڭ "
   },
   {
     "gokturkce": "𐰇𐰔𐰠𐰜",
     "latin": "ÖZLÜK",
-    "azturkce": "ÖZLÜK (binək)"
+    "azturkce": "ÖZLÜK (binək)",
+    "arabi": " اؤزلۆک "
   },
   {
     "gokturkce": "𐰇𐰚𐰇𐰔𐰇𐰏",
     "latin": "ÖKÜZÜG",
-    "azturkce": "ÖKÜZÜ"
+    "azturkce": "ÖKÜZÜ",
+    "arabi": " اؤکۆزۆگ "
   },
   {
     "gokturkce": "𐰇𐰚𐰇𐰾",
     "latin": "ÜKÜS",
-    "azturkce": "YAXŞI"
+    "azturkce": "YAXŞI",
+    "arabi": " اۆکۆس "
   },
   {
     "gokturkce": "𐰇𐰠𐰇𐰏𐰃",
     "latin": "ÜLÜGİ",
-    "azturkce": "QADƏRİNDƏ"
+    "azturkce": "QADƏRİNDƏ",
+    "arabi": " اۆلۆگی "
   },
   {
     "gokturkce": "𐰇𐰠𐰇𐰏𐰓𐰀",
     "latin": "ÜLÜGDƏ",
-    "azturkce": "ÖLÜMDƏN"
+    "azturkce": "ÖLÜMDƏN",
+    "arabi": " اۆلۆگده "
   },
   {
     "gokturkce": "𐰇𐰠𐰇𐰢𐰓𐰀",
     "latin": "ÖLÜMDƏ",
-    "azturkce": "ÖLÜMDƏN"
+    "azturkce": "ÖLÜMDƏN",
+    "arabi": " اؤلۆمده "
   },
   {
     "gokturkce": "𐰇𐰠𐰇𐰢𐱅𐰀",
     "latin": "ÖLÜMTƏ",
-    "azturkce": "ÖLÜMDƏN"
+    "azturkce": "ÖLÜMDƏN",
+    "arabi": " اؤلۆمته "
   },
   {
     "gokturkce": "𐰇𐰠𐰏𐰖",
     "latin": "ÖLGƏY",
-    "azturkce": "ÖLÜYORUM"
+    "azturkce": "ÖLÜYORUM",
+    "arabi": " اؤلگَی "
   },
   {
     "gokturkce": "𐰇𐰠𐰏𐰘",
     "latin": "ÖLGƏY",
-    "azturkce": "ÖLÜR"
+    "azturkce": "ÖLÜR",
+    "arabi": " اؤلگَی "
   },
   {
     "gokturkce": "𐰇𐰠𐰢𐰾",
     "latin": "ÖLMİS",
-    "azturkce": "ÖLMÜŞ"
+    "azturkce": "ÖLMÜŞ",
+    "arabi": " اؤلمیس "
   },
   {
     "gokturkce": "𐰇𐰢𐰀𐰠𐰘𐰇",
     "latin": "ÜMƏLƏYÜ",
-    "azturkce": "MİSAFİRLİĞƏ"
+    "azturkce": "MİSAFİRLİĞƏ",
+    "arabi": " اۆمَلَیۆ "
   },
   {
     "gokturkce": "𐰇𐰤𐰇𐰯",
     "latin": "ÜNÜP",
-    "azturkce": "ÇIXIB"
+    "azturkce": "ÇIXIB",
+    "arabi": " اۆنۆپ "
   },
   {
     "gokturkce": "𐰇𐰤𐰇𐰯𐰤",
     "latin": "ÜNÜPƏN",
-    "azturkce": "YÜKSƏLİB"
+    "azturkce": "YÜKSƏLİB",
+    "arabi": " اۆنۆپَن "
   },
   {
     "gokturkce": "𐰇𐰤𐰓𐰃",
     "latin": "ÜNDİ",
-    "azturkce": "TÜRƏDİ"
+    "azturkce": "TÜRƏDİ",
+    "arabi": " اۆندی "
   },
   {
     "gokturkce": "𐰇𐰤𐰢𐰃𐰾",
     "latin": "ÜNMİS",
-    "azturkce": "ÇIXMIŞ"
+    "azturkce": "ÇIXMIŞ",
+    "arabi": " اۆنمیس "
   },
   {
     "gokturkce": "𐰇𐰭",
     "latin": "ÖÑ",
-    "azturkce": "QURAQ"
+    "azturkce": "QURAQ",
+    "arabi": " اؤڭ "
   },
   {
     "gokturkce": "𐰇𐰭𐰃",
     "latin": "ÖÑİ",
-    "azturkce": "AYRI"
+    "azturkce": "AYRI",
+    "arabi": " اؤڭی "
   },
   {
     "gokturkce": "𐰇𐰭𐰇𐰾𐰯𐰤",
     "latin": "ÜÑÜSÜPƏN",
-    "azturkce": "İTİRİB"
+    "azturkce": "İTİRİB",
+    "arabi": " اۆڭۆسۆپَن "
   },
   {
     "gokturkce": "𐰇𐰯𐰏𐰇𐰚",
     "latin": "ÜPGÜK",
-    "azturkce": "ÇAVUŞQUŞU"
+    "azturkce": "ÇAVUŞQUŞU",
+    "arabi": " اۆپگۆک "
   },
   {
     "gokturkce": "𐰇𐰯𐰤",
     "latin": "ÖPƏN",
-    "azturkce": "DÜŞLƏYİB"
+    "azturkce": "DÜŞLƏYİB",
+    "arabi": " اؤپَن "
   },
   {
     "gokturkce": "𐰇𐰲",
     "latin": "ÜÇ",
-    "azturkce": "ÜÇ"
+    "azturkce": "ÜÇ",
+    "arabi": " اۆچ "
   },
   {
     "gokturkce": "𐰇𐰲𐰇𐰤",
     "latin": "ÜÇÜN",
-    "azturkce": "ÜÇÜN"
+    "azturkce": "ÜÇÜN",
+    "arabi": " اۆچۆن "
   },
   {
     "gokturkce": "𐰇𐰲𐰇𐰨",
     "latin": "ÜÇÜNÇ",
-    "azturkce": "ÜÇÜNCÜ"
+    "azturkce": "ÜÇÜNCÜ",
+    "arabi": " اۆچۆنچ "
   },
   {
     "gokturkce": "𐰇𐰲𐰼𐰏𐰇𐰭",
     "latin": "ÜÇÜRGÜÑ",
-    "azturkce": "KƏÇƏSİ"
+    "azturkce": "KƏÇƏSİ",
+    "arabi": " اۆچۆرگۆڭ "
   },
   {
     "gokturkce": "𐰇𐰼𐰇𐰭",
     "latin": "ÜRÜÑ",
-    "azturkce": "AQ"
+    "azturkce": "AQ",
+    "arabi": " اۆرۆڭ "
   },
   {
     "gokturkce": "𐰇𐰼𐰏𐰃𐰤",
     "latin": "ÖRGİN",
-    "azturkce": "TƏXT"
+    "azturkce": "TƏXT",
+    "arabi": " اؤرگین "
   },
   {
     "gokturkce": "𐰇𐰼𐰚𐰇𐰯𐰤",
     "latin": "ÜRKÜPƏN",
-    "azturkce": "ÜRKÜB"
+    "azturkce": "ÜRKÜB",
+    "arabi": " اۆرکۆپَن "
   },
   {
     "gokturkce": "𐰇𐰼𐰚𐱅𐱅𐰭",
     "latin": "ÜRKÜTMƏÑ",
-    "azturkce": "ÜRKÜTMƏYİN"
+    "azturkce": "ÜRKÜTMƏYİN",
+    "arabi": " اۆرکۆتمَڭ "
   },
   {
     "gokturkce": "𐰇𐰼𐱅𐰤𐰢𐰃𐰾",
     "latin": "ÖRTƏNMİS",
-    "azturkce": "YANMIŞ"
+    "azturkce": "YANMIŞ",
+    "arabi": " اؤرتَنمیس "
   },
   {
     "gokturkce": "𐰇𐱅𐰃𐰤",
     "latin": "ÜTİN",
-    "azturkce": "ÖĞÜDÜNÜ"
+    "azturkce": "ÖĞÜDÜNÜ",
+    "arabi": " اۆتین "
   },
   {
     "gokturkce": "𐰇𐱅𐰇𐰏𐰚𐰀",
     "latin": "ÖTÜGKƏ",
-    "azturkce": "ÖTMƏYƏ (söyləməyə)"
+    "azturkce": "ÖTMƏYƏ (söyləməyə)",
+    "arabi": " اؤتۆگکه "
   },
   {
     "gokturkce": "𐰇𐱅𐰇𐰤",
     "latin": "ÖTÜN",
-    "azturkce": "ÖTÜN (anlat)"
+    "azturkce": "ÖTÜN (anlat)",
+    "arabi": " اؤتۆن "
   },
   {
     "gokturkce": "𐰇𐱅𐰇𐰤𐰇𐰼",
     "latin": "ÖTÜNÜR",
-    "azturkce": "ÖTÜNÜR (anlatır)"
+    "azturkce": "ÖTÜNÜR (anlatır)",
+    "arabi": " اؤتۆنۆر "
   },
   {
     "gokturkce": "𐰉𐰀",
     "latin": "BA",
-    "azturkce": "BAĞLA"
+    "azturkce": "BAĞLA",
+    "arabi": " با "
   },
   {
     "gokturkce": "𐰉𐰀𐰢𐰃𐰾",
     "latin": "BAMIS",
-    "azturkce": "BAĞLAMIŞ"
+    "azturkce": "BAĞLAMIŞ",
+    "arabi": " بامؽس "
   },
   {
     "gokturkce": "𐰉𐰃𐰨𐰆",
     "latin": "ABINÇU",
-    "azturkce": "KÖLƏ"
+    "azturkce": "KÖLƏ",
+    "arabi": " آبؽنچو "
   },
   {
     "gokturkce": "𐰉𐰆",
     "latin": "BU",
-    "azturkce": "BU"
+    "azturkce": "BU",
+    "arabi": " بو "
   },
   {
     "gokturkce": "𐰉𐰆𐰍𐰺𐰀",
     "latin": "BUĞRA",
-    "azturkce": "DƏVƏ"
+    "azturkce": "DƏVƏ",
+    "arabi": " بوغرا "
   },
   {
     "gokturkce": "𐰉𐰆𐰍𐰺𐰀𐰞𐰴",
     "latin": "BUĞRALIQ",
-    "azturkce": "BUĞRALIQ"
+    "azturkce": "BUĞRALIQ",
+    "arabi": " بوغرالؽق "
   },
   {
     "gokturkce": "𐰉𐰆𐰑𐰆𐰣",
     "latin": "BODUN",
-    "azturkce": "BOYUN (xalqın)"
+    "azturkce": "BOYUN (xalqın)",
+    "arabi": " بودون "
   },
   {
     "gokturkce": "𐰉𐰆𐰑𐰞𐰞𐰍",
     "latin": "BUDLALIĞ",
-    "azturkce": "BURUNLUQLU"
+    "azturkce": "BURUNLUQLU",
+    "arabi": " بودلالؽغ "
   },
   {
     "gokturkce": "𐰉𐰆𐰔",
     "latin": "BOZ",
-    "azturkce": "BOZ"
+    "azturkce": "BOZ",
+    "arabi": " بوز "
   },
   {
     "gokturkce": "𐰉𐰆𐰔𐰀𐰍𐰆𐰞𐰲𐰃",
     "latin": "BUZAĞULAÇI",
-    "azturkce": "BUZAĞILAYACAQ"
+    "azturkce": "BUZAĞILAYACAQ",
+    "arabi": " بوزاغولاچؽ "
   },
   {
     "gokturkce": "𐰉𐰆𐰔𐰍𐰆",
     "latin": "BUZAĞU",
-    "azturkce": "GƏTİRMİŞ (doğurmuş)"
+    "azturkce": "GƏTİRMİŞ (doğurmuş)",
+    "arabi": " بوزاغو "
   },
   {
     "gokturkce": "𐰉𐰆𐰖𐰢𐰆𐰞",
     "latin": "BOYMUL",
-    "azturkce": "BOYUNLU"
+    "azturkce": "BOYUNLU",
+    "arabi": " بویمول "
   },
   {
     "gokturkce": "𐰉𐰆𐰞𐰃𐱃",
     "latin": "BULIT",
-    "azturkce": "BULUT"
+    "azturkce": "BULUT",
+    "arabi": " بولؽت "
   },
   {
     "gokturkce": "𐰉𐰆𐰞𐰃𐱃𐰞𐰍",
     "latin": "BULITLIĞ",
-    "azturkce": "BULUTLU"
+    "azturkce": "BULUTLU",
+    "arabi": " بولؽتلؽغ "
   },
   {
     "gokturkce": "𐰉𐰆𐰞𐰆𐰍𐱃𐰀",
     "latin": "BOLUĞTA",
-    "azturkce": "AŞAMADA"
+    "azturkce": "AŞAMADA",
+    "arabi": " بولوغتا "
   },
   {
     "gokturkce": "𐰉𐰆𐰞𐰆𐰭𐱃𐰴𐰃",
     "latin": "BOLUÑTAQI",
-    "azturkce": "YANDAN"
+    "azturkce": "YANDAN",
+    "arabi": " بولوڭتاقؽ "
   },
   {
     "gokturkce": "𐰉𐰆𐰞𐰆𐰯𐰣",
     "latin": "BULUPAN",
-    "azturkce": "TAPIB"
+    "azturkce": "TAPIB",
+    "arabi": " بولوپان "
   },
   {
     "gokturkce": "𐰉𐰆𐰞𐰆𐰺",
     "latin": "BOLUR",
-    "azturkce": "OLUR"
+    "azturkce": "OLUR",
+    "arabi": " بولور "
   },
   {
     "gokturkce": "𐰉𐰆𐰞𐰍𐰖",
     "latin": "BULĞAY",
-    "azturkce": "TAPACAQ"
+    "azturkce": "TAPACAQ",
+    "arabi": " بولغای "
   },
   {
     "gokturkce": "𐰉𐰆𐰞𐰔𐰆𐰣",
     "latin": "BOLZUN",
-    "azturkce": "OLSUN"
+    "azturkce": "OLSUN",
+    "arabi": " بولزون "
   },
   {
     "gokturkce": "𐰉𐰆𐰞𐰢𐰃𐰾",
     "latin": "BULMIS",
-    "azturkce": "TAPMIŞ"
+    "azturkce": "TAPMIŞ",
+    "arabi": " بولمؽس "
   },
   {
     "gokturkce": "𐰉𐰆𐰞𐰢𐰢𐰃𐰾",
     "latin": "BOLMIS",
-    "azturkce": "OLMUŞ (qurtulmuş)"
+    "azturkce": "OLMUŞ (qurtulmuş)",
+    "arabi": " بولمؽس "
   },
   {
     "gokturkce": "𐰉𐰆𐰞𐱃𐰃",
     "latin": "BULTI",
-    "azturkce": "TAPDI"
+    "azturkce": "TAPDI",
+    "arabi": " بولتؽ "
   },
   {
     "gokturkce": "𐰉𐰆𐰴𐰺𐰽𐰃𐰴𐰀",
     "latin": "BOQURSIQA",
-    "azturkce": "SABANA"
+    "azturkce": "SABANA",
+    "arabi": " بوقورسؽقا "
   },
   {
     "gokturkce": "𐰉𐰆𐰺𐰆𐰀",
     "latin": "BURUA",
-    "azturkce": "BURUA"
+    "azturkce": "BURUA",
+    "arabi": " بوروا "
   },
   {
     "gokturkce": "𐰉𐰆𐰽",
     "latin": "BOS",
-    "azturkce": "[BAŞI] BOŞ"
+    "azturkce": "[BAŞI] BOŞ",
+    "arabi": " بوس "
   },
   {
     "gokturkce": "𐰉𐰆𐰽𐰀𐰣𐰨",
     "latin": "BUSANÇ",
-    "azturkce": "DƏRTLƏR"
+    "azturkce": "DƏRTLƏR",
+    "arabi": " بوسانچ "
   },
   {
     "gokturkce": "𐰉𐰆𐰽𐰆𐰽𐰞𐰆𐰍",
     "latin": "BUSUSLUĞ",
-    "azturkce": "KƏDƏRLİ"
+    "azturkce": "KƏDƏRLİ",
+    "arabi": " بوسوسلوغ "
   },
   {
     "gokturkce": "𐰉𐰆𐱃𐰆𐰞𐰀𐰢𐰃𐰾",
     "latin": "BOTOLAMIS",
-    "azturkce": "YAVRULAMIŞ"
+    "azturkce": "YAVRULAMIŞ",
+    "arabi": " بوتولامؽس "
   },
   {
     "gokturkce": "𐰉𐰍𐰽𐰃",
     "latin": "BAĞISI",
-    "azturkce": "BAĞIŞI (ipləri)"
+    "azturkce": "BAĞIŞI (ipləri)",
+    "arabi": " باغؽسؽ "
   },
   {
     "gokturkce": "𐰉𐰖",
     "latin": "BAY",
-    "azturkce": "BƏY"
+    "azturkce": "BƏY",
+    "arabi": " بای "
   },
   {
     "gokturkce": "𐰉𐰴𐰀",
     "latin": "ABQA",
-    "azturkce": "AVA"
+    "azturkce": "AVA",
+    "arabi": " آبقا "
   },
   {
     "gokturkce": "𐰉𐰺",
     "latin": "BAR",
-    "azturkce": "VAR"
+    "azturkce": "VAR",
+    "arabi": " بار "
   },
   {
     "gokturkce": "𐰉𐰺𐰃𐰯𐰣",
     "latin": "BARIPAN",
-    "azturkce": "VARIB"
+    "azturkce": "VARIB",
+    "arabi": " بارؽپان "
   },
   {
     "gokturkce": "𐰉𐰺𐰃𐰺",
     "latin": "BARIR",
-    "azturkce": "VARIR (gidər)"
+    "azturkce": "VARIR (gidər)",
+    "arabi": " بارؽر "
   },
   {
     "gokturkce": "𐰉𐰺𐰢𐰃𐰾",
     "latin": "BARMIS",
-    "azturkce": "VARMIŞ"
+    "azturkce": "VARMIŞ",
+    "arabi": " بارمؽس "
   },
   {
     "gokturkce": "𐰉𐰺𐰢𐰾",
     "latin": "BARMIS",
-    "azturkce": "VARMIŞ"
+    "azturkce": "VARMIŞ",
+    "arabi": " بارمؽس "
   },
   {
     "gokturkce": "𐰉𐰺𐰽",
     "latin": "BARS",
-    "azturkce": "PARS"
+    "azturkce": "PARS",
+    "arabi": " بارس "
   },
   {
     "gokturkce": "𐰉𐰽𐰃𐰣𐰆",
     "latin": "BASINU",
-    "azturkce": "UMURSAMADAN"
+    "azturkce": "UMURSAMADAN",
+    "arabi": " باسؽنو "
   },
   {
     "gokturkce": "𐰉𐰽𐰃𐰣𐱃𐰀",
     "latin": "BASINTA",
-    "azturkce": "BAŞINDA"
+    "azturkce": "BAŞINDA",
+    "arabi": " باسؽنتا "
   },
   {
     "gokturkce": "𐰉𐰽𐰞𐰍",
     "latin": "BASLIĞ",
-    "azturkce": "BAŞLI"
+    "azturkce": "BAŞLI",
+    "arabi": " باسلؽغ "
   },
   {
     "gokturkce": "𐰉𐰽𐰢",
     "latin": "BASIM",
-    "azturkce": "BAŞIM"
+    "azturkce": "BAŞIM",
+    "arabi": " باسؽم "
   },
   {
     "gokturkce": "𐰉𐰽𐰢𐰃𐰣",
     "latin": "BASIMIN",
-    "azturkce": "BAŞIMI"
+    "azturkce": "BAŞIMI",
+    "arabi": " باسؽمؽن "
   },
   {
     "gokturkce": "𐰋",
     "latin": "ƏV",
-    "azturkce": "ƏV"
+    "azturkce": "ƏV",
+    "arabi": " او "
   },
   {
     "gokturkce": "𐰋𐰃𐰠𐰃𐰤",
     "latin": "BELİN",
-    "azturkce": "BELİNİ"
+    "azturkce": "BELİNİ",
+    "arabi": " بئلین "
   },
   {
     "gokturkce": "𐰋𐰃𐰠𐰃𐰭",
     "latin": "BİLİÑ",
-    "azturkce": "BİLİN"
+    "azturkce": "BİLİN",
+    "arabi": " بیلیڭ "
   },
   {
     "gokturkce": "𐰋𐰃𐰠𐰃𐰭𐰠𐰼",
     "latin": "BİLİÑLƏR",
-    "azturkce": "BİLİN"
+    "azturkce": "BİLİN",
+    "arabi": " بیلیڭلَر "
   },
   {
     "gokturkce": "𐰋𐰃𐰠𐰭",
     "latin": "BİLİÑ",
-    "azturkce": "BİLİN"
+    "azturkce": "BİLİN",
+    "arabi": " بیلیڭ "
   },
   {
     "gokturkce": "𐰋𐰃𐰠𐰭𐰠𐰠𐰼",
     "latin": "BİLİÑLƏR",
-    "azturkce": "BİLİN"
+    "azturkce": "BİLİN",
+    "arabi": " بیلیڭلَر "
   },
   {
     "gokturkce": "𐰋𐰃𐰠𐰭𐰠𐰼",
     "latin": "BİLİÑLƏR",
-    "azturkce": "BİLİN"
+    "azturkce": "BİLİN",
+    "arabi": " بیلیڭلَر "
   },
   {
     "gokturkce": "𐰋𐰃𐰠𐱅𐰃",
     "latin": "BİLTİ",
-    "azturkce": "BİLDİ"
+    "azturkce": "BİLDİ",
+    "arabi": " بیلتی "
   },
   {
     "gokturkce": "𐰋𐰃𐰤𐱅𐰤",
     "latin": "ƏBİNTİN",
-    "azturkce": "ƏVİNDƏN (yuvasından)"
+    "azturkce": "ƏVİNDƏN (yuvasından)",
+    "arabi": " ابینتین "
   },
   {
     "gokturkce": "𐰋𐰃𐰭𐰼𐰇",
     "latin": "ƏBİÑƏRÜ",
-    "azturkce": "ƏVİNƏ"
+    "azturkce": "ƏVİNƏ",
+    "arabi": " ابیڭَرۆ "
   },
   {
     "gokturkce": "𐰋𐰃𐰲𐰀",
     "latin": "BİÇƏ",
-    "azturkce": "BİÇƏNƏ [DƏK]"
+    "azturkce": "BİÇƏNƏ [DƏK]",
+    "arabi": " بیچه "
   },
   {
     "gokturkce": "𐰋𐰃𐰼",
     "latin": "BİR",
-    "azturkce": "BİR"
+    "azturkce": "BİR",
+    "arabi": " بیر "
   },
   {
     "gokturkce": "𐰋𐰃𐰼𐰏𐰘",
     "latin": "BİRGƏY",
-    "azturkce": "VƏRƏYİM"
+    "azturkce": "VƏRƏYİM",
+    "arabi": " بیرگَی "
   },
   {
     "gokturkce": "𐰋𐰃𐰼𐰢𐰃𐰾",
     "latin": "BƏRMİS",
-    "azturkce": "VƏRMİŞ:"
+    "azturkce": "VƏRMİŞ:",
+    "arabi": " بَرمیس "
   },
   {
     "gokturkce": "𐰋𐰃𐰾",
     "latin": "BəS",
-    "azturkce": "BəŞ-"
+    "azturkce": "BəŞ-",
+    "arabi": " بَس "
   },
   {
     "gokturkce": "𐰋𐰃𐰾𐰃",
     "latin": "BİSİ",
-    "azturkce": "QISRAĞI"
+    "azturkce": "QISRAĞI",
+    "arabi": " بیسی "
   },
   {
     "gokturkce": "𐰋𐰃𐰾𐰓𐰃",
     "latin": "BİSDİ",
-    "azturkce": "PİŞTİ (ərdi)"
+    "azturkce": "PİŞTİ (ərdi)",
+    "arabi": " بیسدی "
   },
   {
     "gokturkce": "𐰋𐰃𐱅𐰃𐰏",
     "latin": "BİTİG",
-    "azturkce": "KİTABI"
+    "azturkce": "KİTABI",
+    "arabi": " بیتیگ "
   },
   {
     "gokturkce": "𐰋𐰃𐱅𐰃𐰓𐰢",
     "latin": "BİTİDİM",
-    "azturkce": "BİTİDİM (yazdım)"
+    "azturkce": "BİTİDİM (yazdım)",
+    "arabi": " بیتیدیم "
   },
   {
     "gokturkce": "𐰋𐰇𐰜𐰃𐰭𐰀",
     "latin": "BÜKİÑƏ",
-    "azturkce": "BÜKÜNƏ (köşəsinə)"
+    "azturkce": "BÜKÜNƏ (köşəsinə)",
+    "arabi": " بۆکیڭه "
   },
   {
     "gokturkce": "𐰋𐰇𐰼𐰃",
     "latin": "BÖRİ",
-    "azturkce": "BÖRÜ"
+    "azturkce": "BÖRÜ",
+    "arabi": " بؤری "
   },
   {
     "gokturkce": "𐰋𐰇𐰼𐰃𐰚𐰀",
     "latin": "BÖRİKƏ",
-    "azturkce": "BÖRÜYƏ (qurta)"
+    "azturkce": "BÖRÜYƏ (qurta)",
+    "arabi": " بؤریکه "
   },
   {
     "gokturkce": "𐰋𐰏",
     "latin": "BƏG",
-    "azturkce": "BƏY"
+    "azturkce": "BƏY",
+    "arabi": " بَگ "
   },
   {
     "gokturkce": "𐰋𐰏𐰃𐰭𐰼𐰇",
     "latin": "BƏGİÑƏRÜ",
-    "azturkce": "BƏYİNƏ"
+    "azturkce": "BƏYİNƏ",
+    "arabi": " بَگیڭَرۆ "
   },
   {
     "gokturkce": "𐰋𐰏𐰠𐰃𐰏",
     "latin": "BƏGLİG",
-    "azturkce": "BƏYDİR"
+    "azturkce": "BƏYDİR",
+    "arabi": " بَگلیگ "
   },
   {
     "gokturkce": "𐰋𐰏𐰠𐰃𐰚",
     "latin": "BƏGLİK",
-    "azturkce": "BƏYLİK"
+    "azturkce": "BƏYLİK",
+    "arabi": " بَگلیک "
   },
   {
     "gokturkce": "𐰋𐰓𐰃𐰔",
     "latin": "BƏDÜK",
-    "azturkce": "BÜYÜK"
+    "azturkce": "BÜYÜK",
+    "arabi": " بَدۆک "
   },
   {
     "gokturkce": "𐰋𐰓𐰃𐰔𐰠𐰘𐰇𐰼",
     "latin": "BƏDİZLƏYÜR",
-    "azturkce": "BƏZƏNİR"
+    "azturkce": "BƏZƏNİR",
+    "arabi": " بَدیزلَیۆر "
   },
   {
     "gokturkce": "𐰍𐰆𐰺𐰆",
     "latin": "ĞURU",
-    "azturkce": "USTADI)"
+    "azturkce": "USTADI)",
+    "arabi": " غورو "
   },
   {
     "gokturkce": "𐰍𐰔𐰃",
     "latin": "AĞZI",
-    "azturkce": "AĞZI"
+    "azturkce": "AĞZI",
+    "arabi": " آغزؽ "
   },
   {
     "gokturkce": "𐰍𐰞𐰭𐱃𐰀",
     "latin": "AĞILIÑTA",
-    "azturkce": "AĞILINDA"
+    "azturkce": "AĞILINDA",
+    "arabi": " آغؽلؽڭتا "
   },
   {
     "gokturkce": "𐰍𐰣𐰴𐰀",
     "latin": "AĞINQA",
-    "azturkce": "DUA"
+    "azturkce": "DUA",
+    "arabi": " آغؽنقا "
   },
   {
     "gokturkce": "𐰍𐰯𐰣",
     "latin": "AĞIPAN",
-    "azturkce": "AĞIP (tırmanıp)"
+    "azturkce": "AĞIP (tırmanıp)",
+    "arabi": " آغؽپان "
   },
   {
     "gokturkce": "𐰏𐰤𐰃",
     "latin": "ƏGNİ",
-    "azturkce": "ÇATISI"
+    "azturkce": "ÇATISI",
+    "arabi": " اگنی "
   },
   {
     "gokturkce": "𐰑𐰍𐰞𐰃",
     "latin": "ADIĞLI",
-    "azturkce": "AYILI"
+    "azturkce": "AYILI",
+    "arabi": " آدؽغلؽ "
   },
   {
     "gokturkce": "𐰑𐰍𐰭",
     "latin": "ADIĞIÑ",
-    "azturkce": "AYININ"
+    "azturkce": "AYININ",
+    "arabi": " آدؽغؽڭ "
   },
   {
     "gokturkce": "𐰑𐰍𐰺",
     "latin": "ADĞIR",
-    "azturkce": "AYĞIR"
+    "azturkce": "AYĞIR",
+    "arabi": " آدغؽر "
   },
   {
     "gokturkce": "𐰑𐰍𐰺𐰞𐰴",
     "latin": "ADĞIRLIQ",
-    "azturkce": "AYĞIRLIQ"
+    "azturkce": "AYĞIRLIQ",
+    "arabi": " آدغؽرلؽق "
   },
   {
     "gokturkce": "𐰓𐰃𐱃𐰺",
     "latin": "DE(N)TaR ",
-    "azturkce": "KeŞİŞ"
+    "azturkce": "KeŞİŞ",
+    "arabi": " دئ(ن)تار  "
   },
   {
     "gokturkce": "𐰓𐰏𐰇",
     "latin": "ƏDGÜ",
-    "azturkce": "YAXŞI"
+    "azturkce": "YAXŞI",
+    "arabi": " ادگۆ "
   },
   {
     "gokturkce": "𐰓𐰏𐰇𐰾𐰃",
     "latin": "ƏDGÜSİ",
-    "azturkce": "YAXŞISI"
+    "azturkce": "YAXŞISI",
+    "arabi": " ادگۆسی "
   },
   {
     "gokturkce": "𐰓𐰏𐰇𐱅𐰃",
     "latin": "ƏDGÜTİ",
-    "azturkce": "YAXŞICA"
+    "azturkce": "YAXŞICA",
+    "arabi": " ادگۆتی "
   },
   {
     "gokturkce": "𐰔𐰃𐰍𐰃",
     "latin": "AZIĞI",
-    "azturkce": "AZISI (dişi)"
+    "azturkce": "AZISI (dişi)",
+    "arabi": " آزؽغؽ "
   },
   {
     "gokturkce": "𐰔𐰔",
     "latin": "AZ",
-    "azturkce": "AZ"
+    "azturkce": "AZ",
+    "arabi": " آز "
   },
   {
     "gokturkce": "𐰖",
     "latin": "AY",
-    "azturkce": "AYIN"
+    "azturkce": "AYIN",
+    "arabi": " آی "
   },
   {
     "gokturkce": "𐰖𐰀𐰖𐰞𐰍𐰢",
     "latin": "YAYLAĞIM",
-    "azturkce": "YAZLIĞIM"
+    "azturkce": "YAZLIĞIM",
+    "arabi": " یایلاغؽم "
   },
   {
     "gokturkce": "𐰖𐰀𐰽",
     "latin": "YAS",
-    "azturkce": "YAŞ [ot]"
+    "azturkce": "YAŞ [ot]",
+    "arabi": " یاس "
   },
   {
     "gokturkce": "𐰖𐰃𐰑𐰃𐱃𐰢𐰖𐰃𐰣",
     "latin": "YIDITMAYIN",
-    "azturkce": "QOXUTMAYIN"
+    "azturkce": "QOXUTMAYIN",
+    "arabi": " یؽدؽتمایؽن "
   },
   {
     "gokturkce": "𐰖𐰃𐰞",
     "latin": "YIL",
-    "azturkce": "YIL"
+    "azturkce": "YIL",
+    "arabi": " یؽل "
   },
   {
     "gokturkce": "𐰖𐰃𐰞𐰣",
     "latin": "YILAN",
-    "azturkce": "İLAN"
+    "azturkce": "İLAN",
+    "arabi": " یؽلان "
   },
   {
     "gokturkce": "𐰖𐰃𐰞𐰴𐰀",
     "latin": "YILQA",
-    "azturkce": "İLƏ"
+    "azturkce": "İLƏ",
+    "arabi": " یؽلقا "
   },
   {
     "gokturkce": "𐰖𐰃𐰞𐰴𐰃𐰭",
     "latin": "YILQIÑ",
-    "azturkce": "YILQIN (at sürün)"
+    "azturkce": "İLXIN",
+    "arabi": " یؽلقؽڭ "
   },
   {
     "gokturkce": "𐰖𐰃𐰞𐰴𐰃𐰴𐰀",
     "latin": "YILQIQA",
-    "azturkce": "YILQIYA (at sürüsünə)"
+    "azturkce": "İLXIIYA",
+    "arabi": " یؽلقؽقا "
   },
   {
     "gokturkce": "𐰖𐰃𐰞𐱃𐰀",
     "latin": "YILTA",
-    "azturkce": "YILDA"
+    "azturkce": "YILDA",
+    "arabi": " یؽلتا "
   },
   {
     "gokturkce": "𐰖𐰃𐰣𐰢𐰀",
     "latin": "AYINMA",
-    "azturkce": "AYINMA (çəkinmə)"
+    "azturkce": "AYINMA (çəkinmə)",
+    "arabi": " آیؽنما "
   },
   {
     "gokturkce": "𐰖𐰆𐰞",
     "latin": "YOL",
-    "azturkce": "YOL"
+    "azturkce": "YOL",
+    "arabi": " یول "
   },
   {
     "gokturkce": "𐰖𐰆𐰞𐰃",
     "latin": "YOLI",
-    "azturkce": "YOLU"
+    "azturkce": "YOLU",
+    "arabi": " یولؽ "
   },
   {
     "gokturkce": "𐰖𐰆𐰞𐱃𐰀",
     "latin": "YOLTA",
-    "azturkce": "YOLDA"
+    "azturkce": "YOLDA",
+    "arabi": " یولتا "
   },
   {
     "gokturkce": "𐰖𐰆𐰣𐱃𐰃𐰭𐰺𐰆",
     "latin": "YONTIÑARU",
-    "azturkce": "ATLARINA"
+    "azturkce": "ATLARINA",
+    "arabi": " یونتؽڭارو "
   },
   {
     "gokturkce": "𐰖𐰆𐰦𐰀",
     "latin": "YUNTA",
-    "azturkce": "ATI"
+    "azturkce": "ATI",
+    "arabi": " یونتا "
   },
   {
     "gokturkce": "𐰖𐰆𐰸",
     "latin": "YOQ",
-    "azturkce": "YOQ"
+    "azturkce": "YOQ",
+    "arabi": " یوق "
   },
   {
     "gokturkce": "𐰖𐰆𐰺𐰃𐰑𐰃",
     "latin": "YORIDI",
-    "azturkce": "YÜRÜDÜ"
+    "azturkce": "YÜRÜDÜ",
+    "arabi": " یورؽدؽ "
   },
   {
     "gokturkce": "𐰖𐰆𐰺𐰃𐰖𐰃𐰣",
     "latin": "YORIYIN",
-    "azturkce": "YERIYİM"
+    "azturkce": "YERIYİM",
+    "arabi": " یورؽیؽن "
   },
   {
     "gokturkce": "𐰖𐰆𐰺𐰃𐰖𐰆",
     "latin": "YORIYU",
-    "azturkce": "YERİYİB"
+    "azturkce": "YERİYİB",
+    "arabi": " یورؽیو "
   },
   {
     "gokturkce": "𐰖𐰆𐰺𐰃𐰖𐰆𐰺",
     "latin": "YORIYUR",
-    "azturkce": "YERİYİR (yaşayır)"
+    "azturkce": "YERİYİR (yaşayır)",
+    "arabi": " یورؽیور "
   },
   {
     "gokturkce": "𐰖𐰆𐰺𐱃𐰀",
     "latin": "YURTTA",
-    "azturkce": "YURDDA (çadırda)"
+    "azturkce": "YURDDA (çadırda)",
+    "arabi": " یورتتا "
   },
   {
     "gokturkce": "𐰖𐰆𐱃𐰆𐰔𐰃",
     "latin": "YUTUZI",
-    "azturkce": "HƏYAT YOLDAŞI"
+    "azturkce": "HƏYAT YOLDAŞI",
+    "arabi": " یوتوزؽ "
   },
   {
     "gokturkce": "𐰖𐰉𐰔",
     "latin": "YABIZ",
-    "azturkce": "YAVUZ (çətin/kötü)"
+    "azturkce": "YAVUZ (çətin/kötü)",
+    "arabi": " یابؽز "
   },
   {
     "gokturkce": "𐰖𐰉𐰞𐰴",
     "latin": "YABLAQ",
-    "azturkce": "YAVA"
+    "azturkce": "YAVA",
+    "arabi": " یابلاق "
   },
   {
     "gokturkce": "𐰖𐰉𐰴",
     "latin": "YABLAQ",
-    "azturkce": "KÖTÜ"
+    "azturkce": "KÖTÜ",
+    "arabi": " یابلاق "
   },
   {
     "gokturkce": "𐰖𐰍𐰃𐰍",
     "latin": "YAĞIĞ",
-    "azturkce": "YAĞIYI (düşmanı)"
+    "azturkce": "YAĞIYI (düşmanı)",
+    "arabi": " یاغؽغ "
   },
   {
     "gokturkce": "𐰖𐰍𐰑𐰃",
     "latin": "YAĞDI",
-    "azturkce": "YAĞDI"
+    "azturkce": "YAĞDI",
+    "arabi": " یاغدؽ "
   },
   {
     "gokturkce": "𐰖𐰍𐰞𐰍",
     "latin": "YAĞLIĞ",
-    "azturkce": "YAĞLI"
+    "azturkce": "YAĞLI",
+    "arabi": " یاغلؽغ "
   },
   {
     "gokturkce": "𐰖𐰍𐰴",
     "latin": "YAĞAQ",
-    "azturkce": "CƏVİZ"
+    "azturkce": "CƏVİZ",
+    "arabi": " یاغاق "
   },
   {
     "gokturkce": "𐰖𐰍𐰴𐰞𐰍",
     "latin": "YAĞAQLIĞ",
-    "azturkce": "CƏVİZLİ"
+    "azturkce": "CƏVİZLİ",
+    "arabi": " یاغاقلؽغ "
   },
   {
     "gokturkce": "𐰖𐰍𐰺𐰃𐰯𐰣",
     "latin": "YAĞRIPAN",
-    "azturkce": "YARALANIB"
+    "azturkce": "YARALANIB",
+    "arabi": " یاغرؽپان "
   },
   {
     "gokturkce": "𐰖𐰑𐰺𐱃",
     "latin": "YADRAT",
-    "azturkce": "ATI"
+    "azturkce": "ATI",
+    "arabi": " یادرات "
   },
   {
     "gokturkce": "𐰖𐰔𐰍",
     "latin": "YAZIĞ",
-    "azturkce": "QOYU"
+    "azturkce": "QOYU",
+    "arabi": " یازؽغ "
   },
   {
     "gokturkce": "𐰖𐰖𐰞𐰍",
     "latin": "YAYLAĞ",
-    "azturkce": "YAZLIQ"
+    "azturkce": "YAZLIQ",
+    "arabi": " یایلاغ "
   },
   {
     "gokturkce": "𐰖𐰖𐰞𐰍𐰢",
     "latin": "YAYLAĞIM",
-    "azturkce": "YAZLIĞIM"
+    "azturkce": "YAZLIĞIM",
+    "arabi": " یایلاغؽم "
   },
   {
     "gokturkce": "𐰖𐰖𐰞𐰖𐰆𐰺",
     "latin": "YAYLAYUR",
-    "azturkce": "YAZLAR"
+    "azturkce": "YAZLAR",
+    "arabi": " یایلایور "
   },
   {
     "gokturkce": "𐰖𐰞𐰉𐰲",
     "latin": "YALABAÇ",
-    "azturkce": "YALAVAÇ (elçi)"
+    "azturkce": "YALAVAÇ (elçi)",
+    "arabi": " یالاباچ "
   },
   {
     "gokturkce": "𐰖𐰞𐰉𐰺",
     "latin": "YALBAR",
-    "azturkce": "YALVAR"
+    "azturkce": "YALVAR",
+    "arabi": " یالبار "
   },
   {
     "gokturkce": "𐰖𐰞𐰉𐰺𐰆𐰺",
     "latin": "YALBARUR",
-    "azturkce": "YALVARIR"
+    "azturkce": "YALVARIR",
+    "arabi": " یالبارور "
   },
   {
     "gokturkce": "𐰖𐰞𐰍",
     "latin": "YILIĞ",
-    "azturkce": "YILIQ (kibar)"
+    "azturkce": "YILIQ (kibar)",
+    "arabi": " یؽلؽغ "
   },
   {
     "gokturkce": "𐰖𐰞𐰍𐰖𐰆",
     "latin": "YALĞAYU",
-    "azturkce": "YALAYIB"
+    "azturkce": "YALAYIB",
+    "arabi": " یالغایو "
   },
   {
     "gokturkce": "𐰖𐰞𐰢",
     "latin": "YALIM",
-    "azturkce": "YALÇIN"
+    "azturkce": "YALÇIN",
+    "arabi": " یالؽم "
   },
   {
     "gokturkce": "𐰖𐰞𐰭𐰆𐰽𐰆𐰣",
     "latin": "YALÑUSUN",
-    "azturkce": "YALNIZIN"
+    "azturkce": "YALNIZIN",
+    "arabi": " یالڭوسون "
   },
   {
     "gokturkce": "𐰖𐰣𐰀",
     "latin": "YANA",
-    "azturkce": "YİNƏ"
+    "azturkce": "YİNƏ",
+    "arabi": " یانا "
   },
   {
     "gokturkce": "𐰖𐰭𐰺𐰀𐰖𐰆𐰺",
     "latin": "YAÑRAYUR",
-    "azturkce": "MIRILDANIR"
+    "azturkce": "MIRILDANIR",
+    "arabi": " یاڭرایور "
   },
   {
     "gokturkce": "𐰖𐰯𐰢𐰃𐰾",
     "latin": "YAPMIS",
-    "azturkce": "YAPMIŞ"
+    "azturkce": "YAPMIŞ",
+    "arabi": " یاپمؽس "
   },
   {
     "gokturkce": "𐰖𐰴𐰀",
     "latin": "AYQA",
-    "azturkce": "AYA"
+    "azturkce": "AYA",
+    "arabi": " آیقا "
   },
   {
     "gokturkce": "𐰖𐰴𐰃𐰣",
     "latin": "AYAQIN",
-    "azturkce": "-QAÇAĞINI"
+    "azturkce": "-QAÇAĞINI",
+    "arabi": " آیاقؽن "
   },
   {
     "gokturkce": "𐰖𐰴𐰢𐱃𐰀",
     "latin": "AYAQIMTA",
-    "azturkce": "-QACAĞIMDAN"
+    "azturkce": "-QACAĞIMDAN",
+    "arabi": " آیاقؽمتا "
   },
   {
     "gokturkce": "𐰖𐰺𐰀",
     "latin": "YARA",
-    "azturkce": "YARA"
+    "azturkce": "YARA",
+    "arabi": " یارا "
   },
   {
     "gokturkce": "𐰖𐰺𐰀𐰍𐰖",
     "latin": "YARAĞAY",
-    "azturkce": "YARAŞIR"
+    "azturkce": "YARAŞIR",
+    "arabi": " یاراغای "
   },
   {
     "gokturkce": "𐰖𐰺𐰀𐰢𐰃𐰾",
     "latin": "YARAMIS",
-    "azturkce": "YARAMIŞ (qazanmış)"
+    "azturkce": "YARAMIŞ (qazanmış)",
+    "arabi": " یارامؽس "
   },
   {
     "gokturkce": "𐰖𐰺𐰆",
     "latin": "YARU",
-    "azturkce": "BAŞLA-"
+    "azturkce": "BAŞLA-",
+    "arabi": " یارو "
   },
   {
     "gokturkce": "𐰖𐰺𐰆𐰑𐰃",
     "latin": "YARUDI",
-    "azturkce": "PARLADI"
+    "azturkce": "PARLADI",
+    "arabi": " یارودؽ "
   },
   {
     "gokturkce": "𐰖𐰺𐰍𐰆𐰣",
     "latin": "YARĞUN",
-    "azturkce": "YORĞUN"
+    "azturkce": "YORĞUN",
+    "arabi": " یارغون "
   },
   {
     "gokturkce": "𐰖𐰺𐰞𐰢𐰆𐰾",
     "latin": "YARILMIS",
-    "azturkce": "YARILMIŞ"
+    "azturkce": "YARILMIŞ",
+    "arabi": " یارؽلمؽس "
   },
   {
     "gokturkce": "𐰖𐰺𐰣",
     "latin": "YARIN",
-    "azturkce": "YARIN (gündüz)"
+    "azturkce": "YARIN (gündüz)",
+    "arabi": " یارؽن "
   },
   {
     "gokturkce": "𐰖𐰺𐰣𐰲𐰀",
     "latin": "YARINÇA",
-    "azturkce": "OXUNUN"
+    "azturkce": "OXUNUN",
+    "arabi": " یارؽنچا "
   },
   {
     "gokturkce": "𐰖𐰺𐰸",
     "latin": "YARUQ",
-    "azturkce": "PARLAQ"
+    "azturkce": "PARLAQ",
+    "arabi": " یاروق "
   },
   {
     "gokturkce": "𐰖𐰽",
     "latin": "YAS",
-    "azturkce": "YAŞ"
+    "azturkce": "YAŞ",
+    "arabi": " یاس "
   },
   {
     "gokturkce": "𐰖𐰽𐰃𐰲𐰃𐰤",
     "latin": "YASIÇIN",
-    "azturkce": "UCUYLA"
+    "azturkce": "UCUYLA",
+    "arabi": " یاسؽچؽن "
   },
   {
     "gokturkce": "𐰖𐰽𐰞",
     "latin": "YASIL",
-    "azturkce": "YEŞİL"
+    "azturkce": "YEŞİL",
+    "arabi": " یاسؽل "
   },
   {
     "gokturkce": "𐰖𐱃𐰍𐰞𐰃𐰍",
     "latin": "YATIĞLIĞ",
-    "azturkce": "YATANI"
+    "azturkce": "YATANI",
+    "arabi": " یاتؽغلؽغ "
   },
   {
     "gokturkce": "𐰖𐱃𐰯𐰣",
     "latin": "YATIPAN",
-    "azturkce": "(BULUP)"
+    "azturkce": "(BULUP)",
+    "arabi": " یاتؽپان "
   },
   {
     "gokturkce": "𐰘𐰃𐰏𐰼𐰢𐰃𐰚𐰀",
     "latin": "YəGİRMİKə",
-    "azturkce": "-YİRMİYə (on bəşində)"
+    "azturkce": "-YİRMİYə (on bəşində)",
+    "arabi": " یَگیرمیکه "
   },
   {
     "gokturkce": "𐰘𐰃𐰘𐰇𐰼",
     "latin": "YİYÜR",
-    "azturkce": "YƏRİM"
+    "azturkce": "YƏRİM",
+    "arabi": " یییۆر "
   },
   {
     "gokturkce": "𐰘𐰃𐰠𐰃𐰭𐰀",
     "latin": "YƏLİÑƏ",
-    "azturkce": "YƏLƏSİNDƏN"
+    "azturkce": "YƏLƏSİNDƏN",
+    "arabi": " یَلیڭه "
   },
   {
     "gokturkce": "𐰘𐰃𐰢𐰃𐰾",
     "latin": "YƏMİS",
-    "azturkce": "YƏMİŞ"
+    "azturkce": "YƏMİŞ",
+    "arabi": " یَمیس "
   },
   {
     "gokturkce": "𐰘𐰃𐰯𐰤",
     "latin": "YİPƏN",
-    "azturkce": "YEYİB"
+    "azturkce": "YEYİB",
+    "arabi": " ییپَن "
   },
   {
     "gokturkce": "𐰘𐰃𐰼",
     "latin": "YƏR",
-    "azturkce": "YƏR"
+    "azturkce": "YƏR",
+    "arabi": " یَر "
   },
   {
     "gokturkce": "𐰘𐰃𐰼𐰃𐰤",
     "latin": "YƏRİN",
-    "azturkce": "YƏR"
+    "azturkce": "YƏR",
+    "arabi": " یَرین "
   },
   {
     "gokturkce": "𐰘𐰃𐰼𐰃𐰤𐱅𐰀",
     "latin": "YƏRİNTƏ",
-    "azturkce": "YƏRİNDƏ"
+    "azturkce": "YƏRİNDƏ",
+    "arabi": " یَرینته "
   },
   {
     "gokturkce": "𐰘𐰃𐰼𐰓𐰀",
     "latin": "YƏRDƏ",
-    "azturkce": "YƏRDƏ"
+    "azturkce": "YƏRDƏ",
+    "arabi": " یَرده "
   },
   {
     "gokturkce": "𐰘𐰃𐰼𐰚𐰀",
     "latin": "YƏRKƏ",
-    "azturkce": "YƏRƏ"
+    "azturkce": "YƏRƏ",
+    "arabi": " یَرکه "
   },
   {
     "gokturkce": "𐰘𐰃𐰾",
     "latin": "YIS",
-    "azturkce": "BAYIR"
+    "azturkce": "BAYIR",
+    "arabi": " یؽس "
   },
   {
     "gokturkce": "𐰘𐰃𐱅𐰃𐰏𐰠𐰃𐰏",
     "latin": "YƏTİGLİG",
-    "azturkce": "YƏTKİN"
+    "azturkce": "YƏTKİN",
+    "arabi": " یَتیگلیگ "
   },
   {
     "gokturkce": "𐰘𐰇𐰏𐰇𐰼𐰇",
     "latin": "YÜGÜRÜ",
-    "azturkce": "QOŞUB"
+    "azturkce": "QOŞUB",
+    "arabi": " یۆگۆرۆ "
   },
   {
     "gokturkce": "𐰘𐰇𐰔",
     "latin": "YÜZ",
-    "azturkce": "YÜZ"
+    "azturkce": "YÜZ",
+    "arabi": " یۆز "
   },
   {
     "gokturkce": "𐰘𐰇𐱅𐰇𐰼𐰆𐰯",
     "latin": "YÜTÜRÜP",
-    "azturkce": "İTİRİB"
+    "azturkce": "İTİRİB",
+    "arabi": " یۆتۆرۆپ "
   },
   {
     "gokturkce": "𐰚𐰃",
     "latin": "ƏKİ",
-    "azturkce": "İKİ"
+    "azturkce": "İKİ",
+    "arabi": " اکی "
   },
   {
     "gokturkce": "𐰚𐰃𐰓𐰃𐰔𐰃𐰏",
     "latin": "KİDİZİG",
-    "azturkce": "KƏÇƏYİ"
+    "azturkce": "KƏÇƏYİ",
+    "arabi": " کیدیزیگ "
   },
   {
     "gokturkce": "𐰚𐰃𐰘𐰃𐰚",
     "latin": "KƏYİK",
-    "azturkce": "GƏYİK (maral)"
+    "azturkce": "GEYİK (maral)",
+    "arabi": " کَییک "
   },
   {
     "gokturkce": "𐰚𐰃𐰤",
     "latin": "ƏKƏN",
-    "azturkce": "İKƏN"
+    "azturkce": "İKƏN",
+    "arabi": " اکَن "
   },
   {
     "gokturkce": "𐰚𐰃𐰤𐱅𐰃",
     "latin": "əKİNTİ",
-    "azturkce": "İKİNCİ"
+    "azturkce": "İKİNCİ",
+    "arabi": " اکینتی "
   },
   {
     "gokturkce": "𐰚𐰃𐰲𐰀",
     "latin": "KEÇƏ",
-    "azturkce": "GECƏ"
+    "azturkce": "GECƏ",
+    "arabi": " کئچه "
   },
   {
     "gokturkce": "𐰚𐰃𐰲𐰏",
     "latin": "KİÇİG",
-    "azturkce": "KİÇİK"
+    "azturkce": "KİÇİK",
+    "arabi": " کیچیگ "
   },
   {
     "gokturkce": "𐰚𐰃𐰼𐰇𐰼",
     "latin": "KİRÜR",
-    "azturkce": "GİRƏR[İM]"
+    "azturkce": "GİRƏR[İM]",
+    "arabi": " کیرۆر "
   },
   {
     "gokturkce": "𐰚𐰃𐰼𐰢𐰃𐰾",
     "latin": "KİRMİS",
-    "azturkce": "GİRMİŞ"
+    "azturkce": "GİRMİŞ",
+    "arabi": " کیرمیس "
   },
   {
     "gokturkce": "𐰚𐰃𐰾𐰀𐰢𐰃𐰾",
     "latin": "KİSƏMİS",
-    "azturkce": "KİŞƏMİŞ (köstəkləmiş)"
+    "azturkce": "KİŞƏMİŞ (köstəkləmiş)",
+    "arabi": " کیسَمیس "
   },
   {
     "gokturkce": "𐰚𐰃𐰾𐰃",
     "latin": "KİSİ",
-    "azturkce": "KİŞİ"
+    "azturkce": "KİŞİ",
+    "arabi": " کیسی "
   },
   {
     "gokturkce": "𐰚𐰃𐰾𐰃𐰚𐰀",
     "latin": "KİSİKƏ",
-    "azturkce": "KİŞİYƏ"
+    "azturkce": "KİŞİYƏ",
+    "arabi": " کیسیکه "
   },
   {
     "gokturkce": "𐰚𐰃𐰾𐰃𐰾𐰃𐰤",
     "latin": "KİSİSİN",
-    "azturkce": "AİLƏSİNİ"
+    "azturkce": "AİLƏSİNİ",
+    "arabi": " کیسیسین "
   },
   {
     "gokturkce": "𐰚𐰇𐰔𐰠𐰘𐰇𐰼",
     "latin": "KÖZLƏYÜR",
-    "azturkce": "GÖZLÜYOR"
+    "azturkce": "GÖZLÜYOR",
+    "arabi": " کؤزلَیۆر "
   },
   {
     "gokturkce": "𐰚𐰇𐰔𐰤𐰜𐰚𐰃",
     "latin": "KÖZNÖKİ",
-    "azturkce": "GÖZNƏĞİ (pəncərəsi)"
+    "azturkce": "GÖZNƏĞİ (pəncərəsi)",
+    "arabi": " کؤزنؤکی "
   },
   {
     "gokturkce": "𐰚𐰇𐰔𐰭𐰇𐰾𐰃𐰤",
     "latin": "KÜZÑÜSİN",
-    "azturkce": "AYNASINI"
+    "azturkce": "AYNASINI",
+    "arabi": " کۆزڭۆسین "
   },
   {
     "gokturkce": "𐰚𐰇𐰚",
     "latin": "KÖK",
-    "azturkce": "GÖK (boz)"
+    "azturkce": "GÖK (boz)",
+    "arabi": " کؤک "
   },
   {
     "gokturkce": "𐰚𐰇𐰠𐰚𐰀",
     "latin": "KÖLKƏ",
-    "azturkce": "GÖLƏ"
+    "azturkce": "GÖLƏ",
+    "arabi": " کؤلکه "
   },
   {
     "gokturkce": "𐰚𐰇𐰠𐰢𐰾",
     "latin": "KÖLMİS",
-    "azturkce": "QOŞMUŞ"
+    "azturkce": "QOŞMUŞ",
+    "arabi": " کؤلمیس "
   },
   {
     "gokturkce": "𐰚𐰇𐰤",
     "latin": "KÜN",
-    "azturkce": "GÜN"
+    "azturkce": "GÜN",
+    "arabi": " کۆن "
   },
   {
     "gokturkce": "𐰚𐰇𐰤𐰀𐰚𐰃",
     "latin": "KÖNƏKİ",
-    "azturkce": "KÖNƏĞİ"
+    "azturkce": "KÖNƏĞİ",
+    "arabi": " کؤنَکی "
   },
   {
     "gokturkce": "𐰚𐰇𐰤𐰾𐰚𐰀",
     "latin": "KÜNƏSKƏ",
-    "azturkce": "GÜNƏŞDƏ"
+    "azturkce": "GÜNƏŞDƏ",
+    "arabi": " کۆنَسکه "
   },
   {
     "gokturkce": "𐰚𐰇𐰭𐰀𐰚𐰃",
     "latin": "KÖÑƏKİ",
-    "azturkce": "KÖNƏĞİ (qovası)"
+    "azturkce": "KÖNƏĞİ (qovası)",
+    "arabi": " کؤڭَکی "
   },
   {
     "gokturkce": "𐰚𐰇𐰯𐰇𐰚𐰇𐰢𐰃𐰤",
     "latin": "KÖPÜKÜMİN",
-    "azturkce": "KÖPÜĞÜMÜ"
+    "azturkce": "KÖPÜĞÜMÜ",
+    "arabi": " کؤپۆکۆمین "
   },
   {
     "gokturkce": "𐰚𐰇𐰲𐰃𐰭𐰀",
     "latin": "KÜÇİÑƏ",
-    "azturkce": "GÜCÜYLƏ"
+    "azturkce": "GÜCÜYLƏ",
+    "arabi": " کۆچیڭه "
   },
   {
     "gokturkce": "𐰚𐰇𐰲𐰇𐰼𐰇",
     "latin": "KÖÇÜRÜ",
-    "azturkce": "GÖÇÜRƏ"
+    "azturkce": "GÖÇÜRƏ",
+    "arabi": " کؤچۆرۆ "
   },
   {
     "gokturkce": "𐰚𐰇𐰲𐰠𐰇𐰏",
     "latin": "KÜÇLÜG",
-    "azturkce": "GÜÇLÜ"
+    "azturkce": "GÜÇLÜ",
+    "arabi": " کۆچلۆگ "
   },
   {
     "gokturkce": "𐰚𐰇𐰼𐰇𐰯𐰤",
     "latin": "KÖRÜPƏN",
-    "azturkce": "GÖRÜB"
+    "azturkce": "GÖRÜB",
+    "arabi": " کؤرۆپَن "
   },
   {
     "gokturkce": "𐰚𐰇𐰼𐰇𐰾𐰢𐰾",
     "latin": "KÖRÜSMİS",
-    "azturkce": "GÖRÜŞMÜŞ"
+    "azturkce": "GÖRÜŞMÜŞ",
+    "arabi": " کؤرۆسمیس "
   },
   {
     "gokturkce": "𐰚𐰇𐰼𐰜𐰠𐰇𐰏",
     "latin": "KÖRÜKLÜG",
-    "azturkce": "GÖRKƏMLİ"
+    "azturkce": "GÖRKƏMLİ",
+    "arabi": " کؤرۆکلۆگ "
   },
   {
     "gokturkce": "𐰚𐰇𐰼𐰢𐰭",
     "latin": "KÖRMƏÑ",
-    "azturkce": "GÖRMƏYİN"
+    "azturkce": "GÖRMƏYİN",
+    "arabi": " کؤرمَڭ "
   },
   {
     "gokturkce": "𐰚𐰚𐰜",
     "latin": "KƏKÜK",
-    "azturkce": "QARTAL"
+    "azturkce": "QARTAL",
+    "arabi": " کَکۆک "
   },
   {
     "gokturkce": "𐰚𐰠𐰃𐰼",
     "latin": "KƏLİR",
-    "azturkce": "GƏLİR"
+    "azturkce": "GƏLİR",
+    "arabi": " کَلیر "
   },
   {
     "gokturkce": "𐰚𐰠𐰇𐰼𐰢𐰃𐰾",
     "latin": "KƏLÜRMİS",
-    "azturkce": "ADAQLIĞA"
+    "azturkce": "ADAQLIĞA",
+    "arabi": " کَلۆرمیس "
   },
   {
     "gokturkce": "𐰚𐰠𐰢𐰃𐰾",
     "latin": "KƏLMİS",
-    "azturkce": "GƏLMİŞ"
+    "azturkce": "GƏLMİŞ",
+    "arabi": " کَلمیس "
   },
   {
     "gokturkce": "𐰚𐰠𐰢𐰾",
     "latin": "KƏLMİS",
-    "azturkce": "GƏLMİŞ"
+    "azturkce": "GƏLMİŞ",
+    "arabi": " کَلمیس "
   },
   {
     "gokturkce": "𐰚𐰠𐰾𐰼",
     "latin": "KƏLSƏR",
-    "azturkce": "GƏLSƏ"
+    "azturkce": "GƏLSƏ",
+    "arabi": " کَلسَر "
   },
   {
     "gokturkce": "𐰚𐰤𐱅𐰇",
     "latin": "KƏNTÜ",
-    "azturkce": "KƏNDİ"
+    "azturkce": "KƏNDİ",
+    "arabi": " کَنتۆ "
   },
   {
     "gokturkce": "𐰚𐰭𐰼𐰀𐰤𐰇𐰼",
     "latin": "KƏÑRƏNÜR",
-    "azturkce": "SIZLANIR"
+    "azturkce": "SIZLANIR",
+    "arabi": " کَڭرَنۆر "
   },
   {
     "gokturkce": "𐰚𐰼𐰀𐰚𐰇",
     "latin": "KƏRƏKÜ",
-    "azturkce": "ÇADIRIN"
+    "azturkce": "ÇADIRIN",
+    "arabi": " کَرَکۆ "
   },
   {
     "gokturkce": "𐰚𐰾𐰃𐰯𐰤",
     "latin": "KƏSİPƏN",
-    "azturkce": "KƏSİB"
+    "azturkce": "KƏSİB",
+    "arabi": " کَسیپَن "
   },
   {
     "gokturkce": "𐰞𐰆",
     "latin": "OL",
-    "azturkce": "O"
+    "azturkce": "O",
+    "arabi": " اول "
   },
   {
     "gokturkce": "𐰞𐰖𐰃𐰣",
     "latin": "ALAYIN",
-    "azturkce": "ALAYIM"
+    "azturkce": "ALAYIM",
+    "arabi": " آلایؽن "
   },
   {
     "gokturkce": "𐰞𐰯",
     "latin": "ALP",
-    "azturkce": "ALP"
+    "azturkce": "ALP",
+    "arabi": " آلپ "
   },
   {
     "gokturkce": "𐰞𐰴𐰆",
     "latin": "ALQU",
-    "azturkce": "HƏRKƏS"
+    "azturkce": "HƏRKƏS",
+    "arabi": " آلقو "
   },
   {
     "gokturkce": "𐰞𐱃𐰆𐰣",
     "latin": "ALTUN",
-    "azturkce": "ALTIN"
+    "azturkce": "ALTIN",
+    "arabi": " آلتون "
   },
   {
     "gokturkce": "𐰠𐰃𐰚",
     "latin": "ƏLİK",
-    "azturkce": "ƏRKƏK"
+    "azturkce": "ƏRKƏK",
+    "arabi": " الیک "
   },
   {
     "gokturkce": "𐰠𐰏𐰃𐰤",
     "latin": "ƏLİGİN",
-    "azturkce": "ƏLİYLƏ"
+    "azturkce": "ƏLİYLƏ",
+    "arabi": " الیگین "
   },
   {
     "gokturkce": "𐰠𐱅𐰃",
     "latin": "ƏLTİ",
-    "azturkce": "ALDI"
+    "azturkce": "ALDI",
+    "arabi": " التی "
   },
   {
     "gokturkce": "𐰢𐰃𐰏",
     "latin": "ƏMİG",
-    "azturkce": "ƏMMƏYİ"
+    "azturkce": "ƏMMƏYİ",
+    "arabi": " امیگ "
   },
   {
     "gokturkce": "𐰢𐰃𐰤𐰢𐰃𐰾",
     "latin": "MİNMİS",
-    "azturkce": "BİNMİŞ"
+    "azturkce": "BİNMİŞ",
+    "arabi": " مینمیس "
   },
   {
     "gokturkce": "𐰢𐰃𐰭",
     "latin": "MIÑ",
-    "azturkce": "BİN"
+    "azturkce": "BİN",
+    "arabi": " مؽڭ "
   },
   {
     "gokturkce": "𐰢𐰆𐰭𐰞𐰆𐰍",
     "latin": "MUÑLUĞ",
-    "azturkce": "KƏDƏRLİ"
+    "azturkce": "KƏDƏRLİ",
+    "arabi": " موڭلوغ "
   },
   {
     "gokturkce": "𐰢𐰇𐰭𐰼𐰀𐰘𐰇𐰼",
     "latin": "MÜÑRƏYÜR",
-    "azturkce": "BÖĞÜRÜR"
+    "azturkce": "BÖĞÜRÜR",
+    "arabi": " مۆڭرَیۆر "
   },
   {
     "gokturkce": "𐰢𐰍𐰀",
     "latin": "AMĞA",
-    "azturkce": "KƏÇİ"
+    "azturkce": "KƏÇİ",
+    "arabi": " آمغا "
   },
   {
     "gokturkce": "𐰢𐰍𐰴𐰀",
     "latin": "AMĞAQA",
-    "azturkce": "KƏÇİYƏ"
+    "azturkce": "KƏÇİYƏ",
+    "arabi": " آمغاقا "
   },
   {
     "gokturkce": "𐰢𐰏𐰚𐰃",
     "latin": "ƏMGƏKİ",
-    "azturkce": "ƏMƏK (zorluq)"
+    "azturkce": "ƏMƏK (zorluq)",
+    "arabi": " امگَکی "
   },
   {
     "gokturkce": "𐰢𐰔𐰴𐰣",
     "latin": "MAZQAN",
-    "azturkce": "-MADAN"
+    "azturkce": "-MADAN",
+    "arabi": " مازقان "
   },
   {
     "gokturkce": "𐰢𐰣𐰃𐰽𐱃𐰣𐱃𐰴𐰃",
     "latin": "MANISTANTAQI",
-    "azturkce": "MANASTIRINDAQİ"
+    "azturkce": "MANASTIRINDAQİ",
+    "arabi": " مانؽستانتاقؽ "
   },
   {
     "gokturkce": "𐰢𐰤",
     "latin": "MƏN",
-    "azturkce": "MƏN"
+    "azturkce": "MƏN",
+    "arabi": " مَن "
   },
   {
     "gokturkce": "𐰢𐰭𐰃",
     "latin": "MƏÑİ",
-    "azturkce": "KƏYİF"
+    "azturkce": "KƏYİF",
+    "arabi": " مَڭی "
   },
   {
     "gokturkce": "𐰢𐰭𐰃𐰠𐰃𐰏",
     "latin": "MƏÑİLİG",
-    "azturkce": "MUTLU"
+    "azturkce": "MUTLU",
+    "arabi": " مَڭیلیگ "
   },
   {
     "gokturkce": "𐰢𐰭𐰃𐰠𐰘𐰇𐰼",
     "latin": "MƏÑİLƏYÜR",
-    "azturkce": "KƏYİFLƏNİR"
+    "azturkce": "KƏYİFLƏNİR",
+    "arabi": " مَڭیلَیۆر "
   },
   {
     "gokturkce": "𐰢𐰭𐰃𐰤",
     "latin": "MƏÑİN",
-    "azturkce": "AVINI"
+    "azturkce": "AVINI",
+    "arabi": " مَڭین "
   },
   {
     "gokturkce": "𐰢𐰭𐰚𐰀",
     "latin": "MƏÑKƏ",
-    "azturkce": "AVLAMAYA"
+    "azturkce": "AVLAMAYA",
+    "arabi": " مَڭکه "
   },
   {
     "gokturkce": "𐰢𐰭𐰠𐰘𐰇",
     "latin": "MƏÑLƏYÜ",
-    "azturkce": "??????"
+    "azturkce": "??????",
+    "arabi": " مَڭلَیۆ "
   },
   {
     "gokturkce": "𐰢𐰺𐰴",
     "latin": "AMRAQ",
-    "azturkce": "SEVGİLİ"
+    "azturkce": "SEVGİLİ",
+    "arabi": " آمراق "
   },
   {
     "gokturkce": "𐰢𐰾𐰃𐰢𐰃𐰾",
     "latin": "ƏMSİMİS",
-    "azturkce": "ACIMIŞ"
+    "azturkce": "ACIMIŞ",
+    "arabi": " امسیمیس "
   },
   {
     "gokturkce": "𐰢𐱃𐰃",
     "latin": "AMTI",
-    "azturkce": "ŞİMDİ"
+    "azturkce": "ŞİMDİ",
+    "arabi": " آمتؽ "
   },
   {
     "gokturkce": "𐰤𐰀",
     "latin": "NƏ",
-    "azturkce": "NƏ"
+    "azturkce": "NƏ",
+    "arabi": " نه "
   },
   {
     "gokturkce": "𐰤𐰏𐰇𐰓𐰀",
     "latin": "NƏGÜDƏ",
-    "azturkce": "DƏK (nasıl)"
+    "azturkce": "DƏK (nasıl)",
+    "arabi": " نَگۆده "
   },
   {
     "gokturkce": "𐰤𐰠𐰜",
     "latin": "NƏLÜK",
-    "azturkce": "NASIL"
+    "azturkce": "NASIL",
+    "arabi": " نَلۆک "
   },
   {
     "gokturkce": "𐰤𐰲𐰜",
     "latin": "NƏÇÜK",
-    "azturkce": "NECƏ"
+    "azturkce": "NECƏ",
+    "arabi": " نَچۆک "
   },
   {
     "gokturkce": "𐰤𐱅𐰏",
     "latin": "NƏ",
-    "azturkce": "NƏ"
+    "azturkce": "NƏ",
+    "arabi": " نه "
   },
   {
     "gokturkce": "𐰦𐰀",
     "latin": "ANTA",
-    "azturkce": "ÖYLƏ"
+    "azturkce": "ÖYLƏ",
+    "arabi": " آنتا "
   },
   {
     "gokturkce": "𐰦𐰍",
     "latin": "ANTAĞ",
-    "azturkce": "ÖYLƏ"
+    "azturkce": "ÖYLƏ",
+    "arabi": " آنتاغ "
   },
   {
     "gokturkce": "𐰨",
     "latin": "ANÇA",
-    "azturkce": "ANCA"
+    "azturkce": "ANCA",
+    "arabi": " آنچا "
   },
   {
     "gokturkce": "𐰨𐰀",
     "latin": "ANÇA",
-    "azturkce": "ANCA"
+    "azturkce": "ANCA",
+    "arabi": " آنچا "
   },
   {
     "gokturkce": "𐰨𐰯",
     "latin": "ANÇIP (ANCA?)",
-    "azturkce": "ANCAQ"
+    "azturkce": "ANCAQ",
+    "arabi": " آنچؽپ (انجا?) "
   },
   {
     "gokturkce": "𐰪𐰃𐰍",
     "latin": "AÑIĞ",
-    "azturkce": "ÇOX"
+    "azturkce": "ÇOX",
+    "arabi": " آڭؽغ "
   },
   {
     "gokturkce": "𐰭𐰃𐰤",
     "latin": "ƏÑİN",
-    "azturkce": "-"
+    "azturkce": "-",
+    "arabi": " اڭین "
   },
   {
     "gokturkce": "𐰭𐰚𐰀",
     "latin": "ƏÑKƏ",
-    "azturkce": "-"
+    "azturkce": "-",
+    "arabi": " اڭکه "
   },
   {
     "gokturkce": "𐰭𐰠𐰘𐰇",
     "latin": "ƏÑLƏYÜ",
-    "azturkce": "??????"
+    "azturkce": "??????",
+    "arabi": " اڭلَیۆ "
   },
   {
     "gokturkce": "𐰲𐰃𐰍𐰪",
     "latin": "ÇIĞAÑ",
-    "azturkce": "FAQİR"
+    "azturkce": "FAQİR",
+    "arabi": " چؽغاڭ "
   },
   {
     "gokturkce": "𐰲𐰃𐰣𐱃𐰣",
     "latin": "ÇINTAN",
-    "azturkce": "SANDAL"
+    "azturkce": "SANDAL",
+    "arabi": " چؽنتان "
   },
   {
     "gokturkce": "𐰲𐰆𐰚",
     "latin": "ÇƏKİK",
-    "azturkce": "ÇƏKİK[QUŞU]"
+    "azturkce": "ÇƏKİK[QUŞU]",
+    "arabi": " چَکیک "
   },
   {
     "gokturkce": "𐰲𐰢𐰔",
     "latin": "ƏÇİMİZ",
-    "azturkce": "AĞABəYİMİZ"
+    "azturkce": "AĞABəYİMİZ",
+    "arabi": " اچیمیز "
   },
   {
     "gokturkce": "𐰴𐰃𐰔𐰃𐰞",
     "latin": "QIZIL",
-    "azturkce": "QIZIL"
+    "azturkce": "QIZIL",
+    "arabi": " قؽزؽل "
   },
   {
     "gokturkce": "𐰴𐰃𐰞𐰲𐰃𐰣",
     "latin": "QILIÇIN",
-    "azturkce": "QILICLA"
+    "azturkce": "QILICLA",
+    "arabi": " قؽلؽچؽن "
   },
   {
     "gokturkce": "𐰴𐰃𐰽𐰞𐰍𐰢",
     "latin": "QISLAĞIM",
-    "azturkce": "QIŞLAĞIM"
+    "azturkce": "QIŞLAĞIM",
+    "arabi": " قؽسلاغؽم "
   },
   {
     "gokturkce": "𐰴𐰃𐰾𐰃𐰾𐰃𐰤",
     "latin": "KİSİSİN",
-    "azturkce": "AİLƏSİ"
+    "azturkce": "AİLƏSİ",
+    "arabi": " کیسیسین "
   },
   {
     "gokturkce": "𐰴𐰆𐰉𐰃",
     "latin": "QOBI",
-    "azturkce": "KÖTÜ"
+    "azturkce": "KÖTÜ",
+    "arabi": " قوبؽ "
   },
   {
     "gokturkce": "𐰴𐰆𐰍𐰆",
     "latin": "QUĞU",
-    "azturkce": "QUĞU"
+    "azturkce": "QUĞU",
+    "arabi": " قوغو "
   },
   {
     "gokturkce": "𐰴𐰆𐰑𐰃",
     "latin": "QUDI",
-    "azturkce": "(göktən)"
+    "azturkce": "(göktən)",
+    "arabi": " قودؽ "
   },
   {
     "gokturkce": "𐰴𐰆𐰑𐰆𐰯𐰣",
     "latin": "QODUPAN",
-    "azturkce": "QOYUB"
+    "azturkce": "QOYUB",
+    "arabi": " قودوپان "
   },
   {
     "gokturkce": "𐰴𐰆𐰑𐰆𐰺𐰽𐰆𐰍𐰃𐰭𐰣𐰃𐰭𐰀",
     "latin": "QUDURSUĞINIÑA",
-    "azturkce": "QUYRUĞUNA"
+    "azturkce": "QUYRUĞUNA",
+    "arabi": " قودورسوغؽنؽڭا "
   },
   {
     "gokturkce": "𐰴𐰆𐰑𐰢𐰸",
     "latin": "QODMADUQ",
-    "azturkce": "QOYMADIQ (tamamı)"
+    "azturkce": "QOYMADIQ (tamamı)",
+    "arabi": " قودمادوق "
   },
   {
     "gokturkce": "𐰴𐰆𐰑𐰺𐰆𐰸𐰃𐰣",
     "latin": "QUDRUQIN",
-    "azturkce": "QUYRUĞUNU"
+    "azturkce": "QUYRUĞUNU",
+    "arabi": " قودروقؽن "
   },
   {
     "gokturkce": "𐰴𐰆𐰔𐰍𐰆𐰣",
     "latin": "QUZĞUN",
-    "azturkce": "QUZĞUN"
+    "azturkce": "QUZĞUN",
+    "arabi": " قوزغون "
   },
   {
     "gokturkce": "𐰴𐰆𐰔𐰍𐰆𐰣𐰆𐰍",
     "latin": "QUZĞUNUĞ",
-    "azturkce": "QUZĞUNU"
+    "azturkce": "QUZĞUNU",
+    "arabi": " قوزغونوغ "
   },
   {
     "gokturkce": "𐰴𐰆𐰞",
     "latin": "QUL",
-    "azturkce": "QUL"
+    "azturkce": "QUL",
+    "arabi": " قول "
   },
   {
     "gokturkce": "𐰴𐰆𐰞𐰆𐰣",
     "latin": "QULUN",
-    "azturkce": "QULUN (tay)"
+    "azturkce": "QULUN (tay)",
+    "arabi": " قولون "
   },
   {
     "gokturkce": "𐰴𐰆𐰞𐰆𐰣𐰞𐰀𐰢𐰃𐰾",
     "latin": "QULUNLAMIS",
-    "azturkce": "QULUNLAMIŞ"
+    "azturkce": "QULUNLAMIŞ",
+    "arabi": " قولونلامؽس "
   },
   {
     "gokturkce": "𐰴𐰆𐰞𐰢𐰃𐰾",
     "latin": "QOLMIS",
-    "azturkce": "DİLƏMİŞ"
+    "azturkce": "DİLƏMİŞ",
+    "arabi": " قولمؽس "
   },
   {
     "gokturkce": "𐰴𐰆𐰢𐰆𐰺𐰽𐰍𐰀",
     "latin": "QUMURSĞA",
-    "azturkce": "QARINCA"
+    "azturkce": "QARINCA",
+    "arabi": " قومورسغا "
   },
   {
     "gokturkce": "𐰴𐰆𐰣𐰆𐰆𐰯𐰣",
     "latin": "QONUPAN",
-    "azturkce": "QONUB"
+    "azturkce": "QONUB",
+    "arabi": " قونوپان "
   },
   {
     "gokturkce": "𐰴𐰆𐰣𐰢𐰃𐰾",
     "latin": "QONMIS",
-    "azturkce": "QONMUŞ"
+    "azturkce": "QONMUŞ",
+    "arabi": " قونمؽس "
   },
   {
     "gokturkce": "𐰴𐰆𐰣𐱃𐰆𐰺𐰆",
     "latin": "QONTURU",
-    "azturkce": "QONDURA"
+    "azturkce": "QONDURA",
+    "arabi": " قونتورو "
   },
   {
     "gokturkce": "𐰴𐰆𐰨𐰆𐰖𐰃",
     "latin": "QONÇUYI",
-    "azturkce": "EŞİ"
+    "azturkce": "EŞİ",
+    "arabi": " قونچویؽ "
   },
   {
     "gokturkce": "𐰴𐰆𐰪",
     "latin": "QOÑ",
-    "azturkce": "QOYUN"
+    "azturkce": "QOYUN",
+    "arabi": " قوڭ "
   },
   {
     "gokturkce": "𐰴𐰆𐰪𐰃",
     "latin": "QOÑI",
-    "azturkce": "QOYUNU"
+    "azturkce": "QOYUNU",
+    "arabi": " قوڭؽ "
   },
   {
     "gokturkce": "𐰴𐰆𐰯",
     "latin": "QOP",
-    "azturkce": "HƏPSİ"
+    "azturkce": "HƏPSİ",
+    "arabi": " قوپ "
   },
   {
     "gokturkce": "𐰴𐰆𐰯𐰆𐰯𐰣",
     "latin": "QOPUPAN",
-    "azturkce": "QOPUB"
+    "azturkce": "QOPUB",
+    "arabi": " قوپوپان "
   },
   {
     "gokturkce": "𐰴𐰆𐰺𐰆𐰍𐰽𐰴𐰢𐰃𐰤",
     "latin": "QURUĞSAQIMIN",
-    "azturkce": "QURSAĞIMI"
+    "azturkce": "QURSAĞIMI",
+    "arabi": " قوروغساقؽمؽن "
   },
   {
     "gokturkce": "𐰴𐰆𐰺𐰴𐰢𐰀",
     "latin": "QORQMA",
-    "azturkce": "QORXMA"
+    "azturkce": "QORXMA",
+    "arabi": " قورقما "
   },
   {
     "gokturkce": "𐰴𐰆𐰺𐰴𐰢𐰃𐰾",
     "latin": "QORQMIS",
-    "azturkce": "QORXMUŞ"
+    "azturkce": "QORXMUŞ",
+    "arabi": " قورقمؽس "
   },
   {
     "gokturkce": "𐰴𐰆𐰺𐰴𐰨𐰃𐰭",
     "latin": "QORQINÇIÑ",
-    "azturkce": "QORXUN"
+    "azturkce": "QORXUN",
+    "arabi": " قورقؽنچؽڭ "
   },
   {
     "gokturkce": "𐰴𐰆𐰺𐱃𐰍𐰀",
     "latin": "QURTĞA",
-    "azturkce": "QADIN"
+    "azturkce": "QADIN",
+    "arabi": " قورتغا "
   },
   {
     "gokturkce": "𐰴𐰆𐰽",
     "latin": "QUS",
-    "azturkce": "QUŞ (qartal)"
+    "azturkce": "QUŞ (qartal)",
+    "arabi": " قوس "
   },
   {
     "gokturkce": "𐰴𐰆𐰽𐰃",
     "latin": "QUSI",
-    "azturkce": "QUŞU"
+    "azturkce": "QUŞU",
+    "arabi": " قوسؽ "
   },
   {
     "gokturkce": "𐰴𐰆𐰽𐰆𐰭",
     "latin": "QUSUÑ",
-    "azturkce": "QUŞUN"
+    "azturkce": "QUŞUN",
+    "arabi": " قوسوڭ "
   },
   {
     "gokturkce": "𐰴𐰆𐰽𐰞𐰍",
     "latin": "QUSLUĞ",
-    "azturkce": "QUŞLUQ"
+    "azturkce": "QUŞLUQ",
+    "arabi": " قوسلوغ "
   },
   {
     "gokturkce": "𐰴𐰆𐰽𐰞𐰖𐰆",
     "latin": "QUSLAYU",
-    "azturkce": "QUŞLAYA (avlanmaya)"
+    "azturkce": "QUŞLAYA (avlanmaya)",
+    "arabi": " قوسلایو "
   },
   {
     "gokturkce": "𐰴𐰆𐰽𐰴𐰀",
     "latin": "QUSQA",
-    "azturkce": "QUŞA"
+    "azturkce": "QUŞA",
+    "arabi": " قوسقا "
   },
   {
     "gokturkce": "𐰴𐰆𐱃",
     "latin": "QUT",
-    "azturkce": "QUT"
+    "azturkce": "QUT",
+    "arabi": " قوت "
   },
   {
     "gokturkce": "𐰴𐰆𐱃𐰃𐰣𐱃𐰀",
     "latin": "QUTINTA",
-    "azturkce": "QUTUNDA"
+    "azturkce": "QUTUNDA",
+    "arabi": " قوتؽنتا "
   },
   {
     "gokturkce": "𐰴𐰆𐱃𐰆𐰭",
     "latin": "QUTUÑ",
-    "azturkce": "QUTUN"
+    "azturkce": "QUTUN",
+    "arabi": " قوتوڭ "
   },
   {
     "gokturkce": "𐰴𐰆𐱃𐰞𐰆𐰍",
     "latin": "QUTLUĞ",
-    "azturkce": "QUTLU"
+    "azturkce": "QUTLU",
+    "arabi": " قوتلوغ "
   },
   {
     "gokturkce": "𐰴𐰔𐰍𐰨𐰴𐰀",
     "latin": "QAZĞANÇQA",
-    "azturkce": "[PARA] QAZANMAĞA"
+    "azturkce": "[PARA] QAZANMAĞA",
+    "arabi": " قازغانچقا "
   },
   {
     "gokturkce": "𐰴𐰖𐰀",
     "latin": "QAYA",
-    "azturkce": "QAYA"
+    "azturkce": "QAYA",
+    "arabi": " قایا "
   },
   {
     "gokturkce": "𐰴𐰖𐰀𐰴𐰀",
     "latin": "QAYAQA",
-    "azturkce": "QAYAYA"
+    "azturkce": "QAYAYA",
+    "arabi": " قایاقا "
   },
   {
     "gokturkce": "𐰴𐰖𐰍",
     "latin": "QAYAĞ",
-    "azturkce": "QAYALARA"
+    "azturkce": "QAYALARA",
+    "arabi": " قایاغ "
   },
   {
     "gokturkce": "𐰴𐰞𐰃𐰖𐰆",
     "latin": "QALIYU",
-    "azturkce": "QALIB"
+    "azturkce": "QALIB",
+    "arabi": " قالؽیو "
   },
   {
     "gokturkce": "𐰴𐰞𐰢𐰃𐰾",
     "latin": "QALMIS",
-    "azturkce": "QALMIŞ"
+    "azturkce": "QALMIŞ",
+    "arabi": " قالمؽس "
   },
   {
     "gokturkce": "𐰴𐰞𐰢𐰑𐰸",
     "latin": "QALMADUQ",
-    "azturkce": "QALMADIQ"
+    "azturkce": "QALMADIQ",
+    "arabi": " قالمادوق "
   },
   {
     "gokturkce": "𐰴𐰞𐱃𐰃",
     "latin": "QALTI",
-    "azturkce": "QALDIM"
+    "azturkce": "QALDIM",
+    "arabi": " قالتؽ "
   },
   {
     "gokturkce": "𐰴𐰢𐰃𐰲",
     "latin": "QAMIÇ",
-    "azturkce": "QAŞIQ"
+    "azturkce": "QAŞIQ",
+    "arabi": " قامؽچ "
   },
   {
     "gokturkce": "𐰴𐰢𐰃𐰽",
     "latin": "QAMIS",
-    "azturkce": "QAMIŞLAR"
+    "azturkce": "QAMIŞLAR",
+    "arabi": " قامؽس "
   },
   {
     "gokturkce": "𐰴𐰢𐰆𐰽",
     "latin": "QAMUS",
-    "azturkce": "QAMIŞ [lıq]"
+    "azturkce": "QAMIŞ [lıq]",
+    "arabi": " قاموس "
   },
   {
     "gokturkce": "𐰴𐰢𐰍",
     "latin": "QAMAĞ",
-    "azturkce": "HƏR ŞEYİN"
+    "azturkce": "HƏR ŞEYİN",
+    "arabi": " قاماغ "
   },
   {
     "gokturkce": "𐰴𐰢𐰞𐰢𐰃𐰾",
     "latin": "QAMILMIS",
-    "azturkce": "QAMILMIŞ (düşmüş)"
+    "azturkce": "QAMILMIŞ (düşmüş)",
+    "arabi": " قامؽلمؽس "
   },
   {
     "gokturkce": "𐰴𐰢𐰽𐰀𐰖𐰆",
     "latin": "QAMSAYU",
-    "azturkce": "QIMILDAYA-"
+    "azturkce": "QIMILDAYA-",
+    "arabi": " قامسایو "
   },
   {
     "gokturkce": "𐰴𐰢𐰽𐰖𐰆",
     "latin": "QAMSAYU",
-    "azturkce": "QIMILDAYA-"
+    "azturkce": "QIMILDAYA-",
+    "arabi": " قامسایو "
   },
   {
     "gokturkce": "𐰴𐰢𐰾𐰖𐰆",
     "latin": "QAMSAYU",
-    "azturkce": "QIMILDAYA-"
+    "azturkce": "QIMILDAYA-",
+    "arabi": " قامسایو "
   },
   {
     "gokturkce": "𐰴𐰣",
     "latin": "QAN",
-    "azturkce": "XAN"
+    "azturkce": "XAN",
+    "arabi": " قان "
   },
   {
     "gokturkce": "𐰴𐰣𐰀𐱃𐰃𐰭𐰀",
     "latin": "QANATIÑA",
-    "azturkce": "QANADINA"
+    "azturkce": "QANADINA",
+    "arabi": " قاناتؽڭا "
   },
   {
     "gokturkce": "𐰴𐰣𐰍𐰃",
     "latin": "QANIĞI",
-    "azturkce": "SEVDİĞİ"
+    "azturkce": "SEVDİĞİ",
+    "arabi": " قانؽغؽ "
   },
   {
     "gokturkce": "𐰴𐰣𐰞𐰴",
     "latin": "QANLIQ",
-    "azturkce": "XANLIQ"
+    "azturkce": "XANLIQ",
+    "arabi": " قانلؽق "
   },
   {
     "gokturkce": "𐰴𐰣𐰨𐰀",
     "latin": "QANÇA",
-    "azturkce": "NASIL"
+    "azturkce": "NASIL",
+    "arabi": " قانچا "
   },
   {
     "gokturkce": "𐰴𐰣𐱃𐰀",
     "latin": "QANTA",
-    "azturkce": "NƏ"
+    "azturkce": "NƏ",
+    "arabi": " قانتا "
   },
   {
     "gokturkce": "𐰴𐰣𐱃𐰞𐰍",
     "latin": "QANATLIĞ",
-    "azturkce": "QANATLI"
+    "azturkce": "QANATLI",
+    "arabi": " قاناتلؽغ "
   },
   {
     "gokturkce": "𐰴𐰭𐰃",
     "latin": "QAÑI",
-    "azturkce": "BABASI"
+    "azturkce": "BABASI",
+    "arabi": " قاڭؽ "
   },
   {
     "gokturkce": "𐰴𐰭𐰃𐰣𐱃𐰀",
     "latin": "QAÑINTA",
-    "azturkce": "BABASINA"
+    "azturkce": "BABASINA",
+    "arabi": " قاڭؽنتا "
   },
   {
     "gokturkce": "𐰴𐰭𐰃𐰭𐰀",
     "latin": "QAÑIÑA",
-    "azturkce": "BABASINA"
+    "azturkce": "BABASINA",
+    "arabi": " قاڭؽڭا "
   },
   {
     "gokturkce": "𐰴𐰭𐰢",
     "latin": "QAÑIM",
-    "azturkce": "BABAMIN"
+    "azturkce": "BABAMIN",
+    "arabi": " قاڭؽم "
   },
   {
     "gokturkce": "𐰴𐰯𐰢𐰃𐰾",
     "latin": "QAPMIS",
-    "azturkce": "QAPMIŞ"
+    "azturkce": "QAPMIŞ",
+    "arabi": " قاپمؽس "
   },
   {
     "gokturkce": "𐰴𐰺𐰀",
     "latin": "QARA",
-    "azturkce": "QARA"
+    "azturkce": "QARA",
+    "arabi": " قارا "
   },
   {
     "gokturkce": "𐰴𐰺𐰃",
     "latin": "QARI",
-    "azturkce": "YAŞLI"
+    "azturkce": "YAŞLI",
+    "arabi": " قارؽ "
   },
   {
     "gokturkce": "𐰴𐰺𐰣𐰃",
     "latin": "QARNI",
-    "azturkce": "QARNI"
+    "azturkce": "QARNI",
+    "arabi": " قارنؽ "
   },
   {
     "gokturkce": "𐰴𐰺𐰽𐰽𐰃𐰣",
     "latin": "QARSISIN",
-    "azturkce": "QARŞISINI (raqibini)"
+    "azturkce": "QARŞISINI (raqibini)",
+    "arabi": " قارسؽسؽن "
   },
   {
     "gokturkce": "𐰴𐱃",
     "latin": "QAT",
-    "azturkce": "QAT"
+    "azturkce": "QAT",
+    "arabi": " قات "
   },
   {
     "gokturkce": "𐰴𐱃𐰃𐰭𐰀",
     "latin": "QATIÑA",
-    "azturkce": "QATINA"
+    "azturkce": "QATINA",
+    "arabi": " قاتؽڭا "
   },
   {
     "gokturkce": "𐰴𐱃𐰆𐰣",
     "latin": "QATUN",
-    "azturkce": "QADIN"
+    "azturkce": "QADIN",
+    "arabi": " قاتون "
   },
   {
     "gokturkce": "𐰴𐱃𐰍",
     "latin": "QATIĞ",
-    "azturkce": "QATI (Xəstə)"
+    "azturkce": "QATI (Xəstə)",
+    "arabi": " قاتؽغ "
   },
   {
     "gokturkce": "𐰴𐱃𐰍𐰑𐰃",
     "latin": "QATIĞDI",
-    "azturkce": "QATICA (sıqı)"
+    "azturkce": "QATICA (sıqı)",
+    "arabi": " قاتؽغدؽ "
   },
   {
     "gokturkce": "𐰴𐱃𐰍𐱃𐰃",
     "latin": "QATIĞTI",
-    "azturkce": "QATICA (sıqı)"
+    "azturkce": "QATICA (sıqı)",
+    "arabi": " قاتؽغتؽ "
   },
   {
     "gokturkce": "𐰺𐰀",
     "latin": "ARA",
-    "azturkce": "ARASINDA"
+    "azturkce": "ARASINDA",
+    "arabi": " آرا "
   },
   {
     "gokturkce": "𐰺𐰞𐰃",
     "latin": "ARALI",
-    "azturkce": "ARALI (budaqlı)"
+    "azturkce": "ARALI (budaqlı)",
+    "arabi": " آرالؽ "
   },
   {
     "gokturkce": "𐰺𐰢𐰃𐰾",
     "latin": "ARMIS",
-    "azturkce": "ARMIŞ (bitkin qalmış)"
+    "azturkce": "ARMIŞ (bitkin qalmış)",
+    "arabi": " آرمؽس "
   },
   {
     "gokturkce": "𐰺𐰯",
     "latin": "ARIP",
-    "azturkce": "ARIB (arğın-yorğun)"
+    "azturkce": "ARIB (arğın-yorğun)",
+    "arabi": " آرؽپ "
   },
   {
     "gokturkce": "𐰺𐱃𐰀𐱃𐰢𐰖𐰃𐰣",
     "latin": "ARTATMAYIN",
-    "azturkce": "ÇÜRÜTMƏYİN"
+    "azturkce": "ÇÜRÜTMƏYİN",
+    "arabi": " آرتاتمایؽن "
   },
   {
     "gokturkce": "𐰼",
     "latin": "ƏR",
-    "azturkce": "ƏR"
+    "azturkce": "ƏR",
+    "arabi": " ار "
   },
   {
     "gokturkce": "𐰼𐰓𐰢𐰠𐰃𐰏",
     "latin": "ƏRDƏMLİG",
-    "azturkce": "ƏRDƏMLİ"
+    "azturkce": "ƏRDƏMLİ",
+    "arabi": " اردَملیگ "
   },
   {
     "gokturkce": "𐰼𐰚𐰠𐰃𐰏",
     "latin": "ƏRKLİG",
-    "azturkce": "ƏRKLİ (güçlü)"
+    "azturkce": "ƏRKLİ (güçlü)",
+    "arabi": " ارکلیگ "
   },
   {
     "gokturkce": "𐰼𐰚𐰠𐰏",
     "latin": "ƏRKLİG",
-    "azturkce": "ƏRKLİK (güç)"
+    "azturkce": "ƏRKLİK (güç)",
+    "arabi": " ارکلیگ "
   },
   {
     "gokturkce": "𐰼𐰢𐰃𐰾",
     "latin": "ƏRMİS",
-    "azturkce": "İMİŞ"
+    "azturkce": "İMİŞ",
+    "arabi": " ارمیس "
   },
   {
     "gokturkce": "𐰽𐰃𐰍𐰆𐰣",
     "latin": "SIĞUN",
-    "azturkce": "BOYNUZLU"
+    "azturkce": "BOYNUZLU",
+    "arabi": " سؽغون "
   },
   {
     "gokturkce": "𐰽𐰃𐰣𐰢𐰃𐰾",
     "latin": "SINMIS",
-    "azturkce": "SINMIŞ"
+    "azturkce": "SINMIŞ",
+    "arabi": " سؽنمؽس "
   },
   {
     "gokturkce": "𐰽𐰃𐰣𐰸𐰃𐰭𐰃𐰣",
     "latin": "SINUQIÑIN",
-    "azturkce": "SINIĞI"
+    "azturkce": "SINIĞI",
+    "arabi": " سؽنوقؽڭؽن "
   },
   {
     "gokturkce": "𐰽𐰆𐰉",
     "latin": "SUB",
-    "azturkce": "SU"
+    "azturkce": "SU",
+    "arabi": " سوب "
   },
   {
     "gokturkce": "𐰽𐰆𐰉𐰴𐰀",
     "latin": "SUBQA",
-    "azturkce": "SUYA"
+    "azturkce": "SUYA",
+    "arabi": " سوبقا "
   },
   {
     "gokturkce": "𐰽𐰆𐰉𐰽𐰆𐰔",
     "latin": "SUBSUZ",
-    "azturkce": "SUSUZ"
+    "azturkce": "SUSUZ",
+    "arabi": " سوبسوز "
   },
   {
     "gokturkce": "𐰽𐰆𐰲𐰆𐰞𐰆𐰣𐰢𐰃𐰾",
     "latin": "SOÇULUNMIS",
-    "azturkce": "SÖKÜLMÜŞ"
+    "azturkce": "SÖKÜLMÜŞ",
+    "arabi": " سوچولونمؽس "
   },
   {
     "gokturkce": "𐰽𐰆𐰴𐰆𐰽𐰢𐰾",
     "latin": "SOQUSMIS",
-    "azturkce": "SOXUŞMUŞ"
+    "azturkce": "SOXUŞMUŞ",
+    "arabi": " سوقوسمؽس "
   },
   {
     "gokturkce": "𐰽𐰆𐰸𐰆𐰽𐰆𐰯",
     "latin": "SOQUSUP",
-    "azturkce": "SOXULUB"
+    "azturkce": "SOXULUB",
+    "arabi": " سوقوسوپ "
   },
   {
     "gokturkce": "𐰽𐰆𐰸𐰆𐰽𐰢𐰃𐰾",
     "latin": "SOQUSMIS",
-    "azturkce": "SOXUŞMUŞ (yanaşmış)"
+    "azturkce": "SOXUŞMUŞ (yanaşmış)",
+    "arabi": " سوقوسمؽس "
   },
   {
     "gokturkce": "𐰽𐰆𐰸𐰢𐰃𐰾",
     "latin": "SOQMIS",
-    "azturkce": "SOQMUŞ"
+    "azturkce": "SOQMUŞ",
+    "arabi": " سوقمؽس "
   },
   {
     "gokturkce": "𐰽𐰆𐰸𐰽𐰢𐰃𐰾",
     "latin": "SOQUSMIS",
-    "azturkce": "SOXUŞMUŞ"
+    "azturkce": "SOXUŞMUŞ",
+    "arabi": " سوقوسمؽس "
   },
   {
     "gokturkce": "𐰽𐰉",
     "latin": "SAB",
-    "azturkce": "SAV"
+    "azturkce": "SAV",
+    "arabi": " ساب "
   },
   {
     "gokturkce": "𐰽𐰉𐰃",
     "latin": "SABI",
-    "azturkce": "SAVI (sözü)"
+    "azturkce": "SAVI (sözü)",
+    "arabi": " سابؽ "
   },
   {
     "gokturkce": "𐰽𐰉𐰃𐰣",
     "latin": "SABIN",
-    "azturkce": "SAVINI (sözünü)"
+    "azturkce": "SAVINI (sözünü)",
+    "arabi": " سابؽن "
   },
   {
     "gokturkce": "𐰽𐰉𐰲𐰃",
     "latin": "SABÇI",
-    "azturkce": "SAVCI (sözcü)"
+    "azturkce": "SAVCI (sözcü)",
+    "arabi": " سابچؽ "
   },
   {
     "gokturkce": "𐰽𐰍𐰃",
     "latin": "ASIĞI",
-    "azturkce": "FAYDASI"
+    "azturkce": "FAYDASI",
+    "arabi": " آسؽغؽ "
   },
   {
     "gokturkce": "𐰽𐰍𐰃𐰺",
     "latin": "SAĞIR",
-    "azturkce": "AVLARIN"
+    "azturkce": "AVLARIN",
+    "arabi": " ساغؽر "
   },
   {
     "gokturkce": "𐰽𐰣𐰨𐰢𐰃𐰾",
     "latin": "SANÇMIS",
-    "azturkce": "SAÇMIŞ (yənmiş)"
+    "azturkce": "SAÇMIŞ (yənmiş)",
+    "arabi": " سانچمؽس "
   },
   {
     "gokturkce": "𐰽𐰭𐰆𐰣",
     "latin": "SAÑUN",
-    "azturkce": "SANĞUN"
+    "azturkce": "SANĞUN",
+    "arabi": " ساڭون "
   },
   {
     "gokturkce": "𐰽𐰲𐰺",
     "latin": "SAÇAR",
-    "azturkce": "SAÇAR"
+    "azturkce": "SAÇAR",
+    "arabi": " ساچار "
   },
   {
     "gokturkce": "𐰽𐰴𐰃𐰣𐰢𐰃𐰾",
     "latin": "SAQINMIS",
-    "azturkce": "SAQINMIŞ (düşünmüş)"
+    "azturkce": "SAQINMIŞ (düşünmüş)",
+    "arabi": " ساقؽنمؽس "
   },
   {
     "gokturkce": "𐰽𐰺𐰀",
     "latin": "ASRA",
-    "azturkce": "ALTTA"
+    "azturkce": "ALTTA",
+    "arabi": " آسرا "
   },
   {
     "gokturkce": "𐰽𐰺𐰍",
     "latin": "SARIĞ",
-    "azturkce": "SARI"
+    "azturkce": "SARI",
+    "arabi": " سارؽغ "
   },
   {
     "gokturkce": "𐰾𐰃𐰓𐱅𐰃",
     "latin": "ƏSİDTİ",
-    "azturkce": "İŞİTTİ"
+    "azturkce": "İŞİTTİ",
+    "arabi": " اسیدتی "
   },
   {
     "gokturkce": "𐰾𐰇",
     "latin": "SÜ",
-    "azturkce": "SAVAŞ"
+    "azturkce": "SAVAŞ",
+    "arabi": " سۆ "
   },
   {
     "gokturkce": "𐰾𐰇𐰔",
     "latin": "SÖZ",
-    "azturkce": "SÖZ"
+    "azturkce": "SÖZ",
+    "arabi": " سؤز "
   },
   {
     "gokturkce": "𐰾𐰇𐰚𐰀",
     "latin": "SÜKƏ",
-    "azturkce": "SAVAŞA"
+    "azturkce": "SAVAŞA",
+    "arabi": " سۆکه "
   },
   {
     "gokturkce": "𐰾𐰇𐰼",
     "latin": "ƏSÜR",
-    "azturkce": "ƏSƏR (yol sürər)"
+    "azturkce": "ƏSƏR (yol sürər)",
+    "arabi": " اسۆر "
   },
   {
     "gokturkce": "𐰾𐰇𐰾𐰃",
     "latin": "SÜSİ",
-    "azturkce": "ƏRLƏRİ"
+    "azturkce": "ƏRLƏRİ",
+    "arabi": " سۆسی "
   },
   {
     "gokturkce": "𐰾𐰋𐰃𐰤𐰇",
     "latin": "SƏBİNÜ",
-    "azturkce": "SEVİNƏ"
+    "azturkce": "SEVİNƏ",
+    "arabi": " سَبینۆ "
   },
   {
     "gokturkce": "𐰾𐰋𐰃𐰤𐰇𐰼",
     "latin": "SƏBİNÜR",
-    "azturkce": "SEVİNİR"
+    "azturkce": "SEVİNİR",
+    "arabi": " سَبینۆر "
   },
   {
     "gokturkce": "𐰾𐰋𐰓𐰜𐰢𐰃𐰤",
     "latin": "SƏBDÜKÜMİN",
-    "azturkce": "SEVDİĞİMİ"
+    "azturkce": "SEVDİĞİMİ",
+    "arabi": " سَبدۆکۆمین "
   },
   {
     "gokturkce": "𐰾𐰓𐰯",
     "latin": "ESİDİP",
-    "azturkce": "EŞİDİB"
+    "azturkce": "EŞİDİB",
+    "arabi": " ائسیدیپ "
   },
   {
     "gokturkce": "𐰾𐰢𐰃𐰔",
     "latin": "SƏMİZ",
-    "azturkce": "SƏMİZ"
+    "azturkce": "SƏMİZ",
+    "arabi": " سَمیز "
   },
   {
     "gokturkce": "𐰾𐰢𐰼𐰃𐱅𐰃",
     "latin": "SƏMRİTİ",
-    "azturkce": "SƏMİZ"
+    "azturkce": "SƏMİZ",
+    "arabi": " سَمریتی "
   },
   {
     "gokturkce": "𐰾𐰤",
     "latin": "ƏSƏN",
-    "azturkce": "ƏSƏN"
+    "azturkce": "ƏSƏN",
+    "arabi": " اسَن "
   },
   {
     "gokturkce": "𐰾𐰤𐰏𐰤",
     "latin": "ƏSNƏGƏN",
-    "azturkce": "ƏSNƏYƏN"
+    "azturkce": "ƏSNƏYƏN",
+    "arabi": " اسنَگَن "
   },
   {
     "gokturkce": "𐰾𐰯𐰼",
     "latin": "SAPAR",
-    "azturkce": "ONARIR"
+    "azturkce": "ONARIR",
+    "arabi": " ساپار "
   },
   {
     "gokturkce": "𐰾𐰼𐰃",
     "latin": "ƏSRİ",
-    "azturkce": "MƏNƏKLİ"
+    "azturkce": "MƏNƏKLİ",
+    "arabi": " اسری "
   },
   {
     "gokturkce": "𐱃",
     "latin": "AT",
-    "azturkce": "AT"
+    "azturkce": "AT",
+    "arabi": " آت "
   },
   {
     "gokturkce": "𐱃𐰃",
     "latin": "ATI",
-    "azturkce": "ATI"
+    "azturkce": "ATI",
+    "arabi": " آتؽ "
   },
   {
     "gokturkce": "𐱃𐰃𐰍",
     "latin": "TIĞ",
-    "azturkce": "QIR"
+    "azturkce": "QIR",
+    "arabi": " تؽغ "
   },
   {
     "gokturkce": "𐱃𐰃𐰭𐰞𐰖𐰃𐰣",
     "latin": "TIÑLAYIN",
-    "azturkce": "DİNLƏYƏYİM"
+    "azturkce": "DİNLƏYƏYİM",
+    "arabi": " تؽڭلایؽن "
   },
   {
     "gokturkce": "𐱃𐰃𐰺𐰭𐰴𐰃",
     "latin": "TIRÑAQI",
-    "azturkce": "TIRNAĞI"
+    "azturkce": "TIRNAĞI",
+    "arabi": " تؽرڭاقؽ "
   },
   {
     "gokturkce": "𐱃𐰃𐰼",
     "latin": "TƏR",
-    "azturkce": "DEYİR"
+    "azturkce": "DEYİR",
+    "arabi": " تَر "
   },
   {
     "gokturkce": "𐱃𐰃𐱃𐰃𐰤𐰢𐰾",
     "latin": "TITINMIS",
-    "azturkce": "QAÇMIŞ"
+    "azturkce": "QAÇMIŞ",
+    "arabi": " تؽتؽنمؽس "
   },
   {
     "gokturkce": "𐱃𐰆𐰍𐰑𐰃",
     "latin": "TOĞDI",
-    "azturkce": "DOĞDU"
+    "azturkce": "DOĞDU",
+    "arabi": " توغدؽ "
   },
   {
     "gokturkce": "𐱃𐰆𐰍𐰢𐰃𐰾",
     "latin": "TOĞMIS",
-    "azturkce": "DOĞMUŞ"
+    "azturkce": "DOĞMUŞ",
+    "arabi": " توغمؽس "
   },
   {
     "gokturkce": "𐱃𐰆𐰍𐰣",
     "latin": "TOĞAN",
-    "azturkce": "DOĞAN"
+    "azturkce": "DOĞAN",
+    "arabi": " توغان "
   },
   {
     "gokturkce": "𐱃𐰆𐰍𐰺𐰴",
     "latin": "TOĞRAQ",
-    "azturkce": "AĞAÇ"
+    "azturkce": "AĞAÇ",
+    "arabi": " توغراق "
   },
   {
     "gokturkce": "𐱃𐰆𐰔",
     "latin": "TOZ",
-    "azturkce": "TOZ"
+    "azturkce": "TOZ",
+    "arabi": " توز "
   },
   {
     "gokturkce": "𐱃𐰆𐰔𐰴𐰀",
     "latin": "TUZAQQA",
-    "azturkce": "TUZAĞA"
+    "azturkce": "TUZAĞA",
+    "arabi": " توزاققا "
   },
   {
     "gokturkce": "𐱃𐰆𐰖𐰆𐰍𐰞𐰆𐰍",
     "latin": "TOYUĞLUĞ",
-    "azturkce": "DAMĞALI"
+    "azturkce": "DAMĞALI",
+    "arabi": " تویوغلوغ "
   },
   {
     "gokturkce": "𐱃𐰆𐰖𐰢𐰀𐱃𐰃𐰣",
     "latin": "TUYMATIN",
-    "azturkce": "DUYMADAN (görəməmiş)"
+    "azturkce": "DUYMADAN (görəməmiş)",
+    "arabi": " تویماتؽن "
   },
   {
     "gokturkce": "𐱃𐰆𐰢𐰣",
     "latin": "TUMAN",
-    "azturkce": "DUMAN (sis)"
+    "azturkce": "DUMAN (sis)",
+    "arabi": " تومان "
   },
   {
     "gokturkce": "𐱃𐰆𐰭𐰆𐰔𐰆𐰭",
     "latin": "TOÑUZUÑ",
-    "azturkce": "DOMUZUN"
+    "azturkce": "DOMUZUN",
+    "arabi": " توڭوزوڭ "
   },
   {
     "gokturkce": "𐱃𐰆𐰭𐰆𐰔𐰞𐰃",
     "latin": "TOÑUZLI",
-    "azturkce": "DOMUZLU"
+    "azturkce": "DOMUZLU",
+    "arabi": " توڭوزلؽ "
   },
   {
     "gokturkce": "𐱃𐰆𐰭𐰍𐰖",
     "latin": "TOÑĞAY",
-    "azturkce": "DONAR"
+    "azturkce": "DONAR",
+    "arabi": " توڭغای "
   },
   {
     "gokturkce": "𐱃𐰆𐰭𐰢𐰃𐰾",
     "latin": "TOÑMIS",
-    "azturkce": "DONMUŞ"
+    "azturkce": "DONMUŞ",
+    "arabi": " توڭمؽس "
   },
   {
     "gokturkce": "𐱃𐰆𐰯𐰆𐰆𐰞𐰍𐰨𐰀",
     "latin": "TOPULĞINÇA",
-    "azturkce": "YIRTILINCAYA"
+    "azturkce": "YIRTILINCAYA",
+    "arabi": " توپولغؽنچا "
   },
   {
     "gokturkce": "𐱃𐰆𐰸𐰆𐰔",
     "latin": "TOQUZ",
-    "azturkce": "DOQQUZ"
+    "azturkce": "DOQQUZ",
+    "arabi": " توقوز "
   },
   {
     "gokturkce": "𐱃𐰆𐰸𐰆𐰔𐰆𐰣",
     "latin": "TOQUZUN",
-    "azturkce": "DOQQUZUN"
+    "azturkce": "DOQQUZUN",
+    "arabi": " توقوزون "
   },
   {
     "gokturkce": "𐱃𐰆𐰺𐰆",
     "latin": "TURU",
-    "azturkce": "DURA-"
+    "azturkce": "DURA-",
+    "arabi": " تورو "
   },
   {
     "gokturkce": "𐱃𐰆𐰺𐰆𐰆𐰯𐰣",
     "latin": "TURUPAN",
-    "azturkce": "DURUP (yaşayıp)"
+    "azturkce": "DURUP (yaşayıp)",
+    "arabi": " توروپان "
   },
   {
     "gokturkce": "𐱃𐰆𐰺𐰆𐰯𐰣",
     "latin": "TURUPAN",
-    "azturkce": "DURUB"
+    "azturkce": "DURUB",
+    "arabi": " توروپان "
   },
   {
     "gokturkce": "𐱃𐰆𐰺𐰆𐰺",
     "latin": "TURUR",
-    "azturkce": "DURUR"
+    "azturkce": "DURUR",
+    "arabi": " تورور "
   },
   {
     "gokturkce": "𐱃𐰆𐰺𐰍𐰺𐰆",
     "latin": "TURĞURU",
-    "azturkce": "QALDIRA-QALDIRA"
+    "azturkce": "QALDIRA-QALDIRA",
+    "arabi": " تورغورو "
   },
   {
     "gokturkce": "𐱃𐰆𐰺𐰑𐰃",
     "latin": "TURDI",
-    "azturkce": "DURDU"
+    "azturkce": "DURDU",
+    "arabi": " توردؽ "
   },
   {
     "gokturkce": "𐱃𐰆𐰺𐰢𐰃𐰾",
     "latin": "TURMIS",
-    "azturkce": "DURMUŞ"
+    "azturkce": "DURMUŞ",
+    "arabi": " تورمؽس "
   },
   {
     "gokturkce": "𐱃𐰆𐰺𐰪𐰖𐰀",
     "latin": "TURÑA",
-    "azturkce": "TURNA"
+    "azturkce": "TURNA",
+    "arabi": " تورڭا "
   },
   {
     "gokturkce": "𐱃𐰆𐰺𐰸",
     "latin": "TORUQ",
-    "azturkce": "DORUQ (zayıf)"
+    "azturkce": "DORUQ (zayıf)",
+    "arabi": " توروق "
   },
   {
     "gokturkce": "𐱃𐰆𐱃𐰆𐰆𐰯𐰣",
     "latin": "TUTUPAN",
-    "azturkce": "TUTUB"
+    "azturkce": "TUTUB",
+    "arabi": " توتوپان "
   },
   {
     "gokturkce": "𐱃𐰆𐱃𐰆𐰍",
     "latin": "TUTUĞ",
-    "azturkce": "TUTUQ"
+    "azturkce": "TUTUQ",
+    "arabi": " توتوغ "
   },
   {
     "gokturkce": "𐱃𐰆𐱃𐰢𐰃𐰾",
     "latin": "TUTMIS",
-    "azturkce": "TUTMUŞ"
+    "azturkce": "TUTMUŞ",
+    "arabi": " توتمؽس "
   },
   {
     "gokturkce": "𐱃𐰆𐱃𐰺",
     "latin": "TUTAR",
-    "azturkce": "TUTAR"
+    "azturkce": "TUTAR",
+    "arabi": " توتار "
   },
   {
     "gokturkce": "𐱃𐰉𐰞𐰴𐰆",
     "latin": "TABILQU",
-    "azturkce": "GÜL"
+    "azturkce": "GÜL",
+    "arabi": " تابؽلقو "
   },
   {
     "gokturkce": "𐱃𐰉𐰽𐰍𐰣",
     "latin": "TABISĞAN",
-    "azturkce": "TAVŞAN"
+    "azturkce": "TAVŞAN",
+    "arabi": " تابؽسغان "
   },
   {
     "gokturkce": "𐱃𐰍",
     "latin": "TAĞ",
-    "azturkce": "DAĞ"
+    "azturkce": "DAĞ",
+    "arabi": " تاغ "
   },
   {
     "gokturkce": "𐱃𐰍𐰃𐰍",
     "latin": "TIĞIĞ",
-    "azturkce": "QIRATI"
+    "azturkce": "QIRATI",
+    "arabi": " تؽغؽغ "
   },
   {
     "gokturkce": "𐱃𐰍𐰑𐰀",
     "latin": "TAĞDA",
-    "azturkce": "DAĞDA"
+    "azturkce": "DAĞDA",
+    "arabi": " تاغدا "
   },
   {
     "gokturkce": "𐱃𐰍𐰢𐰀",
     "latin": "TAĞIMA",
-    "azturkce": "DAĞIMA"
+    "azturkce": "DAĞIMA",
+    "arabi": " تاغؽما "
   },
   {
     "gokturkce": "𐱃𐰖𐰏𐰇𐰤𐱃𐰣",
     "latin": "TAYGÜNTAN",
-    "azturkce": "TAYGÜN-TAN"
+    "azturkce": "TAYGÜN-TAN",
+    "arabi": " تایگۆنتان "
   },
   {
     "gokturkce": "𐱃𐰞𐰆𐰖𐰑𐰀",
     "latin": "TALUYDA",
-    "azturkce": "DƏNİZDƏ"
+    "azturkce": "DƏNİZDƏ",
+    "arabi": " تالویدا "
   },
   {
     "gokturkce": "𐱃𐰞𐰆𐰞𐰀𐰯𐰣",
     "latin": "TALULAPAN",
-    "azturkce": "SƏÇMİŞ"
+    "azturkce": "SƏÇMİŞ",
+    "arabi": " تالولاپان "
   },
   {
     "gokturkce": "𐱃𐰞𐰍",
     "latin": "ATLIĞ",
-    "azturkce": "ATLI"
+    "azturkce": "ATLI",
+    "arabi": " آتلؽغ "
   },
   {
     "gokturkce": "𐱃𐰞𐰢",
     "latin": "TALIM",
-    "azturkce": "TALIM (yırtıcı)"
+    "azturkce": "TALIM (yırtıcı)",
+    "arabi": " تالؽم "
   },
   {
     "gokturkce": "𐱃𐰣𐰢",
     "latin": "TANIM",
-    "azturkce": "TƏNİMİN"
+    "azturkce": "TƏNİMİN",
+    "arabi": " تانؽم "
   },
   {
     "gokturkce": "𐱃𐰭",
     "latin": "TAÑ",
-    "azturkce": "TAN"
+    "azturkce": "TAN",
+    "arabi": " تاڭ "
   },
   {
     "gokturkce": "𐱃𐰭𐰞𐰺𐰑𐰃",
     "latin": "TAÑLARDI",
-    "azturkce": "TANLADI"
+    "azturkce": "TANLADI",
+    "arabi": " تاڭلاردؽ "
   },
   {
     "gokturkce": "𐱃𐰯𐰞𐰀𐰑𐰆𐰴𐰢𐰃𐰤",
     "latin": "TAPLADUQUMIN",
-    "azturkce": "TOPLADIĞIMI"
+    "azturkce": "TOPLADIĞIMI",
+    "arabi": " تاپلادوقومؽن "
   },
   {
     "gokturkce": "𐱃𐰴𐰃",
     "latin": "TAQI",
-    "azturkce": "DAHİ"
+    "azturkce": "DAHİ",
+    "arabi": " تاقؽ "
   },
   {
     "gokturkce": "𐱃𐰺𐰃𐰍",
     "latin": "TARIĞ",
-    "azturkce": "ƏKİNLƏR"
+    "azturkce": "ƏKİNLƏR",
+    "arabi": " تارؽغ "
   },
   {
     "gokturkce": "𐱅𐰃𐰃",
     "latin": "Tİİ",
-    "azturkce": "DƏR"
+    "azturkce": "DƏR",
+    "arabi": " تیی "
   },
   {
     "gokturkce": "𐱅𐰃𐰏𐰼𐱅",
     "latin": "TİGRƏT",
-    "azturkce": "ÇATLAYINCAYA"
+    "azturkce": "ÇATLAYINCAYA",
+    "arabi": " تیگرَت "
   },
   {
     "gokturkce": "𐱅𐰃𐰔",
     "latin": "TİZ",
-    "azturkce": "DİZLƏRİM"
+    "azturkce": "DİZLƏRİM",
+    "arabi": " تیز "
   },
   {
     "gokturkce": "𐱅𐰃𐰠𐰀𐰘𐰇𐰼",
     "latin": "TİLƏYÜR",
-    "azturkce": "DİLƏR"
+    "azturkce": "DİLƏR",
+    "arabi": " تیلَیۆر "
   },
   {
     "gokturkce": "𐱅𐰃𐰠𐰚𐰇",
     "latin": "TİLKÜ",
-    "azturkce": "TİLKİ"
+    "azturkce": "TİLKİ",
+    "arabi": " تیلکۆ "
   },
   {
     "gokturkce": "𐱅𐰃𐰢𐰃𐰾",
     "latin": "TİMİS",
-    "azturkce": "DEMİŞ"
+    "azturkce": "DEMİŞ",
+    "arabi": " تیمیس "
   },
   {
     "gokturkce": "𐱅𐰃𐰢𐰾",
     "latin": "TİMİS",
-    "azturkce": "DEMİŞ"
+    "azturkce": "DEMİŞ",
+    "arabi": " تیمیس "
   },
   {
     "gokturkce": "𐱅𐰃𐰭",
     "latin": "ƏTİÑ",
-    "azturkce": "ƏTİN"
+    "azturkce": "ƏTİN",
+    "arabi": " اتیڭ "
   },
   {
     "gokturkce": "𐱅𐰃𐰯",
     "latin": "TƏP",
-    "azturkce": "DEYİB"
+    "azturkce": "DEYİB",
+    "arabi": " تَپ "
   },
   {
     "gokturkce": "𐱅𐰃𐰯𐰤",
     "latin": "TƏPƏN",
-    "azturkce": "TAPIB"
+    "azturkce": "TAPIB",
+    "arabi": " تَپَن "
   },
   {
     "gokturkce": "𐱅𐰃𐰼",
     "latin": "TİR",
-    "azturkce": "DEYİR"
+    "azturkce": "DEYİR",
+    "arabi": " تیر "
   },
   {
     "gokturkce": "𐱅𐰃𐰼𐰃𐰠𐰃𐰯𐰤",
     "latin": "TİRİLİPƏN",
-    "azturkce": "DƏRİLİB (toplanıp)"
+    "azturkce": "DƏRİLİB (toplanıp)",
+    "arabi": " تیریلیپَن "
   },
   {
     "gokturkce": "𐱅𐰃𐰼𐰃𐰠𐰢𐰃𐰾",
     "latin": "TİRİLMİS",
-    "azturkce": "DİRİLMİŞ"
+    "azturkce": "DİRİLMİŞ",
+    "arabi": " تیریلمیس "
   },
   {
     "gokturkce": "𐱅𐰃𐱅𐰃𐰏𐰚𐰀",
     "latin": "TİTİGKƏ",
-    "azturkce": "BATAĞA"
+    "azturkce": "BATAĞA",
+    "arabi": " تیتیگکه "
   },
   {
     "gokturkce": "𐱅𐰃𐱅𐰃𐰼",
     "latin": "TİTİR",
-    "azturkce": "ƏRKƏK"
+    "azturkce": "ƏRKƏK",
+    "arabi": " تیتیر "
   },
   {
     "gokturkce": "𐱅𐰇𐰏𐰇𐰤𐰜𐰃",
     "latin": "TÜGÜNÜKİ",
-    "azturkce": "TÜYNÜĞÜ (bacası)"
+    "azturkce": "TÜYNÜĞÜ (bacası)",
+    "arabi": " تۆگۆنۆکی "
   },
   {
     "gokturkce": "𐱅𐰇𐰏𐰇𐰯",
     "latin": "TÜGÜP",
-    "azturkce": "DÜYÜ[MLƏYİ]B"
+    "azturkce": "DÜYÜ[MLƏYİ]B",
+    "arabi": " تۆگۆپ "
   },
   {
     "gokturkce": "𐱅𐰇𐰚𐰀𐰢𐰔𐰚𐰤",
     "latin": "TÜKƏMƏZKƏN",
-    "azturkce": "YƏTİŞMƏZKƏN"
+    "azturkce": "YƏTİŞMƏZKƏN",
+    "arabi": " تۆکَمَزکَن "
   },
   {
     "gokturkce": "𐱅𐰇𐰚𐰠",
     "latin": "TÜKƏL",
-    "azturkce": "SALİM (sağ-salim)"
+    "azturkce": "SALİM (sağ-salim)",
+    "arabi": " تۆکَل "
   },
   {
     "gokturkce": "𐱅𐰇𐰜𐰠",
     "latin": "TÜKƏL",
-    "azturkce": "SALİM"
+    "azturkce": "SALİM",
+    "arabi": " تۆکَل "
   },
   {
     "gokturkce": "𐱅𐰇𐰢𐰤",
     "latin": "TÜMƏN",
-    "azturkce": "TÜMƏN (onbin)"
+    "azturkce": "TÜMƏN (onbin)",
+    "arabi": " تۆمَن "
   },
   {
     "gokturkce": "𐱅𐰇𐰤",
     "latin": "TÜN",
-    "azturkce": "DÜN (gəcə)"
+    "azturkce": "DÜN (gəcə)",
+    "arabi": " تۆن "
   },
   {
     "gokturkce": "𐱅𐰇𐰼𐱅",
     "latin": "TÖRT",
-    "azturkce": "DÖRT"
+    "azturkce": "DÖRT",
+    "arabi": " تؤرت "
   },
   {
     "gokturkce": "𐱅𐰇𐰼𐱅𐰢𐰃𐰾",
     "latin": "TÖRÜTMİS",
-    "azturkce": "TÜRƏTMİŞ (ün salmış)"
+    "azturkce": "TÜRƏTMİŞ (ün salmış)",
+    "arabi": " تؤرۆتمیس "
   },
   {
     "gokturkce": "𐱅𐰇𐰾𐰃",
     "latin": "TÜSİ",
-    "azturkce": "TÜYÜ"
+    "azturkce": "TÜYÜ",
+    "arabi": " تۆسی "
   },
   {
     "gokturkce": "𐱅𐰇𐰾𐰇𐰯𐰤",
     "latin": "TÜSÜPƏN",
-    "azturkce": "DÜŞÜP (inip)"
+    "azturkce": "DÜŞÜP (inip)",
+    "arabi": " تۆسۆپَن "
   },
   {
     "gokturkce": "𐱅𐰇𐰾𐰢𐰃𐰾",
     "latin": "TÜSMİS",
-    "azturkce": "DÜŞMÜŞ"
+    "azturkce": "DÜŞMÜŞ",
+    "arabi": " تۆسمیس "
   },
   {
     "gokturkce": "𐱅𐰇𐰾𐰤𐰀𐰚𐰃𐰭𐰀",
     "latin": "TÜSNƏKİÑƏ",
-    "azturkce": "TÜNƏĞİNƏ"
+    "azturkce": "TÜNƏĞİNƏ",
+    "arabi": " تۆسنَکیڭه "
   },
   {
     "gokturkce": "𐱅𐰋𐰀",
     "latin": "TƏBƏ",
-    "azturkce": "DƏVƏ"
+    "azturkce": "DƏVƏ",
+    "arabi": " تَبه "
   },
   {
     "gokturkce": "𐱅𐰋𐰀𐰾𐰃𐰭𐰼𐰇",
     "latin": "TƏBƏSİÑƏRÜ",
-    "azturkce": "DƏVƏSİNƏ"
+    "azturkce": "DƏVƏSİNƏ",
+    "arabi": " تَبَسیڭَرۆ "
   },
   {
     "gokturkce": "𐱅𐰏",
     "latin": "TƏG",
-    "azturkce": "GİBİ"
+    "azturkce": "GİBİ",
+    "arabi": " تَگ "
   },
   {
     "gokturkce": "𐱅𐰏𐰃",
     "latin": "TƏGİ",
-    "azturkce": "DƏĞİN"
+    "azturkce": "DƏĞİN",
+    "arabi": " تَگی "
   },
   {
     "gokturkce": "𐱅𐰏𐰃𐰼",
     "latin": "TƏGİR",
-    "azturkce": "DƏĞƏR"
+    "azturkce": "DƏĞƏR",
+    "arabi": " تَگیر "
   },
   {
     "gokturkce": "𐱅𐰏𐰇𐰼𐰢𐰃𐰾",
     "latin": "TƏGÜRMİS",
-    "azturkce": "GÖTÜRMÜŞ"
+    "azturkce": "GÖTÜRMÜŞ",
+    "arabi": " تَگۆرمیس "
   },
   {
     "gokturkce": "𐱅𐰏𐰠𐰜",
     "latin": "TƏGLÜK",
-    "azturkce": "KÖR"
+    "azturkce": "KÖR",
+    "arabi": " تَگلۆک "
   },
   {
     "gokturkce": "𐱅𐰏𐰢𐰃𐰾𐰃𐰏",
     "latin": "TƏGMİSİG",
-    "azturkce": "DƏYMİŞİ (illik yiyəcəgi)"
+    "azturkce": "DƏYMİŞİ (illik yiyəcəgi)",
+    "arabi": " تَگمیسیگ "
   },
   {
     "gokturkce": "𐱅𐰓𐰃",
     "latin": "ƏTDİ",
-    "azturkce": "ÖTDÜ"
+    "azturkce": "ÖTDÜ",
+    "arabi": " اتدی "
   },
   {
     "gokturkce": "𐱅𐰔𐰚𐰃𐰤",
     "latin": "TƏZƏKİN",
-    "azturkce": "TƏZƏGİNİ"
+    "azturkce": "TƏZƏGİNİ",
+    "arabi": " تَزَکین "
   },
   {
     "gokturkce": "𐱅𐰔𐰯𐰤",
     "latin": "TƏZİPƏN",
-    "azturkce": "TƏZİB (qaçıb)"
+    "azturkce": "TƏZİB (qaçıb)",
+    "arabi": " تَزیپَن "
   },
   {
     "gokturkce": "𐱅𐰤𐰾𐰃",
     "latin": "TƏNSİ",
-    "azturkce": "TƏNSİ (tanrı oğlu)"
+    "azturkce": "TƏNSİ (tanrı oğlu)",
+    "arabi": " تَنسی "
   },
   {
     "gokturkce": "𐱅𐰭𐰼𐰃",
     "latin": "TEÑRİ",
-    "azturkce": "TANRISI"
+    "azturkce": "TANRISI",
+    "arabi": " تئڭری "
   },
   {
     "gokturkce": "𐱅𐰭𐰼𐰃𐰏𐰼𐰇",
     "latin": "TEÑRİGƏRÜ",
-    "azturkce": "TANRIYA"
+    "azturkce": "TANRIYA",
+    "arabi": " تئڭریگَرۆ "
   },
   {
     "gokturkce": "𐱅𐰭𐰼𐰃𐰓𐰀",
     "latin": "TEÑRİDƏ",
-    "azturkce": "TANRIDA"
+    "azturkce": "TANRIDA",
+    "arabi": " تئڭریده "
   },
   {
     "gokturkce": "𐱅𐰭𐰼𐰃𐰓𐰤",
     "latin": "TEÑRİDƏN",
-    "azturkce": "TANRIDAN (göktən)"
+    "azturkce": "TANRIDAN (göktən)",
+    "arabi": " تئڭریدَن "
   },
   {
     "gokturkce": "𐱅𐰭𐰼𐰃𐰚𐰀",
     "latin": "TEÑRİKƏ",
-    "azturkce": "TANRIYA (göğə)"
+    "azturkce": "TANRIYA (göğə)",
+    "arabi": " تئڭریکه "
   },
   {
     "gokturkce": "𐱅𐰭𐰼𐰃𐰠𐰃𐰏",
     "latin": "TEÑRİLİG",
-    "azturkce": "TANRILIQ (dindar)"
+    "azturkce": "TANRILIQ (dindar)",
+    "arabi": " تئڭریلیگ "
   },
   {
     "gokturkce": "𐱅𐰼𐰃𐰾𐰃",
     "latin": "TƏRİSİ",
-    "azturkce": "DƏRİSİ"
+    "azturkce": "DƏRİSİ",
+    "arabi": " تَریسی "
   },
   {
     "gokturkce": "𐱅𐰼𐰃𐱅𐰔𐰇𐰤",
     "latin": "TƏRİTZÜN",
-    "azturkce": "TƏRLƏTSİN"
+    "azturkce": "TƏRLƏTSİN",
+    "arabi": " تَریتزۆن "
   },
   {
     "gokturkce": "𐱅𐰼𐰚𐰠𐰘𐰇",
     "latin": "TƏRKLƏYÜ",
-    "azturkce": "QAÇA QAÇA "
+    "azturkce": "QAÇA QAÇA ",
+    "arabi": " تَرکلَیۆ "
   },
   {
     "gokturkce": "𐱅𐰼𐱅𐰼𐰇",
     "latin": "TƏRTRÜ",
-    "azturkce": "ÇAPRAZ"
+    "azturkce": "ÇAPRAZ",
+    "arabi": " تَرترۆ "
+  },
+  {
+    "gokturkce": "𐱇",
+    "latin": "OT",
+    "azturkce": "OT",
+    "arabi": " اوت "
+  },
+  {
+    "gokturkce": "𐱇𐰽𐰆𐰔",
+    "latin": "OTSUZ",
+    "azturkce": "OTSUZ",
+    "arabi": " اوتسوز "
   }
+  
 ]
