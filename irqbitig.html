@@ -228,7 +228,7 @@
 <br/><div class="irqsayi"> 
 
 .. .... .</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
-𐰚𐰼𐰀𐰚𐰇: 𐰃𐰲𐰃: 𐰤𐰀: 𐱅𐰏: 𐰆𐰞: 𐱅𐰇𐰏𐰇𐰤𐰜𐰃: 𐰤𐰀: 𐱅𐰏: 𐰆𐰞: 𐰚𐰇𐰔𐰤𐰜𐰚𐰃: 𐰤𐰀: 𐱅𐰏: 𐰚𐰇𐰼𐰜𐰠𐰇𐰏: 𐰆𐰞: 𐰏𐰤𐰃: 𐰤𐱅𐰏: 𐰓𐰏𐰇: 𐰆𐰞: 𐰉𐰍𐰽𐰃𐰤𐰀: 𐱅𐰏: 𐰉𐰺: 𐰆𐰞: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰪𐰃𐰍: 𐰓𐰏𐰇: 𐰆𐰞: 
+𐰚𐰼𐰀𐰚𐰇: 𐰃𐰲𐰃: 𐰤𐰀: 𐱅𐰏: 𐰆𐰞: 𐱅𐰇𐰏𐰇𐰤𐰜𐰃: 𐰤𐰀: 𐱅𐰏: 𐰆𐰞: 𐰚𐰇𐰔𐰤𐰜𐰚𐰃: 𐰤𐰀: 𐱅𐰏: 𐰚𐰇𐰼𐰜𐰠𐰇𐰏: 𐰆𐰞: 𐰏𐰤𐰃: 𐰤𐱅𐰏: 𐰓𐰏𐰇: 𐰆𐰞: 𐰉𐰍𐰽𐰃: 𐰤𐰀: 𐱅𐰏: 𐰉𐰺: 𐰆𐰞: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰪𐰃𐰍: 𐰓𐰏𐰇: 𐰆𐰞: 
 </div>
 <br/><div class="irqsayi"> 
 
@@ -624,8 +624,8 @@ function toggleMenu() {
                 floatBox.style.left = `${rect.left + window.scrollX}px`;
                 floatBox.style.top = `${rect.bottom + window.scrollY}px`;
                 //floatBox.innerText = selectedText+'\n'+kokturk2arab(':'+selectedText+':');
-                floatBox.innerText =selectedText+'\n'+
-                kokturk2arab(':'+selectedText+':')+'\n'+
+                floatBox.innerText =selectedText+'\n\n'+
+
                 arabiRow+'\n';
                 floatBox.style.display = 'block'; // Show the floating box
             } else {
@@ -707,9 +707,9 @@ function toggleMenu() {
                 floatBox.style.left = `${rect.left + window.scrollX}px`;
                 floatBox.style.top = `${rect.bottom + window.scrollY}px`;
                 //floatBox.innerText = selectedText+'\n'+kokturk2arab(':'+selectedText+':');
-                floatBox.innerText =selectedText+'\n'+
-                kokturk2arab(':'+selectedText+':')+'\n'+
-                arabiRow+'\n'+
+                floatBox.innerText =selectedText+'\n\n'+
+               // kokturk2arab(':'+selectedText+':')+'\n'+
+                arabiRow+'\n\n'+
                 latinRow+'\n\n'+
                 azturkceRow;
                 floatBox.style.display = 'block'; // Show the floating box

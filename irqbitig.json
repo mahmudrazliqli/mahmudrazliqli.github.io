@@ -6,6 +6,12 @@
     "arabi": "  "
   },
   {
+    "gokturkce": ".",
+    "latin": " ",
+    "azturkce": " ",
+    "arabi": "  "
+  },
+  {
     "gokturkce": "𐰀𐰔𐱃𐰃",
     "latin": "AZTI",
     "azturkce": "AZMIŞ",
@@ -354,7 +360,7 @@
     "arabi": "اونامادوق "
   },
   {
-    "gokturkce": "𐰆𐰭𐰆𐰆𐰯",
+    "gokturkce": "𐰆𐰭𐰆𐰰",
     "latin": "OÑUP",
     "azturkce": "DONUB",
     "arabi": "اونگوپ "
@@ -404,7 +410,7 @@
   {
     "gokturkce": "𐰆𐰺𐰆𐰯𐰣𐰃𐰣",
     "latin": "URUPANIN",
-    "azturkce": "VURUP (bindirip)",
+    "azturkce": "VURUB (mindirib)",
     "arabi": "اوروپانؽن "
   },
   {
@@ -572,7 +578,7 @@
   {
     "gokturkce": "𐰇𐰔𐰠𐰜",
     "latin": "ÖZLÜK",
-    "azturkce": "ÖZLÜK (binək)",
+    "azturkce": "ÖZLÜK (minək)",
     "arabi": "اؤزلۆک "
   },
   {
@@ -632,7 +638,7 @@
   {
     "gokturkce": "𐰇𐰢𐰀𐰠𐰘𐰇",
     "latin": "ÜMƏLƏYÜ",
-    "azturkce": "MİSAFİRLİĞƏ",
+    "azturkce": "MİSAFİRLİGƏ",
     "arabi": "اۆمَلَیۆ "
   },
   {
@@ -746,7 +752,7 @@
   {
     "gokturkce": "𐰇𐱅𐰃𐰤",
     "latin": "ÜTİN",
-    "azturkce": "ÖĞÜDÜNÜ",
+    "azturkce": "ÖGÜDÜNÜ",
     "arabi": "اۆتین "
   },
   {
@@ -1027,9 +1033,9 @@
   },
   {
     "gokturkce": "𐰋",
-    "latin": "ƏV",
-    "azturkce": "ƏV",
-    "arabi": "او "
+    "latin": "EV",
+    "azturkce": "EV",
+    "arabi": "ائو "
   },
   {
     "gokturkce": "𐰋𐰃𐰠𐰃𐰤",
@@ -1142,7 +1148,7 @@
   {
     "gokturkce": "𐰋𐰇𐰜𐰃𐰭𐰀",
     "latin": "BÜKİÑƏ",
-    "azturkce": "BÜKÜNƏ (köşəsinə)",
+    "azturkce": "BÜKÜNƏ (bucağına)",
     "arabi": "بۆکینگه "
   },
   {
@@ -1257,7 +1263,7 @@
     "gokturkce": "𐰓𐰃𐱃𐰺",
     "latin": "DE(N)TaR ",
     "azturkce": "KeŞİŞ",
-    "arabi": "دئ(ن)تار  "
+    "arabi": "دئتار  "
   },
   {
     "gokturkce": "𐰓𐰏𐰇",
@@ -1676,7 +1682,7 @@
   {
     "gokturkce": "𐰖𐱃𐰯𐰣",
     "latin": "YATIPAN",
-    "azturkce": "(BULUP)",
+    "azturkce": "(BULUB)",
     "arabi": "یاتؽپان "
   },
   {
@@ -1856,7 +1862,7 @@
   {
     "gokturkce": "𐰚𐰇𐰔𐰤𐰜𐰚𐰃",
     "latin": "KÖZNÖKİ",
-    "azturkce": "GÖZNƏĞİ (pəncərəsi)",
+    "azturkce": "GÖZNƏGİ (pəncərəsi)",
     "arabi": "کؤزنؤکی "
   },
   {
@@ -1892,7 +1898,7 @@
   {
     "gokturkce": "𐰚𐰇𐰤𐰀𐰚𐰃",
     "latin": "KÖNƏKİ",
-    "azturkce": "KÖNƏĞİ",
+    "azturkce": "KÖNƏGİ",
     "arabi": "کؤنَکی "
   },
   {
@@ -1904,13 +1910,13 @@
   {
     "gokturkce": "𐰚𐰇𐰭𐰀𐰚𐰃",
     "latin": "KÖÑƏKİ",
-    "azturkce": "KÖNƏĞİ (qovası)",
+    "azturkce": "KÖNƏGİ (qovası)",
     "arabi": "کؤنگَکی "
   },
   {
     "gokturkce": "𐰚𐰇𐰯𐰇𐰚𐰇𐰢𐰃𐰤",
     "latin": "KÖPÜKÜMİN",
-    "azturkce": "KÖPÜĞÜMÜ",
+    "azturkce": "KÖPÜGÜMÜ",
     "arabi": "کؤپۆکۆمین "
   },
   {
@@ -2090,7 +2096,7 @@
   {
     "gokturkce": "𐰢𐰇𐰭𐰼𐰀𐰘𐰇𐰼",
     "latin": "MÜÑRƏYÜR",
-    "azturkce": "BÖĞÜRÜR",
+    "azturkce": "BÖGÜRÜR",
     "arabi": "مۆنگرَیۆر "
   },
   {
@@ -2348,7 +2354,7 @@
   {
     "gokturkce": "𐰴𐰆𐰑𐰢𐰸",
     "latin": "QODMADUQ",
-    "azturkce": "QOYMADIQ (tamamı)",
+    "azturkce": "QOYMADIQ",
     "arabi": "قودمادوق "
   },
   {
@@ -2438,7 +2444,7 @@
   {
     "gokturkce": "𐰴𐰆𐰯",
     "latin": "QOP",
-    "azturkce": "HƏPSİ",
+    "azturkce": "ÇOX",
     "arabi": "قوپ "
   },
   {
@@ -2480,7 +2486,7 @@
   {
     "gokturkce": "𐰴𐰆𐰽",
     "latin": "QUS",
-    "azturkce": "QUŞ (qartal)",
+    "azturkce": "QUŞ",
     "arabi": "قوس "
   },
   {
@@ -2648,7 +2654,7 @@
   {
     "gokturkce": "𐰴𐰣𐰍𐰃",
     "latin": "QANIĞI",
-    "azturkce": "SEVDİĞİ",
+    "azturkce": "SEVDİGİ",
     "arabi": "قانؽغؽ "
   },
   {
@@ -2960,7 +2966,7 @@
   {
     "gokturkce": "𐰽𐰺𐰀",
     "latin": "ASRA",
-    "azturkce": "ALTTA",
+    "azturkce": "ALTDA",
     "arabi": "آسرا "
   },
   {
@@ -3020,7 +3026,7 @@
   {
     "gokturkce": "𐰾𐰋𐰓𐰜𐰢𐰃𐰤",
     "latin": "SƏBDÜKÜMİN",
-    "azturkce": "SEVDİĞİMİ",
+    "azturkce": "SEVDİGİMİ",
     "arabi": "سَبدۆکۆمین "
   },
   {
@@ -3158,7 +3164,7 @@
   {
     "gokturkce": "𐱃𐰆𐰢𐰣",
     "latin": "TUMAN",
-    "azturkce": "DUMAN (sis)",
+    "azturkce": "DUMAN",
     "arabi": "تومان "
   },
   {
@@ -3258,7 +3264,7 @@
     "arabi": "توروق "
   },
   {
-    "gokturkce": "𐱃𐰆𐱃𐰆𐰆𐰯𐰣",
+    "gokturkce": "𐱃𐰆𐱃𐰆𐰰𐰣",
     "latin": "TUTUPAN",
     "azturkce": "TUTUB",
     "arabi": "توتوپان "
@@ -3476,7 +3482,7 @@
   {
     "gokturkce": "𐱅𐰇𐰏𐰇𐰤𐰜𐰃",
     "latin": "TÜGÜNÜKİ",
-    "azturkce": "TÜYNÜĞÜ (bacası)",
+    "azturkce": "TÜYNÜGÜ (bacası)",
     "arabi": "تۆگۆنۆکی "
   },
   {
@@ -3548,7 +3554,7 @@
   {
     "gokturkce": "𐱅𐰇𐰾𐰤𐰀𐰚𐰃𐰭𐰀",
     "latin": "TÜSNƏKİÑƏ",
-    "azturkce": "TÜNƏĞİNƏ",
+    "azturkce": "TÜNƏGİNƏ",
     "arabi": "تۆسنَکینگه "
   },
   {
@@ -3572,13 +3578,13 @@
   {
     "gokturkce": "𐱅𐰏𐰃",
     "latin": "TƏGİ",
-    "azturkce": "DƏĞİN",
+    "azturkce": "TƏKİN",
     "arabi": "تَگی "
   },
   {
     "gokturkce": "𐱅𐰏𐰃𐰼",
     "latin": "TƏGİR",
-    "azturkce": "DƏĞƏR",
+    "azturkce": "DƏGƏR",
     "arabi": "تَگیر "
   },
   {
@@ -3650,7 +3656,7 @@
   {
     "gokturkce": "𐱅𐰭𐰼𐰃𐰚𐰀",
     "latin": "TEÑRİKƏ",
-    "azturkce": "TANRIYA (göğə)",
+    "azturkce": "TANRIYA (göyə)",
     "arabi": "تنگریکه "
   },
   {
