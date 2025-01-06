@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="tr" dir= rtl>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="icon.ico">
+    <title>    Irq Bitig اؽرق بیتیگ 𐰃𐰺𐰴:𐰋𐰃𐱅𐰃𐰏:</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="arabfonts.css" />
+    <link rel="stylesheet" href="kokturkfonts.css" />
+    <script src="kokturk2arab.js"></script> 
+    <style>
+       .irqsayi {
+        background-color: rgb(85, 51, 84);
+        color: #f0f0f0;
+        width: 95%;
+        max-width: 600px;
+        min-height: 10px;
+        max-height:60px ;
+        padding: 5px;
+        border-radius: 8px;
+        margin-top: 5px;
+        font-family: 'irqbitig';
+        font-size: 2rem;
+        position: relative;
+        /*white-space: pre-wrap;*/
+        word-wrap: break-word;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 4px 10px #0000004d; /* Added shadow */
+        text-align: center;
+        }
+
+        #float-box {
+            max-width: 600px;
+            position: absolute;
+            background-color: rgb(17, 77, 142);
+            color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            display: none; /* Initially hidden */
+        }
+        .context-menu {
+            display: none;
+            position: absolute;
+            color: #f0f0f0;
+            background-color:  rgb(17, 77, 142);
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+
+        .context-menu ul {
+            list-style-type: none;
+            padding: 10px;
+            margin: 0;
+        }
+
+        .context-menu li {
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+
+        .context-menu li:hover {
+            background-color: #1562af;
+        }
+
+        #target {
+            height: 100vh;
+        }
+    </style>
+</head>
+<body id="target" style=" user-select: none;-webkit-user-select: none; -moz-user-select: none;-ms-user-select: none; " >  
+
+
+    <div id="context-menu" class="context-menu">
+        <ul>
+            <li id="option1">تۆرکجه</li>
+            <li id="option2">Option 2</li>
+            <li id="option3">Option 3</li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+    <nav class="navbar" dir="rtl">       
+        <a href="."><img style="height: 15px;width:15px;border-width: 0;" src="house.svg"></a>
+        Irq Bitig اؽرق بیتیگ 
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul class="menu">       
+            <li><a href="kokturk2arab.html">تـ➜𐱅</a></li>
+            <li><a href="kokturk-keyboard.html">⌨</a></li>
+        </ul>
+    </nav>
+
+<header >        
+    <div class="irqsayi" style="background-color: #3060AF;max-width: 600px;">                        
+            <h1 style="font-family: 'irqbitig';text-align: center;">
+                𐰃𐰺𐰴:𐰋𐰃𐱅𐰃𐰏:
+                <a href="IrqBitig.pdf" target="_blank" style="text-decoration: none;color: #fff;" >
+                    <img style="height: 15px;width:15px;border-width: 0;" src="download.svg">
+                </a>   
+            </h1>      
+    </div>
+</header>
+
+<section class="projects-section" id="text-container">
+<div class="irqsayi"> 
+.. .. ..
+</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+
+𐱅𐰤𐰾𐰃: 𐰢𐰤: 𐰖𐰺𐰣: 𐰚𐰃𐰲𐰀: 𐰞𐱃𐰆𐰣: 𐰇𐰼𐰏𐰃𐰤: 𐰇𐰔𐰀: 𐰆𐰞𐰆𐰺𐰰𐰣: 𐰢𐰭𐰃𐰠𐰘𐰇𐰼: 𐰢𐰤: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+</div>
+<br/>
+<div class="irqsayi"> 
+.... .... ....
+</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰀𐰞𐰀: 𐱃𐰞𐰍: 𐰖𐰆𐰞: 𐱅𐰭𐰼𐰃: 𐰢𐰤: 𐰖𐰺𐰣: 𐰚𐰃𐰲𐰀: 𐰾𐰇𐰼: 𐰢𐰤: 𐰆𐱃𐰺𐰆: 𐰚𐰃: 𐰖𐰞𐰍: 𐰚𐰃𐰾𐰃: 𐰆𐰍𐰞𐰃𐰣: 𐰽𐰆𐰸𐰆𐰽𐰢𐰃𐰾: 𐰚𐰃𐰾𐰃: 𐰴𐰆𐰺𐰴𐰢𐰃𐰾: 𐰴𐰆𐰺𐰴𐰢𐰀: 𐱅𐰃𐰢𐰾: 𐰴𐰆𐱃: 𐰋𐰃𐰼𐰏𐰘: 𐰢𐰤: 𐱅𐰃𐰢𐰃𐰾: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭: 𐰓𐰏𐰇: 𐰆𐰞: 
+</div>
+<br/><div class="irqsayi"> 
+... ... ...
+</div>
+<div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰞𐱃𐰆𐰣: 𐰴𐰣𐱃𐰞𐰍: 𐱃𐰞𐰢: 𐰴𐰺𐰀: 𐰴𐰆𐰽: 𐰢𐰤: 𐱃𐰣𐰢: 𐱅𐰇𐰾𐰃: 𐱃𐰴𐰃: 𐱅𐰇𐰚𐰀𐰢𐰔𐰚𐰤: 𐱃𐰞𐰆𐰖𐰑𐰀: 𐰖𐱃𐰯𐰣: 𐱃𐰯𐰞𐰀𐰑𐰆𐰴𐰢𐰃𐰤: 𐱃𐰆𐱃𐰺: 𐰢𐰤: 𐰾𐰋𐰓𐰜𐰢𐰃𐰤: 𐰘𐰃𐰘𐰇𐰼: 𐰢𐰤: 𐰦𐰍: 𐰚𐰇𐰲𐰠𐰇𐰏: 𐰢𐰤: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+</div>
+<br/>
+<div class="irqsayi"> 
+. . .</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰇𐰼𐰇𐰭: 𐰾𐰼𐰃: 𐱃𐰆𐰍𐰣: 𐰴𐰆𐰽: 𐰢𐰤: 𐰲𐰃𐰣𐱃𐰣: 𐰃𐰍𐰲: 𐰇𐰔𐰀: 𐰆𐰞𐰆𐰺𐰆𐰰𐰣: 𐰢𐰭𐰃𐰠𐰘𐰇𐰼: 𐰢𐰤: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 
+</div>
+<br/>
+<div class="irqsayi"> 
+.. .... ..</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰋𐰏: 𐰼: 𐰖𐰆𐰣𐱃𐰃𐰭𐰺𐰆: 𐰉𐰺𐰢𐰃𐰾: 𐰀𐰴: 𐰋𐰃𐰾𐰃: 𐰴𐰆𐰞𐰆𐰣𐰞𐰀𐰢𐰃𐰾: 𐰞𐱃𐰆𐰣: 𐱃𐰆𐰖𐰆𐰍𐰞𐰆𐰍: 𐰑𐰍𐰺𐰞𐰴: 𐰖𐰺𐰀𐰍𐰖: 𐱅𐰋𐰀𐰾𐰃𐰭𐰼𐰇: 𐰉𐰺𐰢𐰃𐰾: 𐰇𐰼𐰇𐰭: 𐰃𐰤𐰏𐰤𐰃: 𐰉𐰆𐱃𐰆𐰞𐰀𐰢𐰃𐰾: 𐰞𐱃𐰆𐰣: 𐰉𐰆𐰑𐰞𐰞𐰍: 𐰉𐰆𐰍𐰺𐰀𐰞𐰴: 𐰖𐰺𐰀𐰍𐰖: 𐰋𐰃𐰭𐰼𐰇: 𐰚𐰠𐰢𐰃𐰾: 𐰇𐰲𐰇𐰨: 𐰴𐰆𐰨𐰆𐰖𐰃: 𐰆𐰺𐰃𐰞𐰣𐰢𐰃𐰾: 𐰋𐰏𐰠𐰃𐰚: 𐰖𐰺𐰀𐰍𐰖: 𐱅𐰃𐰼: 𐰢𐰭𐰃𐰠𐰃𐰏: 𐰋𐰏: 𐰼: 𐰼𐰢𐰃𐰾: 𐰪𐰃𐰍: 𐰓𐰏𐰇: 𐰆𐰞: 
+</div>
+<br/>
+<div class="irqsayi"> 
+. .. ..</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰑𐰍𐰞𐰃: 𐱃𐰆𐰭𐰆𐰔𐰞𐰃: 𐰀𐰺𐱃: 𐰇𐰔𐰀: 𐰽𐰆𐰸𐰽𐰢𐰃𐰾: 𐰼𐰢𐰃𐰾: 𐰑𐰍𐰭: 𐰴𐰺𐰣𐰃: 𐰖𐰺𐰞𐰢𐰃𐰆𐰾: 𐱃𐰆𐰭𐰆𐰔𐰆𐰭: 𐰔𐰃𐰍𐰃: 𐰽𐰃𐰣𐰢𐰃𐰾: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭: 𐰖𐰉𐰞𐰴: 𐰆𐰞: 
+
+</div>
+<br/>
+<div class="irqsayi"> 
+.. . ..
+</div>
+<div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰼: 𐱅𐰼𐰚𐰠𐰘𐰇: 𐰚𐰠𐰃𐰼: 𐰓𐰏𐰇: 𐰾𐰇𐰔: 𐰽𐰉: 𐰠𐱅𐰃: 𐰚𐰠𐰃𐰼: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+</div>
+<br/>
+<div class="irqsayi"> 
+. .. ...
+</div>
+<div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰞𐱃𐰆𐰣: 𐰉𐰽𐰞𐰍: 𐰖𐰃𐰞𐰣: 𐰢𐰤: 𐰞𐱃𐰆𐰣: 𐰴𐰆𐰺𐰆𐰍𐰽𐰴𐰢𐰃𐰤: 𐰴𐰃𐰞𐰲𐰃𐰣: 𐰚𐰾𐰃𐰯𐰤: 𐰇𐰔𐰇𐰢: 𐰖𐰆𐰞: 𐰃𐰤𐱅𐰃𐰤: 𐰉𐰽𐰢𐰃𐰣: 𐰖𐰆𐰞: 𐰋𐰃𐰤𐱅𐰤: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰖𐰉𐰞𐰴: 𐰆𐰞: 
+</div>
+<br/>
+<div class="irqsayi"> 
+... .. .
+</div>
+<div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰆𐰞𐰆𐰍: 𐰋: 𐰇𐰼𐱅𐰤𐰢𐰃𐰾: 𐰴𐱃𐰃𐰭𐰀: 𐱅𐰏𐰃: 𐰴𐰞𐰢𐰑𐰸: 𐰋𐰇𐰜𐰃𐰭𐰀: 𐱅𐰏𐰃: 𐰴𐰆𐰑𐰢𐰸: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰖𐰉𐰞𐰴: 𐰆𐰞: 
+</div>
+<br/>
+<div class="irqsayi"> 
+.. .... ...
+</div>
+<div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰾𐰤𐰏𐰤: 𐰉𐰺𐰽: 𐰢𐰤: 𐰴𐰢𐰆𐰽: 𐰀𐰺𐰀: 𐰉𐰽𐰢: 𐰦𐰍: 𐰞𐰯: 𐰢𐰤: 𐰼𐰓𐰢𐰠𐰃𐰏: 𐰢𐰤: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 
+</div>
+<br/>
+<div class="irqsayi"> 
+.... .... ...
+</div>
+<div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰽𐰺𐰍: 𐱃𐰞𐰍: 𐰽𐰉𐰲𐰃: 𐰖𐰔𐰍: 𐱃𐰞𐰍: 𐰖𐰞𐰉𐰲: 𐰓𐰏𐰇: 𐰾𐰇𐰔: 𐰽𐰉: 𐰠𐱅𐰃: 𐰚𐰠𐰃𐰼: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭: 𐰪𐰃𐰍: 𐰓𐰏𐰇: 𐰆𐰞: 
+</div>
+<br/>
+<div class="irqsayi"> 
+... .... ...
+</div>
+<div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰼: 𐰉𐰴𐰀: 𐰉𐰺𐰢𐰃𐰾: 𐱃𐰍𐰑𐰀: 𐰴𐰢𐰞𐰢𐰃𐰾: 𐱅𐰭𐰼𐰃𐰓𐰀: 𐰼𐰚𐰠𐰏: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰖𐰉𐰔: 𐰆𐰞: 
+</div>
+<br/>
+<div class="irqsayi"> 
+... .... ..
+</div>
+<div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐱅𐰭𐰼𐰃𐰠𐰃𐰏: 𐰴𐰆𐰺𐱃𐰍𐰀: 𐰖𐰆𐰺𐱃𐰀: 𐰴𐰞𐰢𐰃𐰾: 𐰖𐰍𐰞𐰍: 𐰴𐰢𐰃𐰲: 𐰉𐰆𐰞𐰆𐰯𐰣: 𐰖𐰞𐰍𐰖𐰆: 𐱅𐰃𐰼𐰃𐰠𐰢𐰃𐰾: 𐰇𐰠𐰇𐰢𐰓𐰀: 𐰆𐰔𐰢𐰃𐰾: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+.. ... ....</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰴𐰆𐰔𐰍𐰆𐰣𐰆𐰍: 𐰃𐰍𐰲𐰴𐰀: 𐰉𐰀𐰢𐰃𐰾: 𐰴𐱃𐰍𐱃𐰃: 𐰉𐰀: 𐰓𐰏𐰇𐱅𐰃: 𐰉𐰀: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+. .... .</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰇𐰔𐰀: 𐱃𐰆𐰢𐰣: 𐱃𐰆𐰺𐰑𐰃: 𐰽𐰺𐰀: 𐱃𐰆𐰔: 𐱃𐰆𐰺𐰑𐰃: 𐰴𐰆𐰽: 𐰆𐰍𐰃: 𐰆𐰲𐰀: 𐰀𐰔𐱃𐰃: 𐰚𐰃𐰘𐰃𐰚: 𐰆𐰍𐰞𐰃: 𐰘𐰇𐰏𐰇𐰼𐰇: 𐰀𐰔𐱃𐰃: 𐰚𐰃𐰾𐰃: 𐰆𐰍𐰞𐰃: 𐰖𐰆𐰺𐰃𐰖𐰆: 𐰀𐰔𐱃𐰃: 𐰖𐰣𐰀: 𐱅𐰭𐰼𐰃: 𐰴𐰆𐱃𐰃𐰣𐱃𐰀: 𐰇𐰲𐰇𐰨: 𐰖𐰃𐰞𐱃𐰀: 𐰴𐰆𐰯: 𐰾𐰤: 𐱅𐰇𐰚𐰠: 𐰚𐰇𐰼𐰇𐰾𐰢𐰾: 𐰴𐰆𐰯: 𐰇𐰏𐰃𐰼𐰼: 𐰾𐰋𐰃𐰤𐰇𐰼: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+</div>
+<br/><div class="irqsayi"> 
+
+
+.. . ....</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐱃𐰆𐰺𐰸: 𐱃: 𐰾𐰢𐰼𐰃𐱅𐰃: 𐰘𐰃𐰼𐰃𐰤: 𐰇𐰯𐰤: 𐰘𐰇𐰏𐰇𐰼𐰇: 𐰉𐰺𐰢𐰃𐰾: 𐰆𐱃𐰺𐰆: 𐰘𐰃𐰼𐰓𐰀: 𐰆𐰍𐰺𐰃: 𐰽𐰆𐰸𐰆𐰽𐰆𐰯: 𐱃𐰆𐱃𐰆𐰰𐰣: 𐰢𐰃𐰤𐰢𐰃𐰾: 𐰘𐰃𐰠𐰃𐰭𐰀: 𐰴𐰆𐰑𐰆𐰺𐰽𐰆𐰍𐰃𐰭𐰣𐰃𐰭𐰀: 𐱅𐰏𐰃: 𐰖𐰍𐰺𐰃𐰯𐰣: 𐰴𐰢𐰽𐰖𐰆: 𐰆𐰢𐰀𐱃𐰃𐰣: 𐱃𐰆𐰺𐰆𐰺: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭: 𐰖𐰉𐰞𐰴: 𐰆𐰞: 
+</div>
+<br/><div class="irqsayi"> 
+
+
+.. ... ...</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰇𐰔𐰠𐰜: 𐱃: 𐰇𐰭: 𐰘𐰃𐰼𐰓𐰀: 𐰺𐰯: 𐰆𐰭𐰆𐰰: 𐱃𐰆𐰺𐰆: 𐰴𐰞𐰢𐰃𐰾: 𐱅𐰭𐰼𐰃: 𐰚𐰇𐰲𐰃𐰭𐰀: 𐱃𐰍: 𐰇𐰔𐰀: 𐰖𐰆𐰞: 𐰽𐰆𐰉: 𐰚𐰇𐰼𐰇𐰯𐰤: 𐰘𐰃𐰾: 𐰇𐰔𐰀: 𐰖𐰽: 𐱇: 𐰚𐰇𐰼𐰇𐰯𐰤: 𐰖𐰆𐰺𐰃𐰖𐰆: 𐰉𐰺𐰃𐰯𐰣: 𐰽𐰆𐰉: 𐰃𐰲𐰃𐰯𐰤: 𐰖𐰀𐰽: 𐰘𐰃𐰯𐰤: 𐰇𐰠𐰇𐰢𐰓𐰀: 𐰆𐰔𐰢𐰃𐰾: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+.. .... .</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰚𐰼𐰀𐰚𐰇: 𐰃𐰲𐰃: 𐰤𐰀: 𐱅𐰏: 𐰆𐰞: 𐱅𐰇𐰏𐰇𐰤𐰜𐰃: 𐰤𐰀: 𐱅𐰏: 𐰆𐰞: 𐰚𐰇𐰔𐰤𐰜𐰚𐰃: 𐰤𐰀: 𐱅𐰏: 𐰚𐰇𐰼𐰜𐰠𐰇𐰏: 𐰆𐰞: 𐰏𐰤𐰃: 𐰤𐱅𐰏: 𐰓𐰏𐰇: 𐰆𐰞: 𐰉𐰍𐰽𐰃𐰤𐰀: 𐱅𐰏: 𐰉𐰺: 𐰆𐰞: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰪𐰃𐰍: 𐰓𐰏𐰇: 𐰆𐰞: 
+</div>
+<br/><div class="irqsayi"> 
+
+
+.... . ...</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰀𐰴: 𐱃: 𐰴𐰺𐰽𐰽𐰃𐰣: 𐰇𐰲: 𐰉𐰆𐰞𐰆𐰍𐱃𐰀: 𐱃𐰞𐰆𐰞𐰀𐰯𐰣: 𐰍𐰣𐰴𐰀: 𐰇𐱅𐰇𐰏𐰚𐰀: 𐰃𐰑𐰢𐰃𐰾: 𐱅𐰃𐰼: 𐰴𐰆𐰺𐰴𐰢𐰀: 𐰓𐰏𐰇𐱅𐰃: 𐰇𐱅𐰇𐰤: 𐰖𐰃𐰣𐰢𐰀: 𐰓𐰏𐰇𐱅𐰃: 𐰖𐰞𐰉𐰺: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+.. .. ...</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐱅𐰃𐱅𐰃𐰼: 𐰉𐰆𐰍𐰺𐰀: 𐰢𐰤: 𐰇𐰼𐰇𐰭: 𐰚𐰇𐰯𐰇𐰚𐰇𐰢𐰃𐰤: 𐰽𐰲𐰺: 𐰢𐰤: 𐰇𐰔𐰀: 𐱅𐰭𐰼𐰃𐰚𐰀: 𐱅𐰏𐰃𐰼: 𐰽𐰺𐰀: 𐰘𐰃𐰼𐰚𐰀: 𐰚𐰃𐰼𐰇𐰼: 𐱅𐰃𐰼: 𐰆𐰑𐰃𐰍𐰢𐰍: 𐰆𐰑𐰍𐰆𐰺: 𐰖𐱃𐰍𐰞𐰃𐰍: 𐱃𐰆𐰺𐰍𐰺𐰆: 𐰖𐰆𐰺𐰃𐰖𐰆𐰺: 𐰢𐰤: 𐰦𐰍: 𐰚𐰇𐰲𐰠𐰇𐰏: 𐰢𐰤: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+... ... .</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰴𐰺𐰃: 𐰇𐰯𐰏𐰇𐰚: 𐰖𐰃𐰞: 𐰖𐰺𐰆: 𐰢𐰔𐰴𐰣: 𐱅𐰓𐰃: 𐰇𐰓𐰢𐰭: 𐰚𐰇𐰼𐰢𐰭: 𐰇𐰼𐰚𐱅𐱅𐰭: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰭: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+. . ..</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰆𐰔𐰆𐰣𐱃𐰆𐰣𐰞𐰆𐰍: 𐰚𐰇𐰔𐰭𐰇𐰾𐰃𐰤: 𐰚𐰇𐰠𐰚𐰀: 𐰃𐰲𐰍𐰣𐰢𐰃𐰾: 𐰖𐰺𐰣: 𐰖𐰭𐰺𐰀𐰖𐰆𐰺: 𐰚𐰃𐰲𐰀: 𐰚𐰭𐰼𐰀𐰤𐰇𐰼: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰢𐰆𐰭𐰞𐰆𐰍: 𐰆𐰞: 𐰪𐰃𐰍: 𐰖𐰉𐰞𐰴: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+.... .... ..</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰆𐰍𐰞𐰣: 𐰚𐰚𐰜: 𐱅𐰔𐰚𐰃𐰤: 𐰉𐰆𐰞𐱃𐰃: 𐰲𐰆𐰚: 𐱅𐰃𐰭: 𐰴𐰆𐱃𐰞𐰆𐰍: 𐰉𐰆𐰞𐰔𐰆𐰣: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+</div>
+<br/><div class="irqsayi"> 
+
+
+... . ...</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐱅𐰏𐰠𐰜: 𐰴𐰆𐰞𐰆𐰣: 𐰃𐰼𐰚𐰚: 𐰖𐰆𐰦𐰀: 𐰢𐰃𐰏: 𐱅𐰃𐰀𐰠𐰘𐰇𐰼: 𐰚𐰇𐰤: 𐰆𐰺𐱃𐰆: 𐰘𐰇𐱅𐰇𐰼𐰰: 𐱅𐰇𐰤: 𐰆𐰺𐱃𐰆: 𐰴𐰣𐱃𐰀: 𐰤𐰏𐰇𐰓𐰀: 𐰉𐰆𐰞𐰍𐰖: 𐰆𐰞: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰭𐰠𐰼: 𐰖𐰉𐰔: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+... . ...</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰚𐰃: 𐰇𐰚𐰇𐰔𐰇𐰏: 𐰋𐰃𐰼: 𐰉𐰆𐰴𐰺𐰽𐰃𐰴𐰀: 𐰚𐰇𐰠𐰢𐰾: 𐰴𐰢𐰾𐰖𐰆: 𐰆𐰢𐰀𐱃𐰃𐰣: 𐱃𐰆𐰺𐰆𐰺: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭: 𐰖𐰉𐰞𐰴: 𐰆𐰞: 
+</div>
+<br/><div class="irqsayi"> 
+
+
+.... .. .</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐱃𐰭: 𐱃𐰭𐰞𐰺𐰑𐰃: 𐰆𐰑𐰆: 𐰘𐰃𐰼: 𐰖𐰺𐰆𐰑𐰃: 𐰆𐰑𐰆: 𐰚𐰇𐰤: 𐱃𐰆𐰍𐰑𐰃: 𐰴𐰢𐰍: 𐰇𐰔𐰀: 𐰖𐰺𐰸: 𐰉𐰆𐰞𐱃𐰃: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+.... .. ..</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰉𐰖: 𐰼: 𐰴𐰆𐰪𐰃: 𐰇𐰼𐰚𐰇𐰯𐰤: 𐰉𐰺𐰢𐰃𐰾: 𐰋𐰇𐰼𐰃𐰚𐰀: 𐰽𐰆𐰸𐰆𐰽𐰢𐰃𐰾: 𐰋𐰇𐰼𐰃: 𐰍𐰔𐰃: 𐰢𐰾𐰃𐰢𐰃𐰾: 𐰾𐰤: 𐱅𐰇𐰜𐰠: 𐰉𐰆𐰞𐰢𐰢𐰃𐰾: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+.. . .</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰴𐰣: 𐰆𐰞𐰆𐰺𐰰𐰣: 𐰆𐰺𐰑𐰆: 𐰖𐰯𐰢𐰃𐰾: 𐰃𐰠𐰃: 𐱃𐰆𐰺𐰢𐰃𐰾: 𐱅𐰇𐰼𐱅: 𐰉𐰆𐰞𐰆𐰭𐱃𐰴𐰃: 𐰓𐰏𐰇𐰾𐰃: 𐰆𐰖𐰆𐰺𐰃: 𐱅𐰃𐰼𐰃𐰠𐰃𐰯𐰤: 𐰢𐰭𐰃𐰠𐰘𐰇𐰼: 𐰋𐰓𐰃𐰔𐰠𐰘𐰇𐰼: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+.... ... ..</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰆𐰖𐰢𐰀: 𐰼: 𐰆𐰍𐰞𐰣𐰃𐰣: 𐰚𐰃𐰾𐰃𐰾𐰃𐰤: 𐱃𐰆𐱃𐰆𐰍: 𐰆𐰺𐰆𐰯𐰣: 𐰆𐰽𐰃𐰲: 𐰆𐰖𐰍: 𐰞𐰃: 𐰉𐰺𐰢𐰃𐰾: 𐰆𐰍𐰞𐰃𐰣: 𐰚𐰃𐰾𐰃𐰾𐰃𐰤: 𐰆𐱃𐰆𐰔𐰢𐰑𐰸: 𐰖𐰣𐰀: 𐱃𐰆𐰸𐰆𐰔𐰆𐰣: 𐰉𐰆𐰽: 𐰴𐰆𐰪: 𐰆𐱃𐰢𐰃𐰾: 𐰆𐰍𐰞𐰃: 𐰖𐰆𐱃𐰆𐰔𐰃: 𐰴𐰆𐰯: 𐰇𐰏𐰃𐰼𐰼: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+.... .. ...</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰲𐰃𐰍𐰪: 𐰼: 𐰆𐰍𐰞𐰃: 𐰴𐰔𐰍𐰨𐰴𐰀: 𐰉𐰺𐰢𐰃𐰾: 𐰖𐰆𐰞𐰃: 𐰖𐰺𐰀𐰢𐰃𐰾: 𐰇𐰏𐰃𐰼𐰀: 𐰾𐰋𐰃𐰤𐰇: 𐰚𐰠𐰃𐰼: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+</div>
+<br/><div class="irqsayi"> 
+
+
+. .... ....</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰉𐰺𐰽: 𐰚𐰃𐰘𐰃𐰚: 𐰭𐰚𐰀: 𐰢𐰭𐰚𐰀: 𐰉𐰺𐰢𐰃𐰾: 𐰭𐰃𐰤: 𐰢𐰭𐰃𐰤: 𐰉𐰆𐰞𐰢𐰃𐰾: 𐰉𐰆𐰞𐰆𐰯𐰣: 𐰆𐰖𐰀𐰽𐰃𐰭𐰺𐰆: 𐰇𐰏𐰃𐰼𐰀: 𐰾𐰋𐰃𐰤𐰇: 𐰚𐰠𐰃𐰼: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+. . ...</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰋𐰃𐰼: 𐱃𐰉𐰞𐰴𐰆: 𐰘𐰇𐰔: 𐰉𐰆𐰞𐱃𐰃: 𐰘𐰇𐰔: 𐱃𐰉𐰞𐰴𐰆: 𐰢𐰃𐰭: 𐰉𐰆𐰞𐱃𐰃: 𐰢𐰃𐰭: 𐱃𐰉𐰞𐰴𐰆: 𐱅𐰇𐰢𐰤: 𐰉𐰆𐰞𐱃𐰃: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰽𐰍𐰃: 𐰉𐰺: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+.... .. ....</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰚𐰃𐰓𐰃𐰔𐰃𐰏: 𐰽𐰆𐰉𐰴𐰀: 𐰽𐰆𐰸𐰢𐰃𐰾: 𐱃𐰴𐰃: 𐰆𐰺: 𐰴𐱃𐰍𐰑𐰃: 𐰉𐰀: 𐱅𐰃𐰃: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰖𐰉𐰞𐰴: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+.. .... ....</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰴𐰣: 𐰾𐰇𐰚𐰀: 𐰉𐰺𐰢𐰃𐰾: 𐰖𐰍𐰃𐰍: 𐰽𐰣𐰨𐰢𐰃𐰾: 𐰚𐰇𐰲𐰇𐰼𐰇: 𐰴𐰆𐰣𐱃𐰆𐰺𐰆: 𐰚𐰠𐰃𐰼: 𐰇𐰔𐰃: 𐰾𐰇𐰾𐰃: 𐰇𐰏𐰃𐰼𐰀: 𐰾𐰋𐰃𐰤𐰇: 𐰆𐰺𐰑𐰆𐰽𐰃𐰭𐰺𐰆: 𐰚𐰠𐰃𐰼: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+.... ... ....</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰼: 𐰾𐰇𐰚𐰀: 𐰉𐰺𐰢𐰃𐰾: 𐰖𐰆𐰞𐱃𐰀: 𐱃𐰃: 𐰺𐰢𐰃𐰾: 𐰼: 𐰴𐰆𐰍𐰆: 𐰴𐰆𐰽𐰴𐰀: 𐰽𐰆𐰴𐰆𐰽𐰢𐰾: 𐰴𐰆𐰍𐰆: 𐰴𐰆𐰽: 𐰴𐰣𐰀𐱃𐰃𐰭𐰀: 𐰆𐰺𐰆𐰯𐰣𐰃𐰣: 𐰴𐰞𐰃𐰖𐰆: 𐰉𐰺𐰃𐰯𐰣: 𐰇𐰏𐰃𐰭𐰀: 𐰴𐰭𐰃𐰭𐰀: 𐱅𐰏𐰇𐰼𐰢𐰃𐰾: 𐰇𐰏𐰃: 𐰴𐰭𐰃: 𐰇𐰏𐰃𐰼𐰼: 𐰾𐰋𐰃𐰤𐰇𐰼: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+.... . .</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰇𐰚𐰇𐰾: 𐱃𐰞𐰍: 𐰇𐰏𐰼𐰨𐰇𐰭: 𐰖𐰆𐰸: 𐰴𐰆𐰉𐰃: 𐱃𐰞𐰍: 𐰴𐰆𐰺𐰴𐰨𐰃𐰭: 𐰖𐰆𐰸: 𐰆𐰲𐰺𐰆𐰍𐰞𐰆𐰍: 𐰴𐰆𐱃𐰆𐰭: 𐰖𐰆𐰸: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰪𐰃𐰍: 𐰖𐰉𐰞𐰴: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+. ... ....</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰋𐰃𐰼: 𐰴𐰺𐰃: 𐰇𐰚𐰇𐰔𐰇𐰏: 𐰋𐰃𐰠𐰃𐰤: 𐰋𐰃𐰲𐰀: 𐰴𐰆𐰢𐰆𐰺𐰽𐰍𐰀: 𐰘𐰃𐰢𐰃𐰾: 𐰴𐰢𐰽𐰖𐰆: 𐰆𐰢𐰀𐱃𐰃𐰣: 𐱃𐰆𐰺𐰆𐰺: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰖𐰉𐰞𐰴: 𐰆𐰞: 
+</div>
+<br/><div class="irqsayi"> 
+
+
+... . ....</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰴𐰢𐰃𐰽: 𐰀𐰺𐰀: 𐰴𐰞𐰢𐰃𐰾: 𐱅𐰭𐰼𐰃: 𐰆𐰣𐰀𐰢𐰑𐰸: 𐰉𐰃𐰨𐰆: 𐰴𐱃𐰆𐰣: 𐰉𐰆𐰞𐰔𐰆𐰣: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+.. .. ....</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐱃𐰍𐰃𐰍: 𐱅𐰼𐱅𐰼𐰇: 𐰚𐰃𐰾𐰀𐰢𐰃𐰾: 𐰴𐰢𐰽𐰀𐰖𐰆: 𐰆𐰢𐰀𐱃𐰃𐰣: 𐱃𐰆𐰺𐰆𐰺: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰖𐰉𐰞𐰴: 𐰆𐰞: 
+</div>
+<br/><div class="irqsayi"> 
+
+
+.... .... .</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐱃𐰞𐰢: 𐰆𐰺𐰃: 𐰖𐰺𐰣𐰲𐰀: 𐰖𐰽𐰃𐰲𐰃𐰤: 𐰖𐰞𐰢: 𐰴𐰖𐰍: 𐰖𐰺𐰀: 𐰆𐰺𐰆𐰰𐰣: 𐰖𐰞𐰭𐰆𐰽𐰆𐰣: 𐰖𐰆𐰺𐰃𐰖𐰆𐰺: 𐱅𐰃𐰼: 𐰦𐰍: 𐰞𐰯: 𐰼𐰢𐰃𐰾: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+... .. ....</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰇𐰼𐰇𐰭: 𐰾𐰼𐰃: 𐰃𐰤𐰏𐰚: 𐰉𐰆𐰔𐰀𐰍𐰆𐰞𐰲𐰃: 𐰉𐰆𐰞𐰢𐰃𐰾: 𐰇𐰠𐰏𐰘: 𐰢𐰤: 𐱅𐰃𐰢𐰾: 𐰇𐰼𐰇𐰭: 𐰾𐰼𐰃: 𐰃𐰼𐰚𐰚: 𐰉𐰆𐰔𐰍𐰆: 𐰚𐰠𐰇𐰼𐰢𐰃𐰾: 𐰃𐰑𐰸𐰞𐰆𐰴: 𐰖𐰺𐰀𐰍𐰖: 𐰇𐰠𐰇𐰏𐰓𐰀: 𐰆𐰔𐰢𐰃𐰾: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+.... . ....</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰆𐰔𐰆𐰣𐱃𐰆𐰣𐰞𐰆𐰍: 𐰃𐰓𐰃𐰾𐰃𐰤: 𐰖𐰴𐰃𐰣: 𐰴𐰆𐰑𐰆𐰯𐰣: 𐰉𐰺𐰢𐰃𐰾: 𐰖𐰣𐰀: 𐰓𐰏𐰇𐱅𐰃: 𐰽𐰴𐰃𐰣𐰢𐰃𐰾: 𐰃𐰓𐰃𐰾𐰢𐱅𐰀: 𐰖𐰴𐰢𐱃𐰀: 𐰇𐰭𐰃: 𐰴𐰣𐰨𐰀: 𐰉𐰺𐰃𐰺: 𐰢𐰤: 𐱅𐰃𐰼: 𐰖𐰣𐰀: 𐰚𐰠𐰢𐰃𐰾: 𐰃𐰓𐰃𐰾𐰃𐰤: 𐰖𐰴𐰃𐰣: 𐰾𐰤: 𐱅𐰇𐰜𐰠: 𐰉𐰆𐰞𐰢𐰃𐰾: 𐰇𐰏𐰃𐰼𐰼: 𐰾𐰋𐰃𐰤𐰇𐰼: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+... ... ....</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐱃𐰆𐰍𐰣: 𐰇𐰏𐰇𐰔: 𐰴𐰆𐰽𐰃: 𐰴𐰆𐰽𐰞𐰖𐰆: 𐰉𐰺𐰢𐰃𐰾: 𐰆𐱃𐰺𐰆: 𐱃𐰞𐰢: 𐰴𐰺𐰀: 𐰴𐰆𐰽: 𐰴𐰆𐰯𐰆𐰯𐰣: 𐰉𐰺𐰢𐰃𐰾: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰖𐰉𐰞𐰴: 𐰆𐰞: 
+</div>
+<br/><div class="irqsayi"> 
+
+
+. .... ..</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐱃𐰆𐰍𐰣: 𐰴𐰆𐰽: 𐱅𐰭𐰼𐰃𐰓𐰤: 𐰴𐰆𐰑𐰃: 𐱃𐰉𐰽𐰍𐰣: 𐱅𐰃𐰯𐰤: 𐰴𐰯𐰢𐰃𐰾: 𐱃𐰆𐰍𐰣: 𐰴𐰆𐰽: 𐱃𐰃𐰺𐰭𐰴𐰃: 𐰽𐰆𐰲𐰆𐰞𐰆𐰣𐰢𐰃𐰾: 𐰖𐰣𐰀: 𐱃𐰃𐱃𐰃𐰤𐰢𐰾: 𐱃𐰆𐰍𐰣: 𐰴𐰆𐰽𐰆𐰭: 𐱃𐰃𐰺𐰭𐰴𐰃: 𐰇𐰏𐰇𐰾𐰇𐰯𐰤: 𐰴𐰞𐰃𐰖𐰆: 𐰉𐰺𐰢𐰃𐰾: 𐱃𐰉𐰽𐰍𐰣: 𐱅𐰼𐰃𐰾𐰃: 𐰇𐰭𐰇𐰾𐰯𐰤: 𐰘𐰇𐰏𐰇𐰼𐰇: 𐰉𐰺𐰢𐰃𐰾: 𐰦𐰍: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰖𐰉𐰔: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+. ... ..</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰚𐰃𐰘𐰃𐰚: 𐰆𐰍𐰞𐰃: 𐰢𐰤: 𐱇𐰽𐰆𐰔: 𐰽𐰆𐰉𐰽𐰆𐰔: 𐰴𐰞𐱃𐰃: 𐰆𐰖𐰃𐰣: 𐰤𐰲𐰜: 𐰖𐰆𐰺𐰃𐰖𐰃𐰣: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰖𐰉𐰔: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+. ... ...</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐱅𐰋𐰀: 𐱅𐰃𐱅𐰃𐰏𐰚𐰀: 𐱅𐰇𐰾𐰢𐰃𐰾: 𐰉𐰽𐰃𐰣𐰆: 𐰘𐰃𐰢𐰃𐰾: 𐰇𐰔𐰃𐰤: 𐱅𐰃𐰠𐰚𐰇: 𐰘𐰃𐰢𐰃𐰾: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰭𐰠𐰼: 𐰖𐰉𐰴: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+. . ....</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰼: 𐰇𐰢𐰀𐰠𐰘𐰇: 𐰉𐰺𐰢𐰃𐰾: 𐱅𐰭𐰼𐰃𐰚𐰀: 𐰽𐰆𐰸𐰆𐰽𐰢𐰃𐰾: 𐰴𐰆𐱃: 𐰴𐰆𐰞𐰢𐰃𐰾: 𐰴𐰆𐱃: 𐰋𐰃𐰼𐰢𐰃𐰾: 𐰍𐰞𐰭𐱃𐰀: 𐰖𐰃𐰞𐰴𐰃𐰭: 𐰉𐰆𐰞𐰔𐰆𐰣: 𐰇𐰔𐰇𐰭: 𐰆𐰔𐰆𐰣: 𐰉𐰆𐰞𐰔𐰆𐰣: 𐱅𐰃𐰢𐰃𐰾: 𐰨𐰀: 𐰋𐰃𐰠𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+... .... ....</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰴𐰺𐰃: 𐰖𐰆𐰞: 𐱅𐰭𐰼𐰃: 𐰢𐰤: 𐰽𐰃𐰣𐰸𐰃𐰭𐰃𐰣: 𐰾𐰯𐰼: 𐰢𐰤: 𐰇𐰔𐰇𐰜𐰃𐰭𐰃𐰤: 𐰆𐰞𐰀𐰖𐰆𐰺: 𐰢𐰤: 𐰃𐰠𐰃𐰏: 𐰃𐱅𐰢𐰃𐰾: 𐰢𐰤: 𐰓𐰏𐰇𐰾𐰃: 𐰉𐰆𐰞𐰔𐰆𐰣: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰭𐰠𐰠𐰼: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+... .... .</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰉𐰺𐰽: 𐰚𐰃𐰘𐰃𐰚: 𐰭𐰠𐰘𐰇: 𐰢𐰭𐰠𐰘𐰇: 𐰉𐰺𐰢𐰾: 𐰆𐰺𐱃𐰆: 𐰘𐰃𐰼𐰓𐰀: 𐰢𐰍𐰴𐰀: 𐰽𐰆𐰸𐰆𐰽𐰢𐰃𐰾: 𐰾𐰼𐰃: 𐰢𐰍𐰀: 𐰖𐰞𐰢: 𐰴𐰖𐰀𐰴𐰀: 𐰇𐰤𐰇𐰯: 𐰉𐰺𐰢𐰃𐰾: 𐰇𐰠𐰇𐰢𐱅𐰀: 𐰆𐰔𐰢𐰃𐰾: 𐰇𐰠𐰇𐰢𐱅𐰀: 𐰆𐰔𐰆𐰯𐰣: 𐰇𐰏𐰃𐰼𐰀: 𐰾𐰋𐰃𐰤𐰇: 𐰖𐰆𐰺𐰃𐰖𐰆𐰺: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+. .... ...</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐱃𐰃𐰍: 𐱃: 𐰴𐰆𐰑𐰺𐰆𐰸𐰃𐰣: 𐱅𐰇𐰏𐰇𐰯: 𐱅𐰃𐰏𐰼𐱅: 𐰖𐰔𐰍: 𐰴𐰆𐰑𐰃: 𐰖𐰑𐰺𐱃: 𐱃𐰆𐰸𐰆𐰔: 𐰴𐱃: 𐰇𐰲𐰼𐰏𐰇𐰭: 𐱃𐰆𐰯𐰆𐰆𐰞𐰍𐰨𐰀: 𐱅𐰼𐰃𐱅𐰔𐰇𐰤: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰖𐰉𐰴: 𐰆𐰆: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+.... ... ...</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐱃𐰞𐰢: 𐰴𐰺𐰀: 𐰴𐰆𐰽: 𐰢𐰤: 𐰖𐰽𐰞: 𐰴𐰖𐰀: 𐰖𐰖𐰞𐰍𐰢: 𐰴𐰃𐰔𐰃𐰞: 𐰴𐰖𐰀: 𐰴𐰃𐰽𐰞𐰍𐰢: 𐰆𐰞: 𐱃𐰍𐰑𐰀: 𐱃𐰆𐰺𐰆𐰯𐰣: 𐰢𐰭𐰃𐰠𐰘𐰇𐰼: 𐰢𐰤: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 
+
+</div>
+<br/><div class="irqsayi"> 
+... . ..</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰼: 𐰉𐰆𐰽𐰆𐰽𐰞𐰆𐰍: 𐱅𐰭𐰼𐰃: 𐰉𐰆𐰞𐰃𐱃𐰞𐰍: 𐰉𐰆𐰞𐱃𐰃: 𐰀𐰺𐰀: 𐰚𐰇𐰤: 𐱃𐰆𐰍𐰢𐰃𐰾: 𐰉𐰆𐰽𐰀𐰣𐰨: 𐰺𐰀: 𐰢𐰭𐰃: 𐰚𐰠𐰢𐰃𐰾: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+.. ... ..</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰉𐰆𐰔: 𐰉𐰆𐰞𐰃𐱃: 𐰖𐰆𐰺𐰃𐰑𐰃: 𐰉𐰆𐰑𐰆𐰣: 𐰇𐰔𐰀: 𐰖𐰍𐰑𐰃: 𐰴𐰺𐰀: 𐰉𐰆𐰞𐰃𐱃: 𐰖𐰆𐰺𐰃𐰑𐰃: 𐰴𐰢𐰍: 𐰇𐰔𐰀: 𐰖𐰍𐰑𐰃: 𐱃𐰺𐰃𐰍: 𐰋𐰃𐰾𐰓𐰃: 𐰖𐰽: 𐱇: 𐰇𐰤𐰓𐰃: 𐰖𐰃𐰞𐰴𐰃𐰴𐰀: 𐰚𐰃𐰾𐰃𐰚𐰀: 𐰓𐰏𐰇: 𐰉𐰆𐰞𐱃𐰃: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+. ... .</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰴𐰆𐰞: 𐰽𐰉𐰃: 𐰋𐰏𐰃𐰭𐰼𐰇: 𐰇𐱅𐰇𐰤𐰇𐰼: 𐰴𐰆𐰔𐰍𐰆𐰣: 𐰽𐰉𐰃: 𐱅𐰭𐰼𐰃𐰏𐰼𐰇: 𐰖𐰞𐰉𐰺𐰆𐰺: 𐰇𐰔𐰀: 𐱅𐰭𐰼𐰃: 𐰾𐰃𐰓𐱅𐰃: 𐰽𐰺𐰀: 𐰚𐰃𐰾𐰃: 𐰋𐰃𐰠𐱅𐰃: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰭: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+
+</div>
+<br/><div class="irqsayi"> 
+.... . ..</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰞𐰯: 𐰼: 𐰆𐰍𐰞𐰃: 𐰾𐰇𐰚𐰀: 𐰉𐰺𐰢𐰃𐰾: 𐰾𐰇: 𐰘𐰃𐰼𐰃𐰤𐱅𐰀: 𐰼𐰚𐰠𐰃𐰏: 𐰽𐰉𐰲𐰃: 𐱅𐰇𐰼𐱅𐰢𐰃𐰾: 𐱅𐰃𐰼: 𐰋𐰃𐰭𐰼𐰇: 𐰚𐰠𐰾𐰼: 𐰇𐰔𐰃: 𐰀𐱃𐰣𐰢𐰃𐰾: 𐰇𐰏𐰼𐰨𐰇𐰠𐰇𐰏: 𐱃𐰃: 𐰘𐰃𐱅𐰃𐰏𐰠𐰃𐰏: 𐰚𐰠𐰃𐰼: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰪𐰃𐰍: 𐰓𐰏𐰇: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+.. ... .</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰇𐰏𐰼𐰃𐰭𐰀: 𐰴𐰆𐱃𐰞𐰆𐰍: 𐰑𐰍𐰺: 𐰢𐰤: 𐰖𐰍𐰴: 𐰃𐰍𐰲: 𐰖𐰀𐰖𐰞𐰍𐰢: 𐰴𐰆𐰽𐰞𐰍: 𐰃𐰍𐰲: 𐰴𐰃𐰽𐰞𐰍𐰢: 𐰦𐰀: 𐱃𐰆𐰺𐰆𐰰𐰣: 𐰢𐰭𐰃𐰠𐰘𐰇𐰼: 𐰢𐰤: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+.. .. .</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰴𐰣𐰍𐰃: 𐰇𐰠𐰢𐰾: 𐰚𐰇𐰭𐰀𐰚𐰃: 𐱃𐰆𐰭𐰢𐰃𐰾: 𐰴𐰣𐰍𐰃: 𐰤𐰠𐰜: 𐰇𐰠𐰏𐰘: 𐰆𐰞: 𐰋𐰏𐰠𐰃𐰏: 𐰆𐰞: 𐰚𐰇𐰤𐰀𐰚𐰃: 𐰤𐰠𐰜: 𐱃𐰆𐰭𐰍𐰖: 𐰆𐰞: 𐰚𐰇𐰤𐰾𐰚𐰀: 𐰆𐰞𐰆𐰺𐰆𐰺: 𐰆𐰞: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰉𐰆: 𐰃𐰺𐰴: 𐰉𐰽𐰃𐰣𐱃𐰀: 𐰔𐰔: 𐰢𐰏𐰚𐰃: 𐰉𐰺: 𐰚𐰃𐰤: 𐰖𐰣𐰀: 𐰓𐰏𐰇: 𐰉𐰆𐰞𐰆𐰺: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+... .. ..</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰆𐰍𐰞𐰃: 𐰇𐰏𐰃𐰤𐱅𐰀: 𐰴𐰭𐰃𐰣𐱃𐰀: 𐰇𐰋𐰚𐰠𐰀𐰯𐰤: 𐱅𐰔𐰯𐰤: 𐰉𐰺𐰢𐰃𐰾: 𐰖𐰣𐰀: 𐰽𐰴𐰃𐰣𐰢𐰃𐰾: 𐰚𐰠𐰢𐰾𐰇𐰏𐰇𐰢: 𐰇𐱅𐰃𐰤: 𐰞𐰖𐰃𐰣: 𐰴𐰭𐰢: 𐰽𐰉𐰃𐰣: 𐱃𐰃𐰭𐰞𐰖𐰃𐰣: 𐱅𐰃𐰯: 𐰚𐰠𐰢𐰃𐰾: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+... .. ...</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰖𐰃𐰞𐰴𐰀: 𐱅𐰏𐰢𐰃𐰾𐰃𐰏: 𐰖𐰃𐰑𐰃𐱃𐰢𐰖𐰃𐰣: 𐰖𐰴𐰀: 𐱅𐰏𐰢𐰃𐰾𐰃𐰏: 𐰺𐱃𐰀𐱃𐰢𐰖𐰃𐰣: 𐰓𐰏𐰇𐰾𐰃: 𐰉𐰆𐰞𐰔𐰆𐰣: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+</div>
+<br/><div class="irqsayi"> 
+
+
+.... ... .</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐱃𐰆𐰸𐰆𐰔: 𐰺𐰞𐰃: 𐰽𐰃𐰍𐰆𐰣: 𐰚𐰃𐰘𐰃𐰚: 𐰢𐰤: 𐰋𐰓𐰃𐰔: 𐱅𐰃𐰔: 𐰇𐰔𐰀: 𐰇𐰤𐰇𐰯𐰤: 𐰢𐰇𐰭𐰼𐰀𐰘𐰇𐰼: 𐰢𐰤: 𐰇𐰔𐰀: 𐱅𐰭𐰼𐰃: 𐰾𐰃𐰓𐱅𐰃: 𐰽𐰺𐰀: 𐰚𐰃𐰾𐰃: 𐰋𐰃𐰠𐱅𐰃: 𐰦𐰍: 𐰚𐰇𐰲𐰠𐰇𐰏: 𐰢𐰤: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+... .... .</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐱃𐰆𐰺𐰪𐰖𐰀: 𐰴𐰆𐰽: 𐱅𐰇𐰾𐰤𐰀𐰚𐰃𐰭𐰀: 𐰴𐰆𐰣𐰢𐰃𐰾: 𐱃𐰆𐰖𐰢𐰀𐱃𐰃𐰣: 𐱃𐰆𐰔𐰴𐰀: 𐰃𐰠𐰃𐰤𐰢𐰃𐰾: 𐰆𐰲𐰀: 𐰆𐰢𐰀𐱃𐰃𐰣: 𐰆𐰞𐰆𐰺𐰆𐰺: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰖𐰉𐰴: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+.. . ...</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰖𐰺𐰍𐰆𐰣: 𐰚𐰃𐰘𐰃𐰚: 𐰢𐰤: 𐰖𐰖𐰞𐰍: 𐱃𐰍𐰢𐰀: 𐰍𐰯𐰣: 𐰖𐰖𐰞𐰖𐰆𐰺: 𐱃𐰆𐰺𐰆𐰺: 𐰢𐰤: 𐰢𐰭𐰃𐰠𐰃𐰏: 𐰢𐰤: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+. .. .</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰴𐰣𐰞𐰴: 𐰾𐰇𐰾𐰃: 𐰉𐰴𐰀: 𐰇𐰤𐰢𐰃𐰾: 𐰽𐰍𐰃𐰺: 𐰃𐰲𐰼𐰀: 𐰠𐰃𐰚: 𐰚𐰃𐰘𐰃𐰚: 𐰚𐰃𐰼𐰢𐰃𐰾: 𐰴𐰣: 𐰠𐰏𐰃𐰤: 𐱃𐰆𐱃𐰢𐰃𐰾: 𐰴𐰺𐰀: 𐰴𐰢𐰍: 𐰾𐰇𐰾𐰃: 𐰇𐰏𐰃𐰼𐰼: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰓𐰏𐰇: 𐰆𐰞: 
+
+</div>
+<br/><div class="irqsayi"> 
+
+... .... .</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰚𐰇𐰚: 𐰉𐰆𐰖𐰢𐰆𐰞: 𐱃𐰆𐰍𐰣: 𐰴𐰆𐰽: 𐰢𐰤: 𐰚𐰇𐰼𐰜𐰠𐰇𐰏: 𐰴𐰖𐰀𐰴𐰀: 𐰴𐰆𐰣𐰆𐰰𐰣: 𐰚𐰇𐰔𐰠𐰘𐰇𐰼: 𐰢𐰤: 𐰖𐰍𐰴𐰞𐰍: 𐱃𐰆𐰍𐰺𐰴: 𐰇𐰔𐰀: 𐱅𐰇𐰾𐰇𐰯𐰤: 𐰖𐰖𐰞𐰖𐰆𐰺: 𐰢𐰤: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰪𐰃𐰍: 𐰓𐰏𐰇: 𐰆𐰞: 
+</div>
+<br/><div class="irqsayi"> 
+
+
+... ... ..</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰾𐰢𐰃𐰔: 𐱃: 𐰍𐰔𐰃: 𐰴𐱃𐰍: 𐰉𐰆𐰞𐱃𐰃: 𐰃𐰓𐰃𐰾𐰃: 𐰆𐰢𐰔: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰖𐰉𐰞𐰴: 𐰆𐰞: 
+</div>
+<br/><div class="irqsayi"> 
+</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+
+𐰢𐱃𐰃: 𐰢𐰺𐰴: 𐰆𐰍𐰞𐰣𐰢: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭𐰠𐰼: 𐰉𐰆: 𐰃𐰺𐰴: 𐰋𐰃𐱅𐰃𐰏: 𐰓𐰏𐰇: 𐰆𐰞: 𐰨𐰯: 𐰞𐰴𐰆: 𐰚𐰤𐱅𐰇: 𐰇𐰠𐰇𐰏𐰃: 𐰼𐰚𐰠𐰃𐰏: 𐰆𐰞: 
+
+</div>
+<br/>
+<div class="irqsayi"> 
+</div>
+<div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
+𐰉𐰺𐰽: 𐰖𐰃𐰞: 𐰚𐰃𐰤𐱅𐰃: 𐰖: 𐰋𐰃𐰾: 𐰘𐰃𐰏𐰼𐰢𐰃𐰚𐰀: 𐱃𐰖𐰏𐰇𐰤𐱃𐰣: 𐰢𐰣𐰃𐰽𐱃𐰣𐱃𐰴𐰃: 𐰚𐰃𐰲𐰏: 𐰓𐰃𐱃𐰺: 𐰉𐰆𐰺𐰆𐰀: 𐰍𐰆𐰺𐰆: 𐰾𐰓𐰯: 𐰲𐰢𐰔: 𐰃𐰾𐰃𐰏: 𐰽𐰭𐰆𐰣: 𐰃𐱅𐰀𐰲𐰸: 𐰇𐰲𐰇𐰤: 𐰋𐰃𐱅𐰃𐰓𐰢:
+</div>
+
+
+</section>
+
+<div class="footer" dir=ltr>
+<p><a href="."><img style="height: 15px;width:15px;border-width: 0;" src="house.svg"></a>
+    © 2024 Mahmud Razlıqlı. All Rights Reserved</p>
+</div>
+<script>
+function copyToClipboard(id) {
+    const codeBlock = document.getElementById(`codeBlock${id}`);
+    const range = document.createRange();
+    range.selectNodeContents(codeBlock);
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+
+    try {
+        const successful = document.execCommand('copy');
+        if (successful) {
+            const copyBtn = document.getElementById(`copyBtn${id}`);
+            copyBtn.textContent = '! Copied';
+            copyBtn.style.backgroundColor = '#28a745'; // Visual feedback color
+            setTimeout(() => {
+                copyBtn.textContent = 'Copy';
+                copyBtn.style.backgroundColor = '#007bff';
+            }, 2000);
+        }
+    } catch (err) {
+        console.error('Failed to copy: ', err);
+    }
+
+    window.getSelection().removeAllRanges();
+}
+
+
+function toggleMenu() {
+    const menu = document.querySelector('.menu');
+    menu.classList.toggle('show');
+}
+</script>
+
+
+<script>
+   
+        // Load JSON data
+        let jsonData;
+    fetch('irqbitig.json')
+        .then(response => response.json())
+        .then(data => jsonData = data)
+        .catch(error => console.error('Error fetching JSON:', error));
+
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const target = document.getElementById('target');
+        const contextMenu = document.getElementById('context-menu');
+        const floatBox = document.getElementById('float-box');
+       
+        // Show the custom context menu
+        target.addEventListener('contextmenu', (event) => {
+            floatBox.style.display = 'none'; // Hide the floating box
+            event.preventDefault(); // Prevent the default context menu
+            contextMenu.style.display = 'block';
+            contextMenu.style.left = `${event.pageX}px`;
+            contextMenu.style.top = `${event.pageY}px`;
+        });
+
+        // Hide the context menu when clicking elsewhere
+        document.addEventListener('click', () => {
+            contextMenu.style.display = 'none';
+        });
+
+        // Add functionality to menu options
+        document.getElementById('option1').addEventListener('click', () => {
+            alert('Option 1 selected');
+            contextMenu.style.display = 'none';
+
+            const selectedText = window.getSelection().toString();
+            const floatBox = document.getElementById('float-box');
+            if (selectedText) {
+                const words = selectedText.replace(/:/g, ' ').replace(/  /g, ' ').split(/ /);
+                let latinRow = ' ';
+                let azturkceRow = ' ';
+                let arabiRow = ' ';
+                words.forEach(word => {
+                const result = jsonData.find(item => item.gokturkce === word);
+                if (result) {
+                    latinRow += `${result.latin} `;
+                    azturkceRow += `${result.azturkce} `;
+                    arabiRow += `${result.arabi} `;
+                }else{
+                    latinRow +=  ' (---) ';
+                    azturkceRow += ' (---) ';
+                    arabiRow +=' ('+ kokturk2arab(':'+word+':')+') ';
+                }
+                });
+                const range = window.getSelection().getRangeAt(0);
+                const rect = range.getBoundingClientRect();
+                // Set the position of the floating box
+                floatBox.style.left = `${rect.left + window.scrollX}px`;
+                floatBox.style.top = `${rect.bottom + window.scrollY}px`;
+                //floatBox.innerText = selectedText+'\n'+kokturk2arab(':'+selectedText+':');
+                floatBox.innerText =selectedText+'\n'+
+                kokturk2arab(':'+selectedText+':')+'\n'+
+                arabiRow+'\n';
+                floatBox.style.display = 'block'; // Show the floating box
+            } else {
+                floatBox.style.display = 'none'; // Hide the floating box
+            }
+
+        });
+
+        document.getElementById('option2').addEventListener('click', () => {
+            alert('Option 2 selected');
+            contextMenu.style.display = 'none';
+        });
+
+        document.getElementById('option3').addEventListener('click', () => {
+            alert('Option 3 selected');
+            contextMenu.style.display = 'none';
+
+            const selectedText = window.getSelection().toString();
+            const floatBox = document.getElementById('float-box');
+            if (selectedText) {
+                const words = selectedText.replace(/:/g, ' ').replace(/  /g, ' ').split(/ /);
+                let latinRow = ' ';
+                let azturkceRow = ' ';
+                let arabiRow = ' ';
+                words.forEach(word => {
+                const result = jsonData.find(item => item.gokturkce === word);
+                if (result) {
+                    latinRow += `${result.latin} `;
+                    azturkceRow += `${result.azturkce} `;
+                    arabiRow += `${result.arabi} `;
+                }else{
+                    latinRow +=  ' (---) ';
+                    azturkceRow += ' (---) ';
+                    arabiRow +=' ('+ kokturk2arab(':'+word+':')+') ';
+                }
+                });
+                const range = window.getSelection().getRangeAt(0);
+                const rect = range.getBoundingClientRect();
+                // Set the position of the floating box
+                floatBox.style.left = `${rect.left + window.scrollX}px`;
+                floatBox.style.top = `${rect.bottom + window.scrollY}px`;
+                //floatBox.innerText = selectedText+'\n'+kokturk2arab(':'+selectedText+':');
+                floatBox.innerText =selectedText+'\n'+
+                kokturk2arab(':'+selectedText+':')+'\n'+
+                arabiRow+'\n'+
+                latinRow+'\n\n'+
+                azturkceRow;
+                floatBox.style.display = 'block'; // Show the floating box
+            } else {
+                floatBox.style.display = 'none'; // Hide the floating box
+            }
+
+        });
+    });
+
+
+    /*
+    document.addEventListener('mouseup', function() {
+        const selectedText = window.getSelection().toString();
+        const floatBox = document.getElementById('float-box');
+
+        if (selectedText) {
+        const words = selectedText.replace(/:/g, ' ').replace(/  /g, ' ').split(/ /);
+            let latinRow = ' ';
+            let azturkceRow = ' ';
+            let arabiRow = ' ';
+            words.forEach(word => {
+                const result = jsonData.find(item => item.gokturkce === word);
+                if (result) {
+                    latinRow += `${result.latin} `;
+                    azturkceRow += `${result.azturkce} `;
+                    arabiRow += `${result.arabi} `;
+                }else{
+                    latinRow +=  ' '+word+' ';
+                    azturkceRow += ' '+word+' ';
+                    arabiRow +=' '+word+' ';
+                }
+            });
+
+            const range = window.getSelection().getRangeAt(0);
+            const rect = range.getBoundingClientRect();
+
+            // Set the position of the floating box
+            floatBox.style.left = `${rect.left + window.scrollX}px`;
+            floatBox.style.top = `${rect.bottom + window.scrollY}px`;
+            //floatBox.innerText = selectedText+'\n'+kokturk2arab(':'+selectedText+':');
+            floatBox.innerText =selectedText+'\n'+
+        // kokturk2arab(':'+selectedText+':')+'\n\n'+
+            arabiRow+'\n'+
+            latinRow+'\n\n'+
+            azturkceRow;
+            floatBox.style.display = 'block'; // Show the floating box
+        } else {
+            floatBox.style.display = 'none'; // Hide the floating box
+        }
+    });
+
+   
+    document.addEventListener('selectionchange',  function() {
+    
+        const selectedText = window.getSelection().toString();
+        const floatBox = document.getElementById('float-box');
+        if (selectedText) {
+
+
+        const words = selectedText.replace(/:/g, ' ').replace(/  /g, ' ').split(/ /);
+            let latinRow = ' ';
+            let azturkceRow = ' ';
+            let arabiRow = ' ';
+            words.forEach(word => {
+                
+
+                const result = jsonData.find(item => item.gokturkce === word);
+                if (result) {
+                    latinRow += `${result.latin} `;
+                    azturkceRow += `${result.azturkce} `;
+                    arabiRow += `${result.arabi} `;
+                }else{
+
+                        latinRow +=  ' (---) ';
+                        azturkceRow += ' (---) ';
+                        arabiRow +=' ('+ kokturk2arab(':'+word+':')+') ';
+                }
+            });
+
+            const range = window.getSelection().getRangeAt(0);
+            const rect = range.getBoundingClientRect();
+
+            // Set the position of the floating box
+            floatBox.style.left = `${rect.left + window.scrollX}px`;
+            floatBox.style.top = `${rect.bottom + window.scrollY}px`;
+            //floatBox.innerText = selectedText+'\n'+kokturk2arab(':'+selectedText+':');
+            floatBox.innerText =selectedText+'\n'+
+            kokturk2arab(':'+selectedText+':')+'\n'+
+            arabiRow+'\n'+
+            latinRow+'\n\n'+
+            azturkceRow;
+            floatBox.style.display = 'block'; // Show the floating box
+        } else {
+            floatBox.style.display = 'none'; // Hide the floating box
+        }
+    });
+ */
+    // Hide the floating box when clicking outside
+    document.addEventListener('click', function(event) {
+        const floatBox = document.getElementById('float-box');
+        if (!floatBox.contains(event.target) && !window.getSelection().toString()) {
+            floatBox.style.display = 'none'; // Hide the floating box
+        }
+    });
+</script>
+
+
+<div id="float-box"></div>
+
+<div id="result-box"></div>
+
+</body>
+</html>
