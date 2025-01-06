@@ -533,9 +533,6 @@
         const floatBox = document.getElementById('float-box');
 
         if (selectedText) {
-
-
-
            const words = selectedText.replace(/:/g, ' ').replace(/  /g, ' ').split(/ /);
             let latinRow = ' ';
             let azturkceRow = ' ';
@@ -553,14 +550,48 @@
                 }
             });
 
-
-
-
             const range = window.getSelection().getRangeAt(0);
             const rect = range.getBoundingClientRect();
 
+            // Set the position of the floating box
+            floatBox.style.left = `${rect.left + window.scrollX}px`;
+            floatBox.style.top = `${rect.bottom + window.scrollY}px`;
+            //floatBox.innerText = selectedText+'\n'+kokturk2arab(':'+selectedText+':');
+            floatBox.innerText =selectedText+'\n'+
+           // kokturk2arab(':'+selectedText+':')+'\n\n'+
+            arabiRow+'\n'+
+            latinRow+'\n\n'+
+            azturkceRow;
+            floatBox.style.display = 'block'; // Show the floating box
+        } else {
+            floatBox.style.display = 'none'; // Hide the floating box
+        }
+    });
 
 
+    document.addEventListener('touchend', function() {
+        const selectedText = window.getSelection().toString();
+        const floatBox = document.getElementById('float-box');
+        if (selectedText) {
+           const words = selectedText.replace(/:/g, ' ').replace(/  /g, ' ').split(/ /);
+            let latinRow = ' ';
+            let azturkceRow = ' ';
+            let arabiRow = ' ';
+            words.forEach(word => {
+                const result = jsonData.find(item => item.gokturkce === word);
+                if (result) {
+                    latinRow += `${result.latin} `;
+                    azturkceRow += `${result.azturkce} `;
+                    arabiRow += `${result.arabi} `;
+                }else{
+                    latinRow +=  ' '+word+' ';
+                    azturkceRow += ' '+word+' ';
+                    arabiRow +=' '+word+' ';
+                }
+            });
+
+            const range = window.getSelection().getRangeAt(0);
+            const rect = range.getBoundingClientRect();
 
             // Set the position of the floating box
             floatBox.style.left = `${rect.left + window.scrollX}px`;
