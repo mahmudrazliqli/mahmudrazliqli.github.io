@@ -86,6 +86,8 @@
             <li id="option1">تۆرکجه</li>
             <li id="option2">Türkcə </li>
             <li id="option3">تۆرکجه + Türkcə</li>
+            <li id="option4"> Copy </li>
+            <li id="option5"> Search in Google </li>
         </ul>
     </div>
 
@@ -566,7 +568,7 @@ function toggleMenu() {
 
 
 <script>
-   
+
         // Load JSON data
         let jsonData;
     fetch('irqbitig.json')
@@ -577,18 +579,24 @@ function toggleMenu() {
 
     document.addEventListener('DOMContentLoaded', () => {
         const target = document.getElementById('target');
+
         const contextMenu = document.getElementById('context-menu');
         const floatBox = document.getElementById('float-box');
-       
+        
         // Show the custom context menu
-        target.addEventListener('contextmenu', (event) => {
-            floatBox.style.display = 'none'; // Hide the floating box
-            event.preventDefault(); // Prevent the default context menu
-            contextMenu.style.display = 'block';
-            contextMenu.style.left = `${event.pageX}px`;
-            contextMenu.style.top = `${event.pageY}px`;
+        target.addEventListener('contextmenu', (event) => 
+        {
+            const selectedText = window.getSelection().toString();
+            if (selectedText) {
+                floatBox.style.display = 'none'; // Hide the floating box
+                event.preventDefault(); // Prevent the default context menu
+                contextMenu.style.display = 'block';
+                contextMenu.style.left = `${event.pageX}px`;
+                contextMenu.style.top = `${event.pageY}px`;
+            }
         });
 
+        
         // Hide the context menu when clicking elsewhere
         document.addEventListener('click', () => {
             contextMenu.style.display = 'none';
@@ -718,6 +726,26 @@ function toggleMenu() {
             }
 
         });
+   
+   
+        document.getElementById('option4').addEventListener('click', () => {
+            //alert('Option 4 selected');
+            contextMenu.style.display = 'none';
+           var textToCopy  = window.getSelection().toString();
+            navigator.clipboard.writeText(textToCopy);
+        });
+   
+        document.getElementById('option5').addEventListener('click', () => {
+            //alert('Option 4 selected');
+            contextMenu.style.display = 'none';
+            const query = window.getSelection().toString();
+            // Construct the Google search URL
+            const url = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+            // Redirect to the Google search page
+            window.open(url, '_blank');
+
+        });
+   
     });
 
 
@@ -807,14 +835,14 @@ function toggleMenu() {
             floatBox.style.display = 'none'; // Hide the floating box
         }
     });
- */
+
     // Hide the floating box when clicking outside
     document.addEventListener('click', function(event) {
         const floatBox = document.getElementById('float-box');
         if (!floatBox.contains(event.target) && !window.getSelection().toString()) {
             floatBox.style.display = 'none'; // Hide the floating box
         }
-    });
+    });*/
 </script>
 
 
