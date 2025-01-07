@@ -1081,15 +1081,15 @@
   },
   {
     "gokturkce": "𐰋𐰃𐰤𐱅𐰤",
-    "latin": "ƏBİNTİN",
-    "azturkce": "ƏVİNDƏN (yuvasından)",
+    "latin": "EBİNTİN",
+    "azturkce": "EVİNDƏN",
     "arabi": "ابینتین "
   },
   {
     "gokturkce": "𐰋𐰃𐰭𐰼𐰇",
-    "latin": "ƏBİÑƏRÜ",
-    "azturkce": "ƏVİNƏ",
-    "arabi": "ابینگَرۆ "
+    "latin": "EBİÑƏRÜ",
+    "azturkce": "EVİNƏ",
+    "arabi": "ائبینگَرۆ "
   },
   {
     "gokturkce": "𐰋𐰃𐰲𐰀",
@@ -1106,13 +1106,13 @@
   {
     "gokturkce": "𐰋𐰃𐰼𐰏𐰘",
     "latin": "BİRGƏY",
-    "azturkce": "VƏRƏYİM",
+    "azturkce": "VERƏYİM",
     "arabi": "بیرگَی "
   },
   {
     "gokturkce": "𐰋𐰃𐰼𐰢𐰃𐰾",
     "latin": "BƏRMİS",
-    "azturkce": "VƏRMİŞ:",
+    "azturkce": "VERMİŞ:",
     "arabi": "بَرمیس "
   },
   {
@@ -1130,7 +1130,7 @@
   {
     "gokturkce": "𐰋𐰃𐰾𐰓𐰃",
     "latin": "BİSDİ",
-    "azturkce": "PİŞTİ (ərdi)",
+    "azturkce": "BİŞTİ",
     "arabi": "بیسدی "
   },
   {
@@ -1160,7 +1160,7 @@
   {
     "gokturkce": "𐰋𐰇𐰼𐰃𐰚𐰀",
     "latin": "BÖRİKƏ",
-    "azturkce": "BÖRÜYƏ (qurta)",
+    "azturkce": "BÖRÜYƏ (qurda)",
     "arabi": "بؤریکه "
   },
   {
@@ -1286,7 +1286,7 @@
   {
     "gokturkce": "𐰔𐰃𐰍𐰃",
     "latin": "AZIĞI",
-    "azturkce": "AZISI (dişi)",
+    "azturkce": "AZISI (azı dişi)",
     "arabi": "آزؽغؽ "
   },
   {
