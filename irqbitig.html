@@ -150,7 +150,7 @@
 <br/>
 <div class="irqsayi"> 
 . .. ..</div><div class="code-box" style="font-family: 'irqbitig';font-size:29px;">
-𐰑𐰍𐰞𐰃: 𐱃𐰆𐰭𐰆𐰔𐰞𐰃: 𐰀𐰺𐱃: 𐰇𐰔𐰀: 𐰽𐰆𐰸𐰽𐰢𐰃𐰾: 𐰼𐰢𐰃𐰾: 𐰑𐰍𐰭: 𐰴𐰺𐰣𐰃: 𐰖𐰺𐰞𐰢𐰃𐰆𐰾: 𐱃𐰆𐰭𐰆𐰔𐰆𐰭: 𐰔𐰃𐰍𐰃: 𐰽𐰃𐰣𐰢𐰃𐰾: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭: 𐰖𐰉𐰞𐰴: 𐰆𐰞: 
+𐰑𐰍𐰞𐰃: 𐱃𐰆𐰭𐰆𐰔𐰞𐰃: 𐰀𐰺𐱃: 𐰇𐰔𐰀: 𐰽𐰆𐰸𐰽𐰢𐰃𐰾: 𐰼𐰢𐰃𐰾: 𐰑𐰍𐰭: 𐰴𐰺𐰣𐰃: 𐰖𐰺𐰞𐰢𐰆𐰾: 𐱃𐰆𐰭𐰆𐰔𐰆𐰭: 𐰔𐰃𐰍𐰃: 𐰽𐰃𐰣𐰢𐰃𐰾: 𐱅𐰃𐰼: 𐰨𐰀: 𐰋𐰃𐰠𐰃𐰭: 𐰖𐰉𐰞𐰴: 𐰆𐰞: 
 
 </div>
 <br/>
@@ -565,52 +565,43 @@ function toggleMenu() {
     menu.classList.toggle('show');
 }
 </script>
-
-
 <script>
-
-        // Load JSON data
-        let jsonData;
+    // Load JSON data
+    let jsonData;
     fetch('irqbitig.json')
         .then(response => response.json())
         .then(data => jsonData = data)
         .catch(error => console.error('Error fetching JSON:', error));
 
-
     document.addEventListener('DOMContentLoaded', () => {
-        const target = document.getElementById('target');
+        const inmenu        = false;
+        const target        = document.getElementById('target'      );
+        const contextMenu   = document.getElementById('context-menu');
+        const floatBox      = document.getElementById('float-box'   );
 
-        const contextMenu = document.getElementById('context-menu');
-        const floatBox = document.getElementById('float-box');
-        
         // Show the custom context menu
-        target.addEventListener('contextmenu', (event) => 
+        target.addEventListener('contextmenu'   , (event)   => 
         {
+            floatBox.style.display = 'none';    // Hide the floating box
             const selectedText = window.getSelection().toString();
-            if (selectedText) {
-                floatBox.style.display = 'none'; // Hide the floating box
-                event.preventDefault(); // Prevent the default context menu
+            if (selectedText) {                
+                event.preventDefault();             // Prevent the default context menu
                 contextMenu.style.display = 'block';
                 contextMenu.style.left = `${event.pageX}px`;
                 contextMenu.style.top = `${event.pageY}px`;
             }
-        });
-
-        
+        });             
         // Hide the context menu when clicking elsewhere
-        document.addEventListener('click', () => {
-            contextMenu.style.display = 'none';
+        document.addEventListener('click'       , ()        => {
+            contextMenu.style.display = 'none';             
         });
-
         // Add functionality to menu options
         document.getElementById('option1').addEventListener('click', () => {
           //  alert('Option 1 selected');
-            contextMenu.style.display = 'none';
-
-            const selectedText = window.getSelection().toString();
-            const floatBox = document.getElementById('float-box');
+            contextMenu.style.display   = 'none';
+            const selectedText          = window.getSelection().toString();
             if (selectedText) {
-                const words = selectedText.replace(/:/g, ' ').replace(/  /g, ' ').split(/ /);
+                const words = selectedText.trim().replace(/:/g, ' ').replace(/  /g, ' ').split(/ /);
                 let latinRow = ' ';
                 let azturkceRow = ' ';
                 let arabiRow = ' ';
@@ -621,9 +612,11 @@ function toggleMenu() {
                     azturkceRow += `${result.azturkce} `;
                     arabiRow += `${result.arabi} `;
                 }else{
-                    latinRow +=  ' (---) ';
-                    azturkceRow += ' (---) ';
-                    arabiRow +=' ('+ kokturk2arab(':'+word+':')+') ';
+                    if(word){
+                        latinRow +=  ' (---) ';
+                        azturkceRow += ' (---) ';
+                        arabiRow +=' ('+ kokturk2arab(':'+word+':')+') ';
+                    }
                 }
                 });
                 const range = window.getSelection().getRangeAt(0);
@@ -631,25 +624,16 @@ function toggleMenu() {
                 // Set the position of the floating box
                 floatBox.style.left = `${rect.left + window.scrollX}px`;
                 floatBox.style.top = `${rect.bottom + window.scrollY}px`;
-                //floatBox.innerText = selectedText+'\n'+kokturk2arab(':'+selectedText+':');
-                floatBox.innerText =selectedText+'\n\n'+
-
-                arabiRow+'\n';
+                floatBox.innerText =selectedText+'\n\n'+arabiRow+'\n';
                 floatBox.style.display = 'block'; // Show the floating box
             } else {
                 floatBox.style.display = 'none'; // Hide the floating box
             }
-
         });
-
         document.getElementById('option2').addEventListener('click', () => {
            // alert('Option 2 selected');
             contextMenu.style.display = 'none';
-
-
-
             const selectedText = window.getSelection().toString();
-            const floatBox = document.getElementById('float-box');
             if (selectedText) {
                 const words = selectedText.replace(/:/g, ' ').replace(/  /g, ' ').split(/ /);
                 let latinRow = ' ';
@@ -662,9 +646,10 @@ function toggleMenu() {
                     azturkceRow += `${result.azturkce} `;
 
                 }else{
-                    latinRow +=  ' (---) ';
-                    azturkceRow += ' (---) ';
-
+                    if(word){
+                        latinRow +=  ' (---) ';
+                        azturkceRow += ' (---) ';
+                    }
                 }
                 });
                 const range = window.getSelection().getRangeAt(0);
@@ -673,25 +658,17 @@ function toggleMenu() {
                 floatBox.style.left = `${rect.left + window.scrollX}px`;
                 floatBox.style.top = `${rect.bottom + window.scrollY}px`;
                 //floatBox.innerText = selectedText+'\n'+kokturk2arab(':'+selectedText+':');
-                floatBox.innerText =selectedText+'\n'+
-                latinRow+'\n\n'+
-                azturkceRow;
+                floatBox.innerText =selectedText+'\n'+latinRow+'\n\n'+azturkceRow;
                 floatBox.style.display = 'block'; // Show the floating box
             } else {
                 floatBox.style.display = 'none'; // Hide the floating box
             }
 
-
-
-
         });
-
         document.getElementById('option3').addEventListener('click', () => {
             //alert('Option 3 selected');
             contextMenu.style.display = 'none';
-
             const selectedText = window.getSelection().toString();
-            const floatBox = document.getElementById('float-box');
             if (selectedText) {
                 const words = selectedText.replace(/:/g, ' ').replace(/  /g, ' ').split(/ /);
                 let latinRow = ' ';
@@ -704,9 +681,11 @@ function toggleMenu() {
                     azturkceRow += `${result.azturkce} `;
                     arabiRow += `${result.arabi} `;
                 }else{
-                    latinRow +=  ' (---) ';
-                    azturkceRow += ' (---) ';
-                    arabiRow +=' ('+ kokturk2arab(':'+word+':')+') ';
+                    if(word){
+                        latinRow +=  ' (---) ';
+                        azturkceRow += ' (---) ';
+                        arabiRow +=' ('+ kokturk2arab(':'+word+':')+') ';
+                    }
                 }
                 });
                 const range = window.getSelection().getRangeAt(0);
@@ -716,7 +695,6 @@ function toggleMenu() {
                 floatBox.style.top = `${rect.bottom + window.scrollY}px`;
                 //floatBox.innerText = selectedText+'\n'+kokturk2arab(':'+selectedText+':');
                 floatBox.innerText =selectedText+'\n\n'+
-               // kokturk2arab(':'+selectedText+':')+'\n'+
                 arabiRow+'\n\n'+
                 latinRow+'\n\n'+
                 azturkceRow;
@@ -724,17 +702,15 @@ function toggleMenu() {
             } else {
                 floatBox.style.display = 'none'; // Hide the floating box
             }
+            
 
-        });
-   
-   
+        });      
         document.getElementById('option4').addEventListener('click', () => {
             //alert('Option 4 selected');
             contextMenu.style.display = 'none';
            var textToCopy  = window.getSelection().toString();
             navigator.clipboard.writeText(textToCopy);
-        });
-   
+        });   
         document.getElementById('option5').addEventListener('click', () => {
             //alert('Option 4 selected');
             contextMenu.style.display = 'none';
@@ -744,11 +720,10 @@ function toggleMenu() {
             // Redirect to the Google search page
             window.open(url, '_blank');
 
-        });
+        });   
+
    
     });
-
-
     /*
     document.addEventListener('mouseup', function() {
         const selectedText = window.getSelection().toString();
@@ -845,9 +820,7 @@ function toggleMenu() {
     });*/
 </script>
 
-
 <div id="float-box"></div>
-
 <div id="result-box"></div>
 
 </body>
