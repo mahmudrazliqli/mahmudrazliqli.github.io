@@ -16,6 +16,29 @@ body {
     justify-content: space-between;
 }
 
+.notebar{
+    width: 15%;
+    height:70%;;
+    
+
+    padding: 5px;
+    background-image: url("notebg.svg");
+    background-repeat:repeat;
+    color:#0056b3;
+    border-radius: 2%;
+    
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    top: 20%;
+    right:0px;
+
+}
+
+
 /* Navigation Bar */
 .navbar {
      width: 100%;
@@ -37,8 +60,6 @@ body {
     background-color: #3060EF; /* Lighter blue */
     color: #fff;
 }
-
-
 
 
 .socialimg {
@@ -309,7 +330,28 @@ h1 {
 }
 
 /* Responsive Design */
-@media (max-width: 600px) {
+@media (max-width: 800px) {
+
+    .notebar{
+        width: 95%;
+        top: 70%;
+    
+        padding: 5px;
+        background-image: url("notebg.svg");
+        background-repeat:repeat;
+        color:#0056b3;
+        border-radius: 2%;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+        padding: 10px;
+        text-align: center;
+        position: fixed;
+        bottom: 1px;
+    
+    }
+
 
     .project-item {
         flex-direction: column;

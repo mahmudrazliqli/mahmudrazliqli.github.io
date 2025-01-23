@@ -288,7 +288,7 @@
     "arabi": "اویورؽ "
   },
   {
-    "gokturkce": "𐰆𐰖𐰍𐰀𐰞𐰃",
+    "gokturkce": "𐰆𐰖𐰍𐰞𐰃",
     "latin": "OYĞALI",
     "azturkce": "OYMAYA",
     "arabi": "اویغالؽ "
@@ -402,9 +402,16 @@
     "arabi": "اوروپان "
   },
   {
+    "gokturkce": "𐰆𐰺𐰆𐰰𐰣",
+    "latin": "URUPAN",
+    "azturkce": "VURUB (qapayıb)",
+    "arabi": "اوروپان "
+  },
+  
+  {
     "gokturkce": "𐰆𐰺𐰆𐰯𐰣",
     "latin": "URUPAN",
-    "azturkce": "VURUP (qapayıp)",
+    "azturkce": "VURUB",
     "arabi": "اوروپان "
   },
   {
@@ -1633,9 +1640,9 @@
   },
   {
     "gokturkce": "𐰖𐰺𐰞𐰢𐰆𐰾",
-    "latin": "YARILMIS",
+    "latin": "YARILMUS",
     "azturkce": "YARILMIŞ",
-    "arabi": "یارؽلمؽس "
+    "arabi": "یارؽلموس "
   },
   {
     "gokturkce": "𐰖𐰺𐰣",
@@ -1770,7 +1777,7 @@
     "arabi": "یۆز "
   },
   {
-    "gokturkce": "𐰘𐰇𐱅𐰇𐰼𐰆𐰯",
+    "gokturkce": "𐰘𐰇𐱅𐰇𐰼𐰰",
     "latin": "YÜTÜRÜP",
     "azturkce": "İTİRİB",
     "arabi": "یۆتۆرۆپ "
@@ -2406,7 +2413,7 @@
     "arabi": "قومورسغا "
   },
   {
-    "gokturkce": "𐰴𐰆𐰣𐰆𐰆𐰯𐰣",
+    "gokturkce": "𐰴𐰆𐰣𐰆𐰰𐰣",
     "latin": "QONUPAN",
     "azturkce": "QONUB",
     "arabi": "قونوپان "
@@ -3216,7 +3223,7 @@
     "arabi": "تورو "
   },
   {
-    "gokturkce": "𐱃𐰆𐰺𐰆𐰆𐰯𐰣",
+    "gokturkce": "𐱃𐰆𐰺𐰆𐰰𐰣",
     "latin": "TURUPAN",
     "azturkce": "DURUP (yaşayıp)",
     "arabi": "توروپان "
