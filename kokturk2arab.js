@@ -60,7 +60,7 @@ function kokturk2arab(oldturkishStr) {
     //iki səsli
     .replace(/𐰱/g, 'یچ')
     .replace(/𐰡/g, 'لد')
-    .replace(/𐰶/g, 'یق')
+    .replace(/𐰶/g, 'یٛق')
     .replace(/𐰰/g, 'پ') 
     .replace(/𐰜/g, 'ۆک')////yenisey
     .replace(/𐰝:/g, 'ۆک:')//yenisey ?????
